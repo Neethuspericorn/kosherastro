@@ -1,0 +1,20 @@
+@import 'partials';
+
+.container-custom{
+    max-width: 1400px;
+}
+
+body{
+   //  background-color: var(--bg_secondary);
+    color: var(--white);
+    font-family: var(--font_txt);
+    font-size: 16px;
+}
+
+.title{
+    font-family: var(--font_titles);
+}
+
+.page-wrp{
+    width: 100%;
+}

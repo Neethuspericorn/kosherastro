@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --bg_primary: #4E45A1;
+  --bg_secondary: #080619;
+  --bg_ternary: #0C0921;
+  --light: #CCEBF6;
+  --imgBoxBg:#110D2B;
+  --light_trans: rgba(229, 245, 250, 0.8);
+  --shadow_01: rgba(0,0,0,.15);
+  --text: #000000;
+  --textD: #080619;
+  --border: #C4C4C4;
+  --white: #ffffff;
+  --whiteD: #ffffff;
+  --font_txt: "Poppins", sans-serif;
+  --font_titles: "Playfair Display", serif;
+}
+
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+.header {
+  background-color: #080619;
+}
+
+.navbar .navbar-brand {
+  max-width: 280px;
+}
+.navbar .navbar-brand img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: none !important;
+}
+.navbar .nav-link {
+  color: var(--white);
+  position: relative;
+  font-weight: 300;
+  padding: 30px 0px !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navbar .nav-link:before {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  content: "";
+}
+.navbar .nav-link.active:before {
+  background-color: var(--white);
+}
+.navbar .nav-link.active, .navbar .nav-link.show, .navbar .nav-link:hover {
+  color: var(--white);
+}
+.navbar .nav-link.active:before, .navbar .nav-link.show:before, .navbar .nav-link:hover:before {
+  background-color: var(--white);
+}
+.navbar .dropdown-menu {
+  padding: 16px;
+  border-radius: 20px;
+  border-color: var(--white);
+}
+.navbar .dropdown-menu .dropdown-item {
+  font-size: 15px;
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(9, 10, 30, 0.0588235294);
+}

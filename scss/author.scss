@@ -1,0 +1,84 @@
+@import 'partials';
+
+.common{
+    display: flex;
+    align-items: center;
+        &.author{
+            background: var(--bg_ternary);
+        }
+        &.guide{
+            background:rgba(8, 6, 25, 0.8);
+            .bg-wrp{
+                top:-10%
+            }
+        }
+        &.roadmaps{
+            background: rgba(12, 9, 33, 0.8);
+            .floating{
+                .bg-wrp{
+                    left: 100px;
+                }
+                .inner-img-wrp{
+                    img{
+                        position: absolute;
+                        top: 240px;
+                        right: 0px;
+                    }
+                }
+            }
+        }
+        &.chart-reading{
+            background: rgba(8, 6, 25, 0.8);
+        }
+        padding: 193px 0 187px;
+        @media ($sm-1679){
+            padding: 70px 0 70px;
+        }
+        .inner-wrap{
+            display: flex;
+            background-size: contain;
+        }
+        .sec-title{
+            font: normal normal 600 35px/42px var(--font_titles);
+            margin-bottom: 30px;
+        }
+        .inner-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            .desc-para{
+                font: normal normal 300 21px/37px var(--font_txt);
+                margin-bottom:55px
+            }
+            .desc-listing{
+                margin-bottom: 75px;
+                font: normal normal 300 21px/34px var(--font_txt);
+                li{
+                    margin-top: 27px;
+                }
+            }
+        }
+        .bg-wrp{
+            position: absolute;
+            right: 0px;
+            left: -30px;
+            img{
+                max-width: 100%;
+            }
+        }
+        .inner-img-wrp{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .border-box{
+                border-radius: 44px;
+                padding: 25px;
+                background: var(--imgBoxBg);
+            }
+            img{
+                max-width: 100%;
+                position: relative;
+            }
+        }
+}

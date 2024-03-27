@@ -1,0 +1,68 @@
+@import 'partials';
+
+.header{
+    background-color: #080619;
+}
+.navbar{
+    .navbar-brand{
+        max-width: 280px;
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .navbar-toggler{
+        .navbar-toggler-icon{
+            background-image: none !important;
+        }
+    }
+
+    .nav-link{
+        color: var(--white);
+        position: relative;
+        font-weight: 300;
+        padding: 30px 0px !important;
+        margin-left: 20px;
+        margin-right: 20px;
+        &:before{
+            position: absolute;
+            bottom: 16px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            content: '';
+            
+        }
+        &.active{
+            &:before{
+                background-color: var(--white);
+            }
+           
+        }
+        &.active,
+        &.show,
+        &:hover{
+            color: var(--white);
+            &:before{
+                background-color: var(--white);
+            }
+        }
+    }
+
+    .dropdown-menu{
+        padding: 16px;
+        border-radius: 20px;
+        border-color: var(--white);
+        .dropdown-item{
+            font-size: 15px;
+            min-height: 42px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            &:hover{
+                background-color: #090a1e0f;
+            }
+        }
+    }
+}   
