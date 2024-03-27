@@ -1,0 +1,109 @@
+@import 'partials';
+
+.footer{
+    background-color: var(--bg_secondary);
+    position: relative;
+    overflow-x: clip;
+    .bg-ico{
+        position: absolute;
+        top: 60px;
+        right: -80px;
+        max-width: 260px;
+        img{
+            width: 100%;
+            object-fit: contain;
+            opacity: 0.23;
+        }
+    }
+    .footer-wrp{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .footer-copy{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        border-top: 1px solid #70707041;
+        font-weight: 300;
+        .policy-link{ 
+            color: var(--white);
+            text-decoration: none;
+            position: relative;
+            &::before{
+                content: '';
+                left: 0;
+                right: 0;
+                bottom: -5px;
+                height: 1px;
+                position: absolute;
+                display: block;
+                background-color: transparent;
+                transform: translateY(-10px);
+                transition: all ease-in-out 0.1s;
+                transform: translateY(5px);
+
+            }
+            &:hover{
+                &::before{
+                    background-color: var(--white);
+                    transform: translateY(0);
+                }
+            }
+        }
+        .social{
+            justify-content: flex-end;
+        }
+    }
+
+    .ftr-logo{
+        max-width: 280px;
+        display: flex;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .link-item{
+        display: flex;
+        color: var(--white);
+        text-decoration: none;
+        font-weight: 300 !important;
+        font-size: 18px;
+        align-items: center;
+        
+        .ico{
+            margin-right: 15px;
+        }
+    }
+    .logo-col{
+        padding-bottom: 30px;
+    }
+    .col-links{
+        max-width: 20%;
+        
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+                margin-bottom: 32px;
+            }
+            &.sub-itm{
+                margin-top: 32px;
+                padding-left: 15px;
+                li{
+                    display: flex;
+                    align-items: center;
+                    &:before{
+                        content: '';
+                        flex: 0 0 5px;
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 5px;
+                        background-color: var(--white);
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

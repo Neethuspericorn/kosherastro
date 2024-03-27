@@ -1,18 +1,48 @@
 @import 'partials';
 
 .container-custom{
-    max-width: 1400px;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body{
-   //  background-color: var(--bg_secondary);
+    background: var(--bg_secondary);
     color: var(--white);
     font-family: var(--font_txt);
     font-size: 16px;
+    @media ($sm-1441 ){
+        font-size: 14px;
+    }
+    @media ($sm-1281 ){
+        font-size: 13px;
+    }
+}
+.page-wrap{
+    background: var(--bg_secondary) url(../img/home-bg.jpg) fixed;
+    @media ($sm-991){
+        padding-top: 80px;
+    }
 }
 
 .title{
     font-family: var(--font_titles);
+}
+
+.social{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    li + li {
+        margin-left: 13px;
+    }
+    .soc_link{
+        display: flex;
+        align-items: center;
+    }
 }
 
 .page-wrp{
