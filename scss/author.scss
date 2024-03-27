@@ -7,13 +7,13 @@
             background: var(--bg_ternary);
         }
         &.guide{
-            background:rgba(8, 6, 25, 0.8);
+            background:rgba(8, 6, 25, 0.3);
             .bg-wrp{
                 top:-10%
             }
         }
         &.roadmaps{
-            background: rgba(12, 9, 33, 0.8);
+            background: rgba(12, 9, 33, 0.5);
             .floating{
                 .bg-wrp{
                     left: 100px;
