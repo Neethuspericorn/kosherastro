@@ -103,6 +103,11 @@
     left: 0px;
   }
 }
+@media (min-width: 1600px) {
+  .common.guide .inner-wrap {
+    transform: translateX(-9%);
+  }
+}
 .common.guide .guide-aligner {
   position: relative;
 }
