@@ -22,13 +22,13 @@
     }
     .container-custom{
         @media ($sm-1679){
-            max-width: calc(100vw - 80px);
+            max-width: calc(100vw - 100px);
         }
         @media ($sm-1481){
-            max-width: calc(100vw - 50px);
+            max-width: calc(100vw - 80px);
         }
         @media ($sm-1281){
-            max-width: calc(100vw - 40px);
+            max-width: calc(100vw - 60px);
         }
     }
     .title-row{
