@@ -78,6 +78,7 @@
 }
 .common.author .inner-content {
   padding-left: 154px;
+  justify-content: center;
 }
 @media (max-width: 1679px) {
   .common.author .inner-content {
