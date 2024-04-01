@@ -1,9 +1,13 @@
+@import 'partials';
 .btn{
     padding: 13px 23px;
     border-radius: 26px;
     width: 206px;
     position: relative;
     overflow: hidden;
+    @media ($sm-991){
+        width: 180px;
+    }
     &::before{
         content: "";
         position: absolute;
@@ -27,6 +31,19 @@
         border-color: var(--bg_primary);
         justify-content: flex-start;
         display: flex;
+        font: normal normal medium 19px/29px Poppins;
+        @media ($sm-1679){
+            padding: 12px 20px;
+            font-size: 18px;
+            line-height: 28px;
+        }
+        @media ($sm-1481){
+            font-size: 15px;
+            line-height: 25px;
+        }
+        @media ($sm-991){
+            padding: 10px 20px;
+        }
         span{
             display: flex;
             align-items: center;
@@ -36,11 +53,14 @@
             &::after{
                 content: "";
                 background: url(../img/arrow-icon.svg) no-repeat center;
-                background-size: cover;
+                background-size: contain;
                 display: inline-block;
                 width: 36px;
                 height: 18px;
                 margin-left: auto;
+                @media ($sm-991){
+                    width: 25px;
+                }
             }
         }
     }
