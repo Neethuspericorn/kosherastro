@@ -8,6 +8,7 @@
         left: 0;
         right: 0;
         z-index: 9;
+        overflow-x: clip;
     }
     .navbar-brand{
         max-width: 280px;
@@ -128,6 +129,9 @@
         @media ($sm-991){
             background-color: var(--bg_ternary);
             border-color: var(--bg_ternary);
+            border-radius: 0;
+            margin-left: -20px;
+            margin-right: -20px;
         }
         .dropdown-item{
             font-size: 15px;
