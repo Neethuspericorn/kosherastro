@@ -44,6 +44,9 @@
         @media ($sm-991){
             padding: 10px 20px;
         }
+        @media ($sm-767){
+            font-size: 13px;
+        }
         span{
             display: flex;
             align-items: center;

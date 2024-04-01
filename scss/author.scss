@@ -34,7 +34,7 @@
                     max-width: 290px;
                 }
                 @media ($sm-767){
-                    max-width: 290px;
+                    max-width: 80%;
                     margin: 0 auto;
                 }
             }
@@ -67,7 +67,7 @@
                 position: relative;
                 @media ($sm-767){
                     max-width: 80%;
-                    margin: 0 auto;
+                    margin: 0 auto 30px;
                 }
             }
             .inner-img-wrp{
@@ -236,7 +236,7 @@
             justify-content: center;
             @media ($sm-767){
                 max-width: 80%;
-                margin: 0 auto 40px;
+                margin: 0 auto 30px;
 
             }
             .border-box{

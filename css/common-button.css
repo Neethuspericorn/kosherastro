@@ -86,6 +86,11 @@
     padding: 10px 20px;
   }
 }
+@media (max-width: 767px) {
+  .btn.btn-primary {
+    font-size: 13px;
+  }
+}
 .btn.btn-primary span {
   display: flex;
   align-items: center;
