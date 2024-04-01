@@ -66,7 +66,12 @@ body{
     font: normal normal 300 21px/37px var(--font_txt);
     @media ($sm-1679){
         font-size: 18px;
-        line-height: 34px;
+    }
+    @media ($sm-1481){
+        font-size: 16px;
+    }
+    @media ($sm-1281){
+        font-size: 14px;
     }
 }
 .desc-listing{
@@ -74,7 +79,12 @@ body{
         font: normal normal 300 21px/34px var(--font_txt);
         @media ($sm-1679){
             font-size: 18px;
-            line-height: 31px;
+        }
+        @media ($sm-1481){
+            font-size: 16px;
+        }
+        @media ($sm-1281){
+            font-size: 14px;
         }
     }
 }

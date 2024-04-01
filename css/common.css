@@ -113,7 +113,16 @@ body {
 @media (max-width: 1679px) {
   .desc-para {
     font-size: 18px;
-    line-height: 34px;
+  }
+}
+@media (max-width: 1481px) {
+  .desc-para {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1281px) {
+  .desc-para {
+    font-size: 14px;
   }
 }
 
@@ -123,6 +132,15 @@ body {
 @media (max-width: 1679px) {
   .desc-listing li {
     font-size: 18px;
-    line-height: 31px;
+  }
+}
+@media (max-width: 1481px) {
+  .desc-listing li {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1281px) {
+  .desc-listing li {
+    font-size: 14px;
   }
 }
