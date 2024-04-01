@@ -102,8 +102,32 @@ body {
 }
 @media (max-width: 1481px) {
   .sec-title {
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 1441px) {
+  .sec-title {
+    font-size: 26px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 1281px) {
+  .sec-title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+@media (max-width: 1199px) {
+  .sec-title {
+    font-size: 22px;
+    line-height: 29px;
+  }
+}
+@media (max-width: 991px) {
+  .sec-title {
+    font-size: 20px;
+    line-height: 27px;
   }
 }
 
@@ -113,16 +137,19 @@ body {
 @media (max-width: 1679px) {
   .desc-para {
     font-size: 18px;
+    line-height: 32px;
   }
 }
 @media (max-width: 1481px) {
   .desc-para {
     font-size: 16px;
+    line-height: 24px;
   }
 }
 @media (max-width: 1281px) {
   .desc-para {
     font-size: 14px;
+    line-height: 22px;
   }
 }
 
@@ -132,15 +159,18 @@ body {
 @media (max-width: 1679px) {
   .desc-listing li {
     font-size: 18px;
+    line-height: 32px;
   }
 }
 @media (max-width: 1481px) {
   .desc-listing li {
     font-size: 16px;
+    line-height: 24px;
   }
 }
 @media (max-width: 1281px) {
   .desc-listing li {
     font-size: 14px;
+    line-height: 22px;
   }
 }
