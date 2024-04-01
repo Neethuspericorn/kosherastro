@@ -1,1 +1,90 @@
-@import"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;700;800;900&display=swap";@import"https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap";:root{--bg_primary: #4E45A1;--bg_secondary: #080619;--bg_ternary: #0C0921;--light: #CCEBF6;--imgBoxBg:#110D2B;--light_trans: rgba(229, 245, 250, 0.8);--shadow_01: rgba(0,0,0,.15);--text: #000000;--textD: #080619;--border: #C4C4C4;--white: #ffffff;--whiteD: #ffffff;--font_txt: "Poppins", sans-serif;--font_titles: "Playfair Display", serif}.container-custom{max-width:1440px;padding-left:20px;padding-right:20px}body{background:var(--bg_secondary);color:var(--white);font-family:var(--font_txt);font-size:16px}@media(max-width: 1441px){body{font-size:14px}}@media(max-width: 1281px){body{font-size:13px}}.page-wrap{background:var(--bg_secondary) url(../img/home-bg.jpg) fixed}@media(max-width: 991px){.page-wrap{padding-top:80px}}.title{font-family:var(--font_titles)}.social{padding:0;margin:0;display:flex;align-items:center;justify-content:center;list-style:none}.social li+li{margin-left:13px}.social .soc_link{display:flex;align-items:center}.page-wrp{width:100%}/*# sourceMappingURL=common.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --bg_primary: #4E45A1;
+  --bg_secondary: #080619;
+  --bg_ternary: #0C0921;
+  --light: #CCEBF6;
+  --imgBoxBg:#110D2B;
+  --light_trans: rgba(229, 245, 250, 0.8);
+  --shadow_01: rgba(0,0,0,.15);
+  --text: #000000;
+  --textD: #080619;
+  --border: #C4C4C4;
+  --white: #ffffff;
+  --whiteD: #ffffff;
+  --font_txt: "Poppins", sans-serif;
+  --font_titles: "Playfair Display", serif;
+}
+
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+.container-custom {
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  background: var(--bg_secondary);
+  color: var(--white);
+  font-family: var(--font_txt);
+  font-size: 16px;
+}
+@media (max-width: 1441px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1281px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+.page-wrap {
+  background: var(--bg_secondary) url(../img/home-bg.jpg) fixed;
+}
+@media (max-width: 991px) {
+  .page-wrap {
+    padding-top: 80px;
+  }
+}
+
+.title {
+  font-family: var(--font_titles);
+}
+
+.social {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.social li + li {
+  margin-left: 13px;
+}
+.social .soc_link {
+  display: flex;
+  align-items: center;
+}
+
+.page-wrp {
+  width: 100%;
+}

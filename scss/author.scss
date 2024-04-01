@@ -29,6 +29,12 @@
         }
         &.chart-reading{
             background: rgba(8, 6, 25, 0.8);
+            .inner-content{
+                padding-left: 42px;
+                .sec-title{
+                    margin-bottom: 10px;
+                }
+            }
         }
         padding: 193px 0 187px;
         @media ($sm-1679){
