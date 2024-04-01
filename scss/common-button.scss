@@ -43,6 +43,9 @@
         }
         @media ($sm-991){
             padding: 10px 20px;
+            font-size: 12px;
+            min-height: 1px;
+            line-height: 1;
         }
         @media ($sm-767){
             font-size: 13px;
