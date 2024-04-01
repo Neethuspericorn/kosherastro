@@ -41,6 +41,9 @@
 .common.author {
   background: var(--bg_ternary);
 }
+.common.author .bg-wrp {
+  bottom: -55px;
+}
 .common.guide {
   background: rgba(8, 6, 25, 0.3);
 }
