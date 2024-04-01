@@ -47,6 +47,9 @@
             min-height: 1px;
             line-height: 1;
         }
+        @media ($sm-767){
+            font-size: 13px;
+        }
         span{
             display: flex;
             align-items: center;
