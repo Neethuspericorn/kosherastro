@@ -73,7 +73,7 @@
 }
 @media (max-width: 991px) {
   .common.author .inner-img-wrp {
-    max-width: 290px;
+    max-width: 65%;
     margin-left: 45px;
   }
 }
@@ -92,9 +92,14 @@
     padding-left: 250px;
   }
 }
+@media (max-width: 1199px) {
+  .common.author .inner-content {
+    padding-left: 100px;
+  }
+}
 @media (max-width: 991px) {
   .common.author .inner-content {
-    padding-left: 120px;
+    padding-left: 40px;
   }
 }
 @media (max-width: 767px) {
@@ -123,6 +128,12 @@
 }
 .common.guide .guide-aligner {
   position: relative;
+}
+@media (max-width: 1679px) {
+  .common.guide .guide-aligner {
+    max-width: 80%;
+    margin-left: auto;
+  }
 }
 @media (max-width: 767px) {
   .common.guide .guide-aligner {

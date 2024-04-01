@@ -35,7 +35,7 @@
                     margin-left: 70px;
                 }
                 @media ($sm-991){
-                    max-width: 290px;
+                    max-width: 65%;
                     margin-left: 45px;
                 }
                 @media ($sm-767){
@@ -49,8 +49,11 @@
                 @media ($sm-1679){
                     padding-left: 250px;
                 }
+                @media ($sm-1199){
+                    padding-left: 100px;
+                }
                 @media ($sm-991){
-                    padding-left: 120px;
+                    padding-left: 40px;
                 }
                 @media ($sm-767){
                     padding-left: 0px;
@@ -76,6 +79,11 @@
             }
             .guide-aligner{
                 position: relative;
+                @media ($sm-1679){
+                    max-width: 80%;
+                    margin-left: auto;
+                }
+
                 @media ($sm-767){
                     max-width: 80%;
                     margin: 0 auto 30px;
