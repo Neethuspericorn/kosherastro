@@ -5,28 +5,22 @@
     padding-top: 130px;
     padding-bottom: 110px;
     @media ($sm-1679){
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
     @media ($sm-1481){
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    @media ($sm-1281){
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    @media ($sm-1281){
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
     @media ($sm-991){
-        padding-top: 40px;
+        padding-top: 24px;
         padding-bottom: 20px;
     }
     .container-custom{
-        @media ($sm-1679){
-            max-width: calc(100vw - 100px);
-        }
-        @media ($sm-1481){
-            max-width: calc(100vw - 80px);
-        }
         @media ($sm-1281){
             max-width: calc(100vw - 60px);
         }
@@ -34,13 +28,13 @@
     .title-row{
         margin-bottom: 80px;
         @media ($sm-1679){
-            margin-bottom: 60px;
-        }
-        @media ($sm-1481){
             margin-bottom: 40px;
         }
-        @media ($sm-1281){
+        @media ($sm-1481){
             margin-bottom: 30px;
+        }
+        @media ($sm-1281){
+            margin-bottom: 20px;
         }
         .subtitle{
             max-width: 42em;
@@ -51,6 +45,9 @@
     .slide-row{
         position: relative;
         .slides-arrow{
+            @media ($sm-991){
+                display: none;
+            }
             .slidebtn{
                 border: none !important;
                 background-color: transparent;
@@ -118,23 +115,26 @@
             border-radius: 50px 50px 0 0;
             @media ($sm-1679){
                 border-radius: 40px 40px 0 0;
-                padding-top: 30px;
-                padding-bottom: 30px;
+                padding-top: 24px;
+                padding-bottom: 24px;
             }
             @media ($sm-1481){
-                border-radius: 30px 30px 0 0;
+                border-radius: 20px 20px 0 0;
                 padding-top: 20px;
                 padding-bottom: 20px;
             }
             svg{
                 @media ($sm-1679){
                     width: 60px;
+                    height: 60px;
                 }
                 @media ($sm-1481){
                     width: 50px;
+                    height: 50px;
                 }
                 @media ($sm-1281){
                     width: 30px;
+                    height: 30px;
                 }
             }
             
@@ -226,27 +226,27 @@
             font-size: 28px;
             font-weight: 300;
             @media ($sm-1679){
-                font-size: 24px;
+                font-size: 20px;
+                margin-bottom: 1em;
             }
             @media ($sm-1481){
-                font-size: 20px;
-                margin-bottom: 1.5em;
+                font-size: 18px;
             }
             @media ($sm-1281){
-                font-size: 18px;
+                font-size: 16px;
             }
         }
         .txt{
             font-size: 21px;
             font-weight: 300;
             @media ($sm-1679){
-                font-size: 18px;
-            }
-            @media ($sm-1481){
                 font-size: 16px;
             }
-            @media ($sm-1281){
+            @media ($sm-1481){
                 font-size: 14px;
+            }
+            @media ($sm-1281){
+                font-size: 13px;
             }
         }
     }
@@ -268,15 +268,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 100px;
+        margin-top: 80px;
         @media ($sm-1679){
-            margin-top: 80px;
-        }
-        @media ($sm-1481){
             margin-top: 50px;
         }
-        @media ($sm-1281){
+        @media ($sm-1481){
             margin-top: 30px;
+        }
+        @media ($sm-1281){
+            margin-top: 20px;
         }
         @media ($sm-991){
             margin-top: 10px;
@@ -299,13 +299,17 @@
             background-color: #4A429A;
             border: 2px solid #4A429A;
             border-radius: 100%;
-            @media ($sm-1481){
+            @media ($sm-1679){
                 width: 12px;
                 height: 12px;
             }
-            @media ($sm-1281){
+            @media ($sm-1481){
                 width: 10px;
                 height: 10px;
+            }
+            @media ($sm-1281){
+                width: 8px;
+                height: 8px;
             }
             &:before{
                 opacity: 0 !important;
