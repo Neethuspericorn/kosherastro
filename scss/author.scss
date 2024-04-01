@@ -145,6 +145,9 @@
                             top: 35%;
                             left: 40%;
                             max-width: 55%;
+                            @media ($sm-1679){
+                                max-width: 40%;
+                            }
                             @media ($sm-1199){
                                 top: 30%;
                             }
