@@ -36,7 +36,7 @@
 .common {
   display: flex;
   align-items: center;
-  padding: 193px 0 187px;
+  padding: 100px 0 100px;
 }
 .common.author {
   background: var(--bg_ternary);
@@ -82,7 +82,7 @@
 }
 @media (max-width: 1679px) {
   .common.author .inner-content {
-    padding-left: 140px;
+    padding-left: 250px;
   }
 }
 @media (max-width: 767px) {
@@ -180,6 +180,7 @@
 @media (max-width: 767px) {
   .common.roadmaps .floating .bg-wrp {
     position: unset;
+    margin-left: 45px;
   }
 }
 .common.roadmaps .floating .inner-img-wrp:not(.bg-wrp) img {
@@ -211,8 +212,9 @@
 }
 @media (max-width: 767px) {
   .common.roadmaps .floating .inner-img-wrp:not(.bg-wrp) img {
-    max-width: 50%;
-    left: 25%;
+    max-width: 45%;
+    left: 35%;
+    top: 36%;
   }
 }
 .common.chart-reading {
@@ -220,6 +222,11 @@
 }
 .common.chart-reading .inner-content {
   padding-left: 42px;
+}
+@media (max-width: 767px) {
+  .common.chart-reading .inner-content {
+    padding-left: 0px;
+  }
 }
 .common.chart-reading .inner-content .sec-title {
   margin-bottom: 10px;
@@ -260,6 +267,21 @@
 @media (max-width: 1679px) {
   .common .inner-content .desc-para {
     margin-bottom: 40px;
+  }
+}
+@media (max-width: 1481px) {
+  .common .inner-content .desc-para {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 1281px) {
+  .common .inner-content .desc-para {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .common .inner-content .desc-para {
+    margin-bottom: 25px;
   }
 }
 .common .inner-content .desc-listing {
