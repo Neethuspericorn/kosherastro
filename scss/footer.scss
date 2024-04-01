@@ -18,10 +18,63 @@
     .footer-wrp{
         padding-top: 94px;
         padding-bottom: 94px;
+        @media ($sm-1679 ){
+            padding-top: 72px;
+            padding-bottom: 72px;
+        }
+        @media ($sm-1441 ){
+            padding-top: 56px;
+            padding-bottom: 56px;
+        }
+        @media ($sm-1281 ){
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
+        @media ($sm-991 ){
+            padding-top: 36px;
+            padding-bottom: 10px;
+        }
+        .col-txt{
+            @media ($sm-767 ){
+                margin-bottom: 20px;
+            }
+        }
+        p{
+            font-weight: 300;
+            font-size: 18px;
+            @media ($sm-1679 ){
+                font-size: 16px;
+            }
+            @media ($sm-1441 ){
+                font-size: 14px;
+            }
+            @media ($sm-1281 ){
+                font-size: 13px;
+            }
+        }
+        .footer-txt{
+            margin-bottom: 4em;
+            max-width: 28em;
+            line-height: 2;
+            @media ($sm-767 ){
+                max-width: 100%;
+                margin-bottom: 40px;
+            }
+        }
+        .footer-cont-link{
+            color: #ffffff;
+            text-decoration: none;
+            .ico{
+                margin-right: 1em;
+                width: 1em;
+                object-fit: contain;
+            }
+        }
     }
+    
     .footer-copy{
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-top: 1.77em;
+        padding-bottom: 1.77em;
         border-top: 1px solid #70707041;
         font-weight: 300;
         .policy-link{ 
@@ -57,6 +110,12 @@
     .ftr-logo{
         max-width: 280px;
         display: flex;
+        @media (max-width: 1441px){
+            max-width: 240px;
+        }
+        @media (max-width: 1281px){
+            max-width: 200px;
+        }
         img{
             width: 100%;
             object-fit: cover;
@@ -68,9 +127,17 @@
         color: var(--white);
         text-decoration: none;
         font-weight: 300 !important;
-        font-size: 18px;
         align-items: center;
-        
+        font-size: 18px;
+        @media ($sm-1679 ){
+            font-size: 16px;
+        }
+        @media ($sm-1441 ){
+            font-size: 14px;
+        }
+        @media ($sm-1281 ){
+            font-size: 13px;
+        }
         .ico{
             margin-right: 15px;
         }
@@ -79,13 +146,14 @@
         padding-bottom: 30px;
     }
     .col-links{
-        max-width: 20%;
-        
+        @media screen and ($lg-992){
+            max-width: 20%;
+        }
         ul{
             list-style: none;
             padding-left: 0;
             li{
-                margin-bottom: 32px;
+                margin-bottom: 1.7em;
             }
             &.sub-itm{
                 margin-top: 32px;
