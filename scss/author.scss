@@ -144,9 +144,13 @@
                     &:not(.bg-wrp){
                         img{
                             position: absolute;
-                            top: 35%;
-                            left: 40%;
+                            top: 28%;
+                            left: 33%;
                             max-width: 55%;
+                            @media ($sm-1679){
+                                top: 33%;
+                                left: 34%;
+                            }
                             @media ($sm-1199){
                                 top: 30%;
                             }
@@ -194,7 +198,7 @@
         .inner-content{
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             height: 100%;
             .desc-para{
                 margin-bottom:55px;
