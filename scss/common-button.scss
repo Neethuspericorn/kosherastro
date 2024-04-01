@@ -69,5 +69,8 @@
                 }
             }
         }
+        @media ($sm-767){
+            margin: 0 auto;
+        }
     }
 }

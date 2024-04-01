@@ -10,7 +10,7 @@
         max-width: 1200px;  
     }
     @media ($sm-1281 ){
-         max-width: 1100;
+         max-width: 1100; 
     }
 }
 
@@ -122,6 +122,10 @@ body{
     @media ($sm-991){
         font-size: 20px;
         line-height: 27px;
+        margin-bottom: 20px;
+    }
+    @media ($sm-767){
+        text-align: center;
     }
 }
 .desc-para{
@@ -137,6 +141,9 @@ body{
     @media ($sm-1281){
         font-size: 14px;
         line-height: 22px;
+    }
+    @media ($sm-767){
+        text-align: center;
     }
 }
 .desc-listing{
