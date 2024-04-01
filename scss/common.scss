@@ -48,3 +48,33 @@ body{
 .page-wrp{
     width: 100%;
 }
+
+.sec-title{
+    font: normal normal 600 35px/42px var(--font_titles);
+    margin-bottom: 30px;
+    @media ($sm-1679){
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 25px;
+    }
+    @media ($sm-1481){
+        font-size: 30px;
+        line-height: 37px;
+    }
+}
+.desc-para{
+    font: normal normal 300 21px/37px var(--font_txt);
+    @media ($sm-1679){
+        font-size: 18px;
+        line-height: 34px;
+    }
+}
+.desc-listing{
+    li{
+        font: normal normal 300 21px/34px var(--font_txt);
+        @media ($sm-1679){
+            font-size: 18px;
+            line-height: 31px;
+        }
+    }
+}
