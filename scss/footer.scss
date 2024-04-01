@@ -105,18 +105,30 @@
                 }
             }
         }
+        .copyrights{
+            @media ($sm-767){
+                text-align: center;
+                padding-bottom: 10px;
+                .links{
+                    display: block;
+                }
+            }
+        }
         .social{
             justify-content: flex-end;
+            @media ($sm-767){
+                justify-content: center;
+            }
         }
     }
 
     .ftr-logo{
         max-width: 280px;
         display: flex;
-        @media (max-width: 1441px){
+        @media ($sm-1481){
             max-width: 240px;
         }
-        @media (max-width: 1281px){
+        @media ($sm-1281){
             max-width: 200px;
         }
         img{
