@@ -190,6 +190,11 @@ body {
     margin-bottom: 20px;
   }
 }
+@media (max-width: 767px) {
+  .sec-title {
+    text-align: center;
+  }
+}
 
 .desc-para {
   font: normal normal 300 21px/37px var(--font_txt);
@@ -210,6 +215,11 @@ body {
   .desc-para {
     font-size: 14px;
     line-height: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .desc-para {
+    text-align: center;
   }
 }
 

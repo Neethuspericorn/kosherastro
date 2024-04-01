@@ -116,6 +116,9 @@ body{
         line-height: 27px;
         margin-bottom: 20px;
     }
+    @media ($sm-767){
+        text-align: center;
+    }
 }
 .desc-para{
     font: normal normal 300 21px/37px var(--font_txt);
@@ -130,6 +133,9 @@ body{
     @media ($sm-1281){
         font-size: 14px;
         line-height: 22px;
+    }
+    @media ($sm-767){
+        text-align: center;
     }
 }
 .desc-listing{
