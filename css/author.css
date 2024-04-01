@@ -144,6 +144,7 @@
 }
 .common .inner-content .desc-listing li {
   margin-top: 27px;
+  padding-left: 26px;
 }
 @media (max-width: 1679px) {
   .common .inner-content .desc-listing li {
