@@ -41,6 +41,11 @@
 .common.author {
   background: var(--bg_ternary);
 }
+@media (max-width: 767px) {
+  .common.author .inner-wrap {
+    flex-direction: column-reverse;
+  }
+}
 .common.author .bg-wrp {
   bottom: -5px;
   left: 10px;
@@ -53,18 +58,36 @@
   width: 100%;
   height: 100%;
   background: url(../img/author-bg.png) no-repeat center;
+  background-size: contain;
   position: absolute;
 }
 .common.author .inner-img-wrp img {
   position: relative;
   z-index: 1;
 }
+@media (max-width: 991px) {
+  .common.author .inner-img-wrp {
+    max-width: 290px;
+  }
+}
+@media (max-width: 767px) {
+  .common.author .inner-img-wrp {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+}
 .common.author .inner-content {
-  padding-left: 20px;
+  padding-left: 40px;
 }
 @media (max-width: 1679px) {
   .common.author .inner-content {
-    padding-left: 107px;
+    padding-left: 140px;
+  }
+}
+@media (max-width: 767px) {
+  .common.author .inner-content {
+    padding-left: 0px;
+    padding-top: 40px;
   }
 }
 .common.guide {
@@ -149,6 +172,18 @@
 @media (max-width: 1679px) {
   .common .inner-content .desc-listing li {
     margin-top: 20px;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1481px) {
+  .common .inner-content .desc-listing li {
+    padding-left: 15px;
+  }
+}
+@media (max-width: 1199px) {
+  .common .inner-content .desc-listing li {
+    margin-top: 15px;
+    padding-left: 10px;
   }
 }
 .common .bg-wrp {

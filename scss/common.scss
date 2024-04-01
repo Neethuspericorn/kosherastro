@@ -84,20 +84,39 @@ body{
         margin-bottom: 25px;
     }
     @media ($sm-1481){
-        font-size: 30px;
-        line-height: 37px;
+        font-size: 28px;
+        line-height: 35px;
+    }
+    @media ($sm-1441){
+        font-size: 26px;
+        line-height: 33px;
+    }
+    @media ($sm-1281){
+        font-size: 24px;
+        line-height: 31px;
+    }
+    @media ($sm-1199){
+        font-size: 22px;
+        line-height: 29px;
+    }
+    @media ($sm-991){
+        font-size: 20px;
+        line-height: 27px;
     }
 }
 .desc-para{
     font: normal normal 300 21px/37px var(--font_txt);
     @media ($sm-1679){
         font-size: 18px;
+        line-height: 32px;
     }
     @media ($sm-1481){
         font-size: 16px;
+        line-height: 24px;
     }
     @media ($sm-1281){
         font-size: 14px;
+        line-height: 22px;
     }
 }
 .desc-listing{
@@ -105,12 +124,15 @@ body{
         font: normal normal 300 21px/34px var(--font_txt);
         @media ($sm-1679){
             font-size: 18px;
+            line-height: 32px;
         }
         @media ($sm-1481){
             font-size: 16px;
+            line-height: 24px;
         }
         @media ($sm-1281){
             font-size: 14px;
+            line-height: 22px;
         }
     }
 }
