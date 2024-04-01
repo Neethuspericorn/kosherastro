@@ -77,7 +77,7 @@
   }
 }
 .common.author .inner-content {
-  padding-left: 40px;
+  padding-left: 154px;
 }
 @media (max-width: 1679px) {
   .common.author .inner-content {
@@ -96,6 +96,13 @@
 .common.guide .bg-wrp {
   top: -10%;
 }
+.common.guide .inner-img-wrp {
+  position: relative;
+}
+.common.guide .inner-img-wrp img {
+  position: relative;
+  z-index: 1;
+}
 .common.guide .inner-content .desc-listing {
   margin-bottom: 75px;
 }
@@ -104,13 +111,31 @@
     margin-bottom: 40px;
   }
 }
+@media (max-width: 767px) {
+  .common.guide .inner-content .desc-listing {
+    margin-bottom: 25px;
+  }
+}
+.common.guide .sec-title {
+  margin-top: 30px;
+}
 @media (max-width: 1679px) {
   .common.guide .sec-title {
     margin-bottom: 10px;
   }
 }
+@media (max-width: 767px) {
+  .common.guide .sec-title {
+    margin-top: 0px;
+  }
+}
 .common.roadmaps {
   background: rgba(12, 9, 33, 0.5);
+}
+@media (max-width: 767px) {
+  .common.roadmaps .inner-wrap {
+    flex-direction: column-reverse;
+  }
 }
 @media (max-width: 1679px) {
   .common.roadmaps .sec-title {
@@ -118,12 +143,32 @@
   }
 }
 .common.roadmaps .floating .bg-wrp {
-  left: 100px;
+  left: 14%;
 }
-.common.roadmaps .floating .inner-img-wrp img {
+.common.roadmaps .floating .bg-wrp img {
+  max-width: 384px;
+}
+@media (max-width: 767px) {
+  .common.roadmaps .floating .bg-wrp img {
+    max-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .common.roadmaps .floating .bg-wrp {
+    position: unset;
+  }
+}
+.common.roadmaps .floating .inner-img-wrp:not(.bg-wrp) img {
   position: absolute;
-  top: 240px;
-  right: 0px;
+  top: 35%;
+  left: 40%;
+  max-width: 423px;
+}
+@media (max-width: 767px) {
+  .common.roadmaps .floating .inner-img-wrp:not(.bg-wrp) img {
+    max-width: 50%;
+    left: 25%;
+  }
 }
 .common.chart-reading {
   background: rgba(8, 6, 25, 0.8);
@@ -137,6 +182,21 @@
 @media (max-width: 1679px) {
   .common {
     padding: 70px 0 70px;
+  }
+}
+@media (max-width: 1481px) {
+  .common {
+    padding: 60px 0 60px;
+  }
+}
+@media (max-width: 1199px) {
+  .common {
+    padding: 50px 0 50px;
+  }
+}
+@media (max-width: 991px) {
+  .common {
+    padding: 30px 0 30px;
   }
 }
 .common .inner-wrap {
@@ -198,6 +258,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 767px) {
+  .common .inner-img-wrp {
+    max-width: 80%;
+    margin: 0 auto 40px;
+  }
 }
 .common .inner-img-wrp .border-box {
   border-radius: 44px;
