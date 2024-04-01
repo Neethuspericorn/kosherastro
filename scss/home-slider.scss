@@ -27,6 +27,17 @@
         .slide-img{
             max-width: 582px;
             width: 100%;
+            @media ($sm-1481){
+                max-width: 30vw;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media ($sm-1281){
+                max-width: 30vw;
+            }
+            @media ($sm-991){
+                max-width: 260px;
+            }
         }
     }
 
@@ -38,9 +49,17 @@
         .desc{
             font-size: 21px;
             line-height: 1.76;
-
-            max-width: 680px;
+            max-width: 33em;
             font-weight: 300;
+            @media ($sm-1679){
+                font-size: 18px;
+            }
+            @media ($sm-1481){
+                font-size: 16px;
+            }
+            @media ($sm-1281){
+                font-size: 14px;
+            }
         }
     }
 
