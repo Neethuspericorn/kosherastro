@@ -19,5 +19,22 @@ $('.testi-slider').slick({
     centerMode: true,
     centerPadding: '0px',
     prevArrow: $('.testi-prev'),
-    nextArrow: $('.testi-next')
+    nextArrow: $('.testi-next'),
+    responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            centerMode: false,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
 });

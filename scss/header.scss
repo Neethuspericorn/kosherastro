@@ -81,6 +81,10 @@
         @media ($sm-991 ){
             margin-left: 5px;
             margin-right: 5px;
+            padding: 10px 0px !important;
+            &:before{
+                display: none;
+            }
         }
         &:before{
             position: absolute;
