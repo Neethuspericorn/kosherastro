@@ -21,6 +21,14 @@
             .bg-wrp{
                 top:-10%
             }
+            .inner-content{
+                .desc-listing{
+                    margin-bottom: 75px;
+                    @media ($sm-1679){
+                        margin-bottom: 40px;
+                    }
+                }
+            }
             .sec-title{
                 @media ($sm-1679){
                     margin-bottom: 10px;
@@ -76,7 +84,7 @@
                 }
             }
             .desc-listing{
-                margin-bottom: 75px;
+                margin-bottom: 49px;
                 @media ($sm-1679){
                     margin-bottom: 40px;
                 }
