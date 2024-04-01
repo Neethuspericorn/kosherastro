@@ -1,9 +1,17 @@
 @import 'partials';
 
 .container-custom{
-    max-width: 1440px;
     padding-left: 20px;
     padding-right: 20px;
+    @media ($lg-1680 ){
+        max-width: 1440px;
+    }
+    @media ($sm-1481 ){
+        max-width: 1200px;  
+    }
+    @media ($sm-1281 ){
+         max-width: 1100px; 
+    }
 }
 
 body{

@@ -5,6 +5,7 @@
     align-items: center;
         &.author{
             background: var(--bg_ternary);
+            overflow-x: clip;
             .inner-wrap{
                 @media ($sm-767){
                     flex-direction: column-reverse;

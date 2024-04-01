@@ -9,29 +9,32 @@
         top: 60px;
         right: -80px;
         max-width: 260px;
+        opacity: 0.23;
+        mix-blend-mode: luminosity;
+        background-blend-mode: luminosity;
         img{
             width: 100%;
             object-fit: contain;
-            opacity: 0.23;
+            
         }
     }
     .footer-wrp{
         padding-top: 94px;
         padding-bottom: 94px;
         @media ($sm-1679 ){
-            padding-top: 72px;
-            padding-bottom: 72px;
+            padding-top: 64px;
+            padding-bottom: 64px;
         }
-        @media ($sm-1441 ){
-            padding-top: 56px;
-            padding-bottom: 56px;
+        @media ($sm-1481 ){
+            padding-top: 40px;
+            padding-bottom: 40px;
         }
         @media ($sm-1281 ){
-            padding-top: 48px;
-            padding-bottom: 48px;
+            padding-top: 32px;
+            padding-bottom: 32px;
         }
         @media ($sm-991 ){
-            padding-top: 36px;
+            padding-top: 24px;
             padding-bottom: 10px;
         }
         .col-txt{
@@ -56,7 +59,7 @@
             margin-bottom: 4em;
             max-width: 28em;
             line-height: 2;
-            @media ($sm-767 ){
+            @media ($sm-991 ){
                 max-width: 100%;
                 margin-bottom: 40px;
             }
@@ -102,18 +105,30 @@
                 }
             }
         }
+        .copyrights{
+            @media ($sm-767){
+                text-align: center;
+                padding-bottom: 10px;
+                .links{
+                    display: block;
+                }
+            }
+        }
         .social{
             justify-content: flex-end;
+            @media ($sm-767){
+                justify-content: center;
+            }
         }
     }
 
     .ftr-logo{
         max-width: 280px;
         display: flex;
-        @media (max-width: 1441px){
+        @media ($sm-1481){
             max-width: 240px;
         }
-        @media (max-width: 1281px){
+        @media ($sm-1281){
             max-width: 200px;
         }
         img{

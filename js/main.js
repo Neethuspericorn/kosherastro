@@ -21,12 +21,14 @@ $('.testi-slider').slick({
     prevArrow: $('.testi-prev'),
     nextArrow: $('.testi-next'),
     responsive: [
+        
         {
-          breakpoint: 991,
+          breakpoint: 800,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
             centerMode: false,
+             
           }
         },
         {
