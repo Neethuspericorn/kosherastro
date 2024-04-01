@@ -10,3 +10,31 @@ $('.slides-wrp').on('init reInit afterChange', function(event, slick, currentSli
     var i = (currentSlide ? currentSlide : 0) + 1;
     $(".slide-count").text(i);
 });
+
+
+$('.testi-slider').slick({
+    dots: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '0px',
+    prevArrow: $('.testi-prev'),
+    nextArrow: $('.testi-next'),
+    responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            centerMode: false,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+});
