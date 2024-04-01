@@ -95,9 +95,27 @@
 }
 .common.guide .bg-wrp {
   top: -10%;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .common.guide .bg-wrp {
+    left: 0px;
+  }
+}
+.common.guide .guide-aligner {
+  position: relative;
+}
+@media (max-width: 767px) {
+  .common.guide .guide-aligner {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 .common.guide .inner-img-wrp {
   position: relative;
+  max-width: 100%;
+  margin: 0px;
 }
 .common.guide .inner-img-wrp img {
   position: relative;
@@ -146,7 +164,7 @@
   left: 14%;
 }
 .common.roadmaps .floating .bg-wrp img {
-  max-width: 384px;
+  max-width: 50%;
 }
 @media (max-width: 767px) {
   .common.roadmaps .floating .bg-wrp img {
@@ -162,7 +180,22 @@
   position: absolute;
   top: 35%;
   left: 40%;
-  max-width: 423px;
+  max-width: 55%;
+}
+@media (max-width: 1199px) {
+  .common.roadmaps .floating .inner-img-wrp:not(.bg-wrp) img {
+    top: 30%;
+  }
+}
+@media (max-width: 991px) {
+  .common.roadmaps .floating .inner-img-wrp:not(.bg-wrp) img {
+    top: 24%;
+  }
+}
+@media (max-width: 850px) {
+  .common.roadmaps .floating .inner-img-wrp:not(.bg-wrp) img {
+    top: 20%;
+  }
 }
 @media (max-width: 767px) {
   .common.roadmaps .floating .inner-img-wrp:not(.bg-wrp) img {

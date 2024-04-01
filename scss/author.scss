@@ -54,12 +54,26 @@
             .bg-wrp{
                 top:-10%;
                 // display:none
+                width: 100%;
+                height: 100%;
+                @media ($sm-767){
+                    left: 0px;
+                }
             }
             .inner-wrap{
                 // transform: translateX(-14%);
             }
+            .guide-aligner{
+                position: relative;
+                @media ($sm-767){
+                    max-width: 80%;
+                    margin: 0 auto;
+                }
+            }
             .inner-img-wrp{
                 position: relative;
+                max-width: 100%;
+                margin: 0px;
                 img{
                     position: relative;
                     z-index: 1;
@@ -115,7 +129,7 @@
                 .bg-wrp{
                     left: 14%;
                     img{
-                        max-width: 384px;
+                        max-width: 50%;
                         @media ($sm-767){
                             max-width: 50%;
                         }
@@ -130,7 +144,16 @@
                             position: absolute;
                             top: 35%;
                             left: 40%;
-                            max-width: 423px;
+                            max-width: 55%;
+                            @media ($sm-1199){
+                                top: 30%;
+                            }
+                            @media ($sm-991){
+                                top: 24%;
+                            }
+                            @media (max-width:850px){
+                                top: 20%;
+                            }
                             @media ($sm-767){
                                 max-width: 50%;
                                 left: 25%;
