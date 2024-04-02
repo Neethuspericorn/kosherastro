@@ -115,29 +115,61 @@
                 background: url('../img/star-blk-bg.jpg') no-repeat;
                 background-size: cover;
                 background-position: center;
+                background-attachment: fixed;
                 position: relative;
-                &::after{
-                    content: "";
-                    width: 35vw;
-                    height: 30vw;
-                    position: absolute;
-                    bottom: -80px;
-                    right: 0px;
-                    background: url('../img/star-svg.svg') no-repeat;
-                    background-size: contain;
-                    background-position: center;
-                    @media ($sm-1679){
-                        bottom: -10px;
-                    }
+                @media ($sm-767){
+                    padding: 50px 0 0;
                 }
-                .desc-para{
-                    margin-bottom: 44px;
-                }
-                // .star-img-rt{
-                //     img{
-                //         max-width: 400px;
+                // &::after{
+                //     content: "";
+                //     width: 35vw;
+                //     height: 35vw;
+                //     position: absolute;
+                //     top: 60%;
+                //     transform: translateY(-60%);
+                //     right: 0px;
+                //     background: url('../img/star-svg.svg') no-repeat;
+                //     background-size: contain;
+                //     background-position: center;
+                //     @media ($sm-1679){
+                    
                 //     }
                 // }
+                .desc-para{
+                    margin-bottom: 44px;
+                    @media ($sm-1679){
+                        margin-bottom: 30px;
+                    }
+                    @media ($sm-1481){
+                        margin-bottom: 25px;
+                    }
+                    @media ($sm-1281){
+                        margin-bottom: 20px;
+                    }
+                }
+                .star-img-rt{
+                    display: flex;
+                    justify-content: flex-end;
+                    position: relative;
+                    @media ($sm-1679){
+                        transform: translateX(105px)
+                    }
+                    @media (max-width:1399px){
+                        transform: none !important;
+                    }
+                    @media ($sm-767){
+                        justify-content: center;
+                    }
+                    img{
+                        max-width: 380px;
+                        position: absolute;
+                        right: 0px;
+                        @media ($sm-767){
+                            position: unset;
+                            max-width: 200px;
+                        }
+                    }
+                }
             }
 
             .content-wrp {
