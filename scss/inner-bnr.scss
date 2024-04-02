@@ -4,9 +4,6 @@
     background: #050412 url('../img/guide-bnr-new.jpg') no-repeat center;
     background-size: 100%;
     padding-top: 210px;
-    @media ($sm-1679){
-        padding-top: 70px;
-    }
     .container{
         height: 100%;
     }
@@ -87,5 +84,8 @@
                 max-width: 300px;
             }
         }
+    }
+    @media ($sm-1679){
+        padding-top: 70px;
     }
 }

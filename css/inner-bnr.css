@@ -39,11 +39,6 @@
   background-size: 100%;
   padding-top: 210px;
 }
-@media (max-width: 1679px) {
-  .inner-banner {
-    padding-top: 70px;
-  }
-}
 .inner-banner .container {
   height: 100%;
 }
@@ -148,5 +143,10 @@
   .inner-banner .bnr-img-wrp img {
     position: unset;
     max-width: 300px;
+  }
+}
+@media (max-width: 1679px) {
+  .inner-banner {
+    padding-top: 70px;
   }
 }
