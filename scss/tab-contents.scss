@@ -114,13 +114,13 @@
                 position: relative;
                 &::after{
                     content: "";
-                    width: 500px;
-                    height: 500px;
+                    width: 35vw;
+                    height: 30vw;
                     position: absolute;
                     bottom: 0px;
                     right: 0px;
                     background: url('../img/star-svg.svg') no-repeat;
-                    background-size: cover;
+                    background-size: contain;
                     background-position: center;
                 }
                 .desc-para{
