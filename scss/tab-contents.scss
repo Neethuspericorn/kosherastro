@@ -1,0 +1,80 @@
+@import 'partials';
+
+.tabbed-wrap{
+    background-color: var(--bg_ternary);
+    .tab-select{
+        background-color: transparent;
+        color: var(--white);
+        border-color: #7f7d8b3d;
+        font-size: 13px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        box-shadow: none !important;
+        option{
+            background-color: var(--bg_secondary);
+            &:hover,
+            &:active,
+            &:checked{
+                background-color: var(--bg_ternary) !important;
+            }
+        }
+    }
+    .tab-nav-wrp{
+        border-bottom: 1px solid #7f7d8b3d;
+        @media ($sm-991){
+            border-bottom-color: transparent !important;
+            padding-top: 20px;
+        }
+        .container-custom{ 
+            @media ($lg-1200){
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
+    }
+    .nav-tabs{
+        border-bottom: none !important;
+    }
+    .nav-link{
+        color: var(--white) !important;
+        border-color: transparent !important;
+        font-size: 16px;
+        font-weight: 300;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        @media ($sm-1679 ){
+            font-size: 14px;
+        }
+        @media ($sm-1441 ){
+            font-size: 13px;
+        }
+        @media ($sm-1199 ){
+            font-size: 12px;
+        }
+        &.nav-link{
+            background-color: transparent;
+            position: relative;
+            &:after{
+                position: absolute;
+                content: '';
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 2px;
+                background-color: transparent;
+                border-radius: 4px;
+                transition: all ease-in-out 0.2s;
+
+            }
+            &.active{
+                &:after{
+                    background-color: var(--bg_primary);
+                }
+            }
+        }
+    }
+
+    .tab-pane{
+         padding-top: 30px;
+    }
+}
