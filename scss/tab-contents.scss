@@ -101,7 +101,7 @@
         padding-top: 30px;
 
         .inner-sec {
-            padding: 200px 0 250px;
+            padding: 200px 0 150px;
 
             &.illustration {
                 background-color: #080619;
@@ -130,12 +130,13 @@
                 display: flex;
                 margin-top: 66px;
                 flex-wrap: wrap;
-                column-gap: 40px;
                 width: 100%;
                 .preview-col {
                     display: flex;
                     flex-direction: column;
-                    margin: 0;
+                    margin: 0 20px;
+                    flex: 0 0 auto;
+                    width: calc(50% - 40px);
 
                     .prev-title {
                         font: normal normal 600 25px/33px var(----font_titles);
@@ -149,7 +150,7 @@
                         border-radius: 21px;
                         padding: 30px;
                         img{
-                            flex: 1;
+                            max-width: 100%;
                         }
                     }
                 }

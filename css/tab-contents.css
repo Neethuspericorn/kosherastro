@@ -122,7 +122,7 @@
   padding-top: 30px;
 }
 .tabbed-wrap .tab-pane .inner-sec {
-  padding: 200px 0 250px;
+  padding: 200px 0 150px;
 }
 .tabbed-wrap .tab-pane .inner-sec.illustration {
   background-color: #080619;
@@ -145,14 +145,14 @@
   display: flex;
   margin-top: 66px;
   flex-wrap: wrap;
-  -moz-column-gap: 40px;
-       column-gap: 40px;
   width: 100%;
 }
 .tabbed-wrap .tab-pane .inner-sec .prview-wrp .preview-col {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0 20px;
+  flex: 0 0 auto;
+  width: calc(50% - 40px);
 }
 .tabbed-wrap .tab-pane .inner-sec .prview-wrp .preview-col .prev-title {
   font: normal normal 600 25px/33px var(----font_titles);
@@ -166,5 +166,5 @@
   padding: 30px;
 }
 .tabbed-wrap .tab-pane .inner-sec .prview-wrp .preview-col .prev-wrp img {
-  flex: 1;
+  max-width: 100%;
 }
