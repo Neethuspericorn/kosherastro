@@ -39,6 +39,11 @@
   background-size: auto;
   padding-top: 210px;
 }
+@media (max-width: 1679px) {
+  .inner-banner {
+    background-size: cover;
+  }
+}
 .inner-banner .container {
   height: 100%;
 }
