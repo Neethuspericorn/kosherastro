@@ -33,6 +33,7 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 .inner-banner.roadmap-banner {
+  padding-top: 200px;
   background-image: url("../img/roadamap-bnr-bg-1.jpg"); }
   .inner-banner.roadmap-banner .bnr-img-wrp img {
     bottom: auto;
@@ -41,7 +42,7 @@
     padding-top: 80px;
     padding-bottom: 0; }
   .inner-banner.roadmap-banner .bnr-btn-block {
-    padding-top: 100px; }
+    padding-top: 70px; }
     .inner-banner.roadmap-banner .bnr-btn-block .nxt-map-btn {
       display: inline-flex;
       align-items: flex-start;
@@ -87,7 +88,8 @@
   .roadmap-tab-sec .rm-li-content-cover ul li::marker {
     font-size: 25px; }
 .roadmap-tab-sec .content-block-2col {
-  padding-bottom: 150px; }
+  padding-bottom: 150px;
+  padding-top: 200px; }
   .roadmap-tab-sec .content-block-2col .sec-title {
     margin-bottom: 70px; }
   .roadmap-tab-sec .content-block-2col .content-2col-wrapper .li-title-item {
@@ -114,6 +116,8 @@
   border-radius: 20px;
   background-color: #fff;
   margin-bottom: 25px; }
+  .roadmap-tab-sec .txt-block .img-block img {
+    max-width: 100%; }
 .roadmap-tab-sec .txt-block p {
   margin-bottom: 25px; }
 .roadmap-tab-sec .img-content-block-fluid {
