@@ -107,6 +107,11 @@
                 background-color: #080619;
                 padding: 150px 0;
             }
+            &.star-blk{
+                background: url('../img/home-bg.jpg') no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
 
             .content-wrp {
                 max-width: 775px;

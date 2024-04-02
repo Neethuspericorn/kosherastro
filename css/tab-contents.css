@@ -128,6 +128,11 @@
   background-color: #080619;
   padding: 150px 0;
 }
+.tabbed-wrap .tab-pane .inner-sec.star-blk {
+  background: url("../img/home-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .tabbed-wrap .tab-pane .inner-sec .content-wrp {
   max-width: 775px;
   margin: 0 auto;
