@@ -41,7 +41,12 @@
 }
 @media (max-width: 1679px) {
   .inner-banner {
-    background-size: cover;
+    background-size: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .inner-banner {
+    background: url("../img/home-bg.jpg") no-repeat center;
   }
 }
 .inner-banner .container {
@@ -49,7 +54,7 @@
 }
 @media (max-width: 1679px) {
   .inner-banner .bnr-cont-wrp {
-    margin-top: 50px;
+    margin-top: 100px;
   }
 }
 .inner-banner .title {

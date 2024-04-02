@@ -5,14 +5,17 @@
     background-size: auto;
     padding-top: 210px;
     @media ($sm-1679){
-        background-size: cover;
+        background-size: 100%;
+    }
+    @media ($sm-767){
+        background: url('../img/home-bg.jpg') no-repeat center;
     }
     .container{
         height: 100%;
     }
     .bnr-cont-wrp{
         @media ($sm-1679){
-            margin-top: 50px;
+            margin-top: 100px;
         }
     }
     .title{
