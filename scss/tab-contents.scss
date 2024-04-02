@@ -21,6 +21,8 @@
     }
     .tab-nav-wrp{
         border-bottom: 1px solid #7f7d8b3d;
+        position: relative;
+        z-index: 2;
         @media ($sm-991){
             border-bottom-color: transparent !important;
             padding-top: 20px;
