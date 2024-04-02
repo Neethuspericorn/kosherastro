@@ -36,7 +36,7 @@
 .inner-banner {
   width: 100%;
   background: #050412 url("../img/guide-bnr-new.jpg") no-repeat center;
-  background-size: 100%;
+  background-size: auto;
   padding-top: 210px;
 }
 .inner-banner .container {
