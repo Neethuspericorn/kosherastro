@@ -108,9 +108,29 @@
                 padding: 150px 0;
             }
             &.star-blk{
-                background: url('../img/home-bg.jpg') no-repeat;
+                background: url('../img/star-blk-bg.jpg') no-repeat;
                 background-size: cover;
                 background-position: center;
+                position: relative;
+                &::after{
+                    content: "";
+                    width: 500px;
+                    height: 500px;
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0px;
+                    background: url('../img/star-svg.svg') no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                .desc-para{
+                    margin-bottom: 44px;
+                }
+                .star-img-rt{
+                    img{
+                        max-width: 400px;
+                    }
+                }
             }
 
             .content-wrp {

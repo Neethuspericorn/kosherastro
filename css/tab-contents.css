@@ -129,9 +129,27 @@
   padding: 150px 0;
 }
 .tabbed-wrap .tab-pane .inner-sec.star-blk {
-  background: url("../img/home-bg.jpg") no-repeat;
+  background: url("../img/star-blk-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+.tabbed-wrap .tab-pane .inner-sec.star-blk::after {
+  content: "";
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: url("../img/star-svg.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tabbed-wrap .tab-pane .inner-sec.star-blk .desc-para {
+  margin-bottom: 44px;
+}
+.tabbed-wrap .tab-pane .inner-sec.star-blk .star-img-rt img {
+  max-width: 400px;
 }
 .tabbed-wrap .tab-pane .inner-sec .content-wrp {
   max-width: 775px;
