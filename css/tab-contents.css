@@ -36,12 +36,6 @@
 .tabbed-wrap {
   background-color: var(--bg_ternary);
 }
-.tabbed-wrap.guide-tab {
-  background: url("../img/tab-guide-main-bg.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100%;
-}
 .tabbed-wrap .tab-select {
   background-color: transparent;
   color: var(--white);
@@ -59,8 +53,9 @@
 }
 .tabbed-wrap .tab-nav-wrp {
   border-bottom: 1px solid rgba(127, 125, 139, 0.2392156863);
-  position: relative;
+  position: absolute;
   z-index: 2;
+  width: 100%;
 }
 @media (max-width: 991px) {
   .tabbed-wrap .tab-nav-wrp {
@@ -119,10 +114,16 @@
   background-color: var(--bg_primary);
 }
 .tabbed-wrap .tab-pane {
-  padding-top: 30px;
+  padding-top: 78px;
 }
 .tabbed-wrap .tab-pane .inner-sec {
   padding: 200px 0 150px;
+}
+.tabbed-wrap .tab-pane .inner-sec.sec-top {
+  background: url("../img/tab-guide-main-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
 }
 .tabbed-wrap .tab-pane .inner-sec.illustration {
   background-color: #080619;
@@ -139,17 +140,19 @@
   width: 35vw;
   height: 30vw;
   position: absolute;
-  bottom: 0px;
+  bottom: -80px;
   right: 0px;
   background: url("../img/star-svg.svg") no-repeat;
   background-size: contain;
   background-position: center;
 }
+@media (max-width: 1679px) {
+  .tabbed-wrap .tab-pane .inner-sec.star-blk::after {
+    bottom: -10px;
+  }
+}
 .tabbed-wrap .tab-pane .inner-sec.star-blk .desc-para {
   margin-bottom: 44px;
-}
-.tabbed-wrap .tab-pane .inner-sec.star-blk .star-img-rt img {
-  max-width: 400px;
 }
 .tabbed-wrap .tab-pane .inner-sec .content-wrp {
   max-width: 775px;

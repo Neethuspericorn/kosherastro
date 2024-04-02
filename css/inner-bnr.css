@@ -124,8 +124,13 @@
   display: flex;
   height: 100%;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
+}
+@media (max-width: 767px) {
+  .inner-banner .bnr-img-wrp {
+    justify-content: center;
+  }
 }
 .inner-banner .bnr-img-wrp img {
   position: absolute;
@@ -143,10 +148,16 @@
     max-width: 78%;
   }
 }
-@media (max-width: 830px) {
+@media (max-width: 1199px) {
   .inner-banner .bnr-img-wrp img {
-    max-width: 100%;
-    bottom: -44px;
+    bottom: -50px;
+    max-width: 352px;
+  }
+}
+@media (max-width: 991px) {
+  .inner-banner .bnr-img-wrp img {
+    max-width: 325px;
+    bottom: -37px;
   }
 }
 @media (max-width: 767px) {
