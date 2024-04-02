@@ -17,6 +17,12 @@
         @media ($sm-1679){
             margin-top: 100px;
         }
+        @media ($sm-1199){
+            margin-top: 70px;
+        }
+        @media ($sm-991){
+            margin-top: 50px;
+        }
     }
     .title{
         font-weight: 600;
@@ -94,7 +100,7 @@
 
             @media ($sm-767){
                 position: unset;
-                max-width: 300px;
+                max-width: 250px;
             }
         }
     }
