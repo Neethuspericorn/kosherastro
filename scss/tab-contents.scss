@@ -1,8 +1,16 @@
 @import 'partials';
 
-.tabbed-wrap{
+.tabbed-wrap {
     background-color: var(--bg_ternary);
-    .tab-select{
+
+    &.guide-tab {
+        background: url('../img/tab-guide-main-bg.png');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+    }
+
+    .tab-select {
         background-color: transparent;
         color: var(--white);
         border-color: #7f7d8b3d;
@@ -10,53 +18,65 @@
         padding-top: 15px;
         padding-bottom: 15px;
         box-shadow: none !important;
-        option{
+
+        option {
             background-color: var(--bg_secondary);
+
             &:hover,
             &:active,
-            &:checked{
+            &:checked {
                 background-color: var(--bg_ternary) !important;
             }
         }
     }
-    .tab-nav-wrp{
+
+    .tab-nav-wrp {
         border-bottom: 1px solid #7f7d8b3d;
         position: relative;
         z-index: 2;
-        @media ($sm-991){
+
+        @media ($sm-991) {
             border-bottom-color: transparent !important;
             padding-top: 20px;
         }
-        .container-custom{ 
-            @media ($lg-1200){
+
+        .container-custom {
+            @media ($lg-1200) {
                 padding-left: 40px;
                 padding-right: 40px;
             }
         }
     }
-    .nav-tabs{
+
+    .nav-tabs {
         border-bottom: none !important;
     }
-    .nav-link{
+
+    .nav-link {
         color: var(--white) !important;
         border-color: transparent !important;
         font-size: 16px;
         font-weight: 300;
         padding-top: 2em;
         padding-bottom: 2em;
-        @media ($sm-1679 ){
+
+        @media ($sm-1679 ) {
             font-size: 14px;
         }
-        @media ($sm-1441 ){
+
+        @media ($sm-1441 ) {
             font-size: 13px;
         }
-        @media ($sm-1199 ){
+
+        @media ($sm-1199 ) {
             font-size: 12px;
         }
-        &.nav-link{
+
+        &.nav-link {
             background-color: transparent;
             position: relative;
-            &:after{
+
+            &:after {
                 position: absolute;
                 content: '';
                 bottom: 0;
@@ -68,15 +88,73 @@
                 transition: all ease-in-out 0.2s;
 
             }
-            &.active{
-                &:after{
+
+            &.active {
+                &:after {
                     background-color: var(--bg_primary);
                 }
             }
         }
     }
 
-    .tab-pane{
-         padding-top: 30px;
+    .tab-pane {
+        padding-top: 30px;
+
+        .inner-sec {
+            padding: 200px 0 250px;
+
+            &.illustration {
+                background-color: #080619;
+                padding: 150px 0;
+            }
+
+            .content-wrp {
+                max-width: 775px;
+                margin: 0 auto;
+
+                .title {
+                    margin-bottom: 44px;
+                }
+
+                .desc-para {
+                    margin-bottom: 30px;
+                }
+            }
+            .desc-para{
+                &.info-note{
+                    font: normal normal 300 16px/27px var(--font_titles);
+                }
+            }
+
+            .prview-wrp {
+                display: flex;
+                margin-top: 66px;
+                flex-wrap: wrap;
+                column-gap: 40px;
+                width: 100%;
+                .preview-col {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0;
+
+                    .prev-title {
+                        font: normal normal 600 25px/33px var(----font_titles);
+                        text-align: center;
+                        margin-bottom: 33px;
+                    }
+
+                    .prev-wrp {
+                        background-color: var(--white);
+                        border: 1px solid #707070;
+                        border-radius: 21px;
+                        padding: 30px;
+                        img{
+                            flex: 1;
+                        }
+                    }
+                }
+
+            }
+        }
     }
 }
