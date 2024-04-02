@@ -109,6 +109,9 @@
   background-color: transparent;
   border-radius: 4px;
   transition: all ease-in-out 0.2s;
+  width: 53px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .tabbed-wrap .nav-link.nav-link.active:after {
   background-color: var(--bg_primary);
@@ -193,4 +196,12 @@
 }
 .tabbed-wrap .tab-pane .inner-sec .prview-wrp .preview-col .prev-wrp img {
   max-width: 100%;
+}
+.tabbed-wrap.guide-tab .nav-item {
+  flex-basis: auto;
+}
+.tabbed-wrap.guide-tab .nav-link.nav-link {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: auto;
 }

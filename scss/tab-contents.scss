@@ -3,9 +3,6 @@
 .tabbed-wrap {
     background-color: var(--bg_ternary);
 
-    // &.guide-tab {
-
-    // }
 
     .tab-select {
         background-color: transparent;
@@ -84,6 +81,9 @@
                 background-color: transparent;
                 border-radius: 4px;
                 transition: all ease-in-out 0.2s;
+                width: 53px;
+                left: 50%;
+                transform: translateX(-50%);
 
             }
 
@@ -187,6 +187,18 @@
                     }
                 }
 
+            }
+        }
+    }
+    &.guide-tab {
+        .nav-item{
+            flex-basis: auto;
+        }
+        .nav-link{
+            &.nav-link{
+            padding-left: 0px;
+            padding-right: 0px;
+            width: auto;
             }
         }
     }
