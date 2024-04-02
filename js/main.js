@@ -40,3 +40,10 @@ $('.testi-slider').slick({
         }
       ]
 });
+
+
+
+$("#tab-item-select").change(function(){
+    var selectedIx = $(this).children("option:selected").val();
+    $('#'+selectedIx).trigger('click');
+});
