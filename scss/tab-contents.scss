@@ -2,6 +2,9 @@
 
 .tabbed-wrap {
     background-color: var(--bg_ternary);
+    @media ($sm-767){
+        padding-top: 40px;
+    }
 
 
     .tab-select {
@@ -99,17 +102,29 @@
         padding-top: 78px;
 
         .inner-sec {
-            padding: 200px 0 150px;
             &.sec-top{
                 background: url('../img/tab-guide-main-bg.png');
                 background-repeat: no-repeat;
                 background-position: bottom;
-                background-size: 100%;
+                background-size: cover;
+                padding: 244px 0 220px;
+                @media ($sm-1679){
+                    padding: 120px 0;
+                }
+                @media ($sm-767){
+                    padding: 50px 0;
+                }
             }
 
             &.illustration {
                 background-color: #080619;
-                padding: 150px 0;
+                padding: 150px 0 230px;
+                @media ($sm-1679){
+                    padding: 120px 0;
+                }
+                @media ($sm-767){
+                    padding: 60px 0 40px;
+                }
             }
             &.star-blk{
                 background: url('../img/star-blk-bg.jpg') no-repeat;
@@ -117,6 +132,9 @@
                 background-position: center;
                 background-attachment: fixed;
                 position: relative;
+                @media ($sm-1679){
+                    padding: 120px 0;
+                }
                 @media ($sm-767){
                     padding: 50px 0 0;
                 }
@@ -187,6 +205,10 @@
             .desc-para{
                 &.info-note{
                     font: normal normal 300 16px/27px var(--font_titles);
+                    @media ($sm-1679){
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
                 }
             }
 
@@ -195,17 +217,54 @@
                 margin-top: 66px;
                 flex-wrap: wrap;
                 width: 100%;
+                @media ($sm-1679){
+                    margin-top: 40px;
+                }
+                @media ($sm-767){
+                    flex-direction: column;
+                    margin-top: 20px;
+                }
                 .preview-col {
                     display: flex;
                     flex-direction: column;
                     margin: 0 20px;
                     flex: 0 0 auto;
                     width: calc(50% - 40px);
+                    @media ($sm-1679){
+                        width: calc(50% - 30px);
+                        margin: 0 15px;
+                    }
+                    @media ($sm-1481){
+                        width: calc(50% - 20px);
+                        margin: 0 10px;
+                    }
+                    @media ($sm-767){
+                        width: 100%;
+                        margin: 0 0 30px;
+                    }
 
                     .prev-title {
                         font: normal normal 600 25px/33px var(----font_titles);
                         text-align: center;
                         margin-bottom: 33px;
+                        @media ($sm-1679){
+                            margin-bottom: 20px;
+                            font-size: 20px;
+                            line-height: 32px;
+                        }
+                        @media ($sm-1281){
+                            margin-bottom: 20px;
+                            font-size: 18px;
+                        }
+                        @media ($sm-1199){
+                            margin-bottom: 20px;
+                            font-size: 16px;
+                        }
+                        br{
+                            @media ($sm-767){
+                                display: none;
+                            }
+                        }
                     }
 
                     .prev-wrp {
