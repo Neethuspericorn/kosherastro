@@ -132,6 +132,7 @@
                 background-position: center;
                 background-attachment: fixed;
                 position: relative;
+                padding: 183px 0 218px;
                 @media ($sm-1679){
                     padding: 120px 0;
                 }
@@ -168,7 +169,7 @@
                 .star-img-rt{
                     display: flex;
                     justify-content: flex-end;
-                    position: relative;
+                    // position: relative;
                     @media ($sm-1679){
                         transform: translateX(105px)
                     }

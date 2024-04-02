@@ -161,6 +161,7 @@
   background-position: center;
   background-attachment: fixed;
   position: relative;
+  padding: 183px 0 218px;
 }
 @media (max-width: 1679px) {
   .tabbed-wrap .tab-pane .inner-sec.star-blk {
@@ -193,7 +194,6 @@
 .tabbed-wrap .tab-pane .inner-sec.star-blk .star-img-rt {
   display: flex;
   justify-content: flex-end;
-  position: relative;
 }
 @media (max-width: 1679px) {
   .tabbed-wrap .tab-pane .inner-sec.star-blk .star-img-rt {
