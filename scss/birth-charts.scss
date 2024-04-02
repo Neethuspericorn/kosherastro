@@ -1,0 +1,108 @@
+@import 'partials';
+
+.birth-chart-banner{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: calc(100vh - 80px);
+    max-height: 900px;
+    display: flex;
+    align-items: center;
+    background: #050412 url(../img/chart-reading-bg.jpg) no-repeat center/cover;
+    @media screen and (min-width: 1920px){
+        background-size: contain;
+    }
+    .title{
+        font-size: 45px;
+            line-height: 1.7;
+            @media ($sm-1679){
+                font-size: 40px;
+            }
+            @media ($sm-1481){
+                font-size: 32px;
+            }
+            @media ($sm-1281){
+                font-size: 28px;
+            }
+            @media ($sm-1199){
+                font-size: 24px;
+            }
+            @media ($sm-991){
+                font-size: 22px;
+            }
+    }
+    .subtitle{
+        max-width: 32.33em;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 21px;
+        line-height: 1.76;
+        font-weight: 300;
+        @media ($sm-1679){
+            font-size: 18px;
+        }
+        @media ($sm-1481){
+            font-size: 16px;
+        }
+        @media ($sm-1281){
+            font-size: 14px;
+        }
+    }
+}
+
+.birth-chart-tabs{
+    .birth-tab-sec{
+        padding-top: 200px;
+        padding-bottom: 200px;
+        @media ($sm-1679){
+            padding-top: 80px;
+            padding-bottom: 80px; 
+        }
+        @media ($sm-1481){
+            padding-top: 50px;
+            padding-bottom: 50px; 
+        }
+        @media ($sm-1281){
+            padding-top: 20px;
+            padding-bottom: 20px; 
+        }
+    }
+    .img-wrp{
+        padding: 10px;
+        background-color: var(--white);
+        border-radius: 21px;
+        overflow: clip;
+        margin-left: auto;
+        margin-right: auto;
+        @media ($sm-1281){
+            max-width: 600px;
+        }
+        @media ($sm-767){
+            margin-bottom: 20px;
+        }
+    }
+    .txt-col{
+        li,p{
+            margin-bottom: 3em;
+            font-size: 21px;
+            line-height: 2;
+            @media ($sm-1679){
+                font-size: 16px;
+                margin-bottom: 2em;
+            }
+            @media ($sm-1481){
+                font-size: 14px;
+                
+            }
+            @media ($sm-1199){
+                font-size: 12px;
+                margin-bottom: 2em;
+            }
+             
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+     
+}
