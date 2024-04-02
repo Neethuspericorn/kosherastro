@@ -231,6 +231,12 @@ body {
     line-height: 22px;
   }
 }
+@media (max-width: 1199px) {
+  .desc-para {
+    font-size: 13px;
+    line-height: 21px;
+  }
+}
 @media (max-width: 767px) {
   .desc-para {
     text-align: center;

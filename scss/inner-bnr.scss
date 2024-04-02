@@ -2,14 +2,16 @@
 .inner-banner{
     width: 100%;
     background: #050412 url('../img/guide-bnr-new.jpg') no-repeat center;
-    background-size: 100%;
+    background-size: auto;
     padding-top: 210px;
     .container{
         height: 100%;
     }
-    // .bnr-cont-wrp{
-    //     margin-top: 210px;
-    // }
+    .bnr-cont-wrp{
+        @media ($sm-1679){
+            margin-top: 50px;
+        }
+    }
     .title{
         font-weight: 600;
         font-size: 45px;
@@ -51,7 +53,7 @@
         flex-direction: column;
         justify-content: flex-end;
         padding-bottom: 65px;
-        @media ($sm-767){
+        @media ($sm-991){
             padding-bottom: 20px;
         }
     }
@@ -72,10 +74,18 @@
             @media ($sm-1481){
                 max-width: 78%;
             }
+            @media (max-width:830px){
+                max-width: 100%;
+                bottom: -44px;
+            }
+
             @media ($sm-767){
                 position: unset;
-                max-width: 352px;
+                max-width: 300px;
             }
         }
+    }
+    @media ($sm-1679){
+        padding-top: 70px;
     }
 }

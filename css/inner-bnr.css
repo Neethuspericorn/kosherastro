@@ -36,11 +36,16 @@
 .inner-banner {
   width: 100%;
   background: #050412 url("../img/guide-bnr-new.jpg") no-repeat center;
-  background-size: 100%;
+  background-size: auto;
   padding-top: 210px;
 }
 .inner-banner .container {
   height: 100%;
+}
+@media (max-width: 1679px) {
+  .inner-banner .bnr-cont-wrp {
+    margin-top: 50px;
+  }
 }
 .inner-banner .title {
   font-weight: 600;
@@ -100,7 +105,7 @@
   justify-content: flex-end;
   padding-bottom: 65px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .inner-banner .bnr-content {
     padding-bottom: 20px;
   }
@@ -128,9 +133,20 @@
     max-width: 78%;
   }
 }
+@media (max-width: 830px) {
+  .inner-banner .bnr-img-wrp img {
+    max-width: 100%;
+    bottom: -44px;
+  }
+}
 @media (max-width: 767px) {
   .inner-banner .bnr-img-wrp img {
     position: unset;
-    max-width: 352px;
+    max-width: 300px;
+  }
+}
+@media (max-width: 1679px) {
+  .inner-banner {
+    padding-top: 70px;
   }
 }
