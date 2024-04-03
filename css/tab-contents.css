@@ -135,15 +135,15 @@
 }
 @media (max-width: 1481px) {
   .tabbed-wrap .tab-pane .inner-sec.sec-top {
-    padding: 90px 0;
+    padding: 168px 0 90px;
   }
 }
 @media (max-width: 1199px) {
   .tabbed-wrap .tab-pane .inner-sec.sec-top {
-    padding: 70px 0;
+    padding: 148px 0 70px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .tabbed-wrap .tab-pane .inner-sec.sec-top {
     padding: 95px 0 50px;
   }
