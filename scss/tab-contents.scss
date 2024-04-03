@@ -99,6 +99,44 @@
     }
 
     .tab-pane {
+        .txt-col,
+        .sec-top{
+            ul{
+                padding-left: 15px;
+            }
+            li,p{
+                margin-bottom: 3em;
+                font-size: 21px;
+                line-height: 2;
+                @media ($sm-1679){
+                    font-size: 16px;
+                    margin-bottom: 2em;
+                }
+                @media ($sm-1481){
+                    font-size: 14px;
+                    
+                }
+                @media ($sm-1199){
+                    font-size: 12px;
+                    margin-bottom: 2em;
+                }
+                 
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .title-col{
+            .apx-part3-title{
+                @media ($lg-768){
+                    max-width: 10em;
+                }
+                @media ($sm-767){
+                    margin-bottom: 1em;
+                }
+            }
+        }
 
         .inner-sec {
             &.sec-top{
@@ -219,6 +257,43 @@
                 }
             }
 
+            &.appendix-sec{
+                padding-top: 150px;
+                padding-bottom: 150px;
+                position: relative;
+                overflow: clip;
+                background-color: #080619;
+                & > * {
+                    position: relative;
+                    z-index: 1;
+                }
+                .sec-bg{
+                    position: absolute;
+                    inset: 0;
+                    z-index: 0;
+                    background: #080619 url(../img/author-bg.png) no-repeat left/contain;
+                    opacity: 0.5;
+                    &:before{
+                        position: absolute;
+                        inset: 0;
+                        content: '';
+                        background-color: #0806194b;
+                        // mix-blend-mode: screen;
+                        z-index: 1;
+                    }
+                    &:after{
+                        position: absolute;
+                        content: '';
+                        background: url(../img/author-bg.png) no-repeat left/contain;
+                        z-index: 0;
+                        top: 0;
+                        right: 0;
+                        width: 50%;
+                        aspect-ratio: 1;
+                        transform: translate(50%, -50%);
+                    }
+                }
+            }
             .content-wrp {
                 max-width: 775px;
                 margin: 0 auto;
