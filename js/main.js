@@ -47,3 +47,10 @@ $("#tab-item-select").change(function(){
     var selectedIx = $(this).children("option:selected").val();
     $('#'+selectedIx).trigger('click');
 });
+
+$('.roadmap-index-slider').slick({
+  dots: false,
+  autoplay: true,
+  prevArrow: $('.rd-btn-left'),
+  nextArrow: $('.rd-btn-right')
+})
