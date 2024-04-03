@@ -818,9 +818,29 @@
   margin-left: 15px;
   transition: 0.3s;
 }
+@media (max-width: 1481px) {
+  .pagination-btn-block .nxt-map-btn .btn-arw {
+    width: 45px;
+  }
+}
+@media (max-width: 991px) {
+  .pagination-btn-block .nxt-map-btn .btn-arw {
+    width: 35px;
+  }
+}
 .pagination-btn-block .nxt-map-btn .item {
   display: inline-block;
   padding-top: 20px;
+}
+@media (max-width: 1481px) {
+  .pagination-btn-block .nxt-map-btn .item {
+    font-size: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .pagination-btn-block .nxt-map-btn .item {
+    font-size: 14px;
+  }
 }
 .pagination-btn-block .nxt-map-btn:hover .btn-arw {
   animation: rightToggle 1s infinite;

@@ -780,11 +780,23 @@
         .btn-arw {
             margin-left: 15px;
             transition: .3s;
+            @media ($sm-1481){
+                width: 45px;
+            }
+            @media ($sm-991){
+                width: 35px;
+            }
         }
 
         .item {
             display: inline-block;
             padding-top: 20px;
+            @media ($sm-1481){
+                font-size: 15px;
+            }
+            @media ($sm-991){
+                font-size: 14px;
+            }
         }
 
         &:hover {
