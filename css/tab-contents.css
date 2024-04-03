@@ -241,7 +241,7 @@
   max-width: 450px;
   position: absolute;
   right: 0px;
-  top: -40px;
+  top: 20%;
 }
 @media (max-width: 1481px) {
   .tabbed-wrap .tab-pane .inner-sec.star-blk .star-img-rt img {
