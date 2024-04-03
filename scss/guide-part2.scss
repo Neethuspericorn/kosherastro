@@ -1,0 +1,25 @@
+@import 'partials';
+.part-list{
+    padding-top: 200px;
+    background: url(../img/tab-guide-main-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+
+    .title{
+        margin-bottom: 20px;
+    }
+    .left-sec{
+        padding-right:73px;
+        @media($sm-1679){
+            padding-right: 60px;
+        }
+    }
+    .right-sec{
+        font: normal normal 300 21px / 37px var(--font_txt);
+        color: #DEDEDE;
+    }
+    .desc-para{
+      color:#DEDEDE;
+    }
+}
