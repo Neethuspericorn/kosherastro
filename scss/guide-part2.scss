@@ -10,6 +10,14 @@
         margin-bottom: 20px;
         @media($sm-767){
             text-align: center;
+
+        }
+
+        br{
+            @media($sm-767){
+                display: none;
+    
+            }
         }
     }
     .left-sec{
@@ -32,6 +40,7 @@
             li{
                 font: normal normal 300 21px / 37px var(--font_txt);
                 color: #DEDEDE;
+                margin-bottom: 0px !important;
                 @media ($sm-1679){
                     font-size: 18px;
                     line-height: 32px;
@@ -49,7 +58,7 @@
                     line-height: 21px;
                 }
                 @media ($sm-767){
-                    margin-bottom: 15px;
+                    margin-bottom: 10px !important;
                     // text-align: center;
                 }
                 list-style-type: none;
@@ -68,7 +77,7 @@
   
 }
 .image-inner{
-    // display: flex;
+   
     .prview-wrp{
         // margin-top: 0 !important;
         align-items: center;
@@ -105,6 +114,9 @@
         }
         .title{
             padding-right: 111px;
+            @media($sm-1199){
+                padding-right: 44px;
+            }
             @media($sm-767){
                 padding-right: 0;
             }
@@ -120,7 +132,10 @@
                 padding-right: 60px;
                 padding-top: 30px;
                 @media($sm-767){
-                    padding-right: 0px;
+                    padding-right: 0px; 
+                    padding-bottom: 15px;
+                    padding-top: 20px;
+                    text-align: left;
                 }
             }
         }
@@ -129,6 +144,9 @@
 
     .top-list{
         margin-top: 39px;
+        @media($sm-767){
+            margin-top: 23px;
+        }
         ul{
             padding-inline-start: 10px;
             li{
@@ -206,7 +224,8 @@
             padding: 70px 0;
         }
         @media ($sm-767){
-            padding: 60px 0 40px;
+            padding: 0px 0 40px;
+            // text-align: center;
         }
     }
     .scnd-sec{
@@ -218,6 +237,11 @@
   .tabbed-wrap{
     .scnd-tabs{
         &.tab-pane{
+
+            // @media (max-width: 767px)
+            // {
+            //      padding: 128px 0 30px;
+            // }
             .inner-sec.illustration{
                 padding: 100px 0px;
                 
@@ -228,7 +252,7 @@
             padding: 70px 0;
         }
         @media ($sm-767){
-            padding: 60px 0 40px;
+            padding: 0px 0 40px;
         }
                 
             }

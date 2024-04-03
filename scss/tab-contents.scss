@@ -139,7 +139,8 @@
                 background-repeat: no-repeat;
                 background-position: bottom;
                 background-size: cover;
-                padding: 298px 0 220px;
+                // padding: 298px 0 220px;
+                padding: 198px 220px 100px 220px;
                 @media ($sm-1679){
                     padding: 150px 0 70px;
                 }
@@ -156,7 +157,8 @@
 
             &.illustration {
                 background-color: #080619;
-                padding: 150px 0 230px;
+                // padding: 150px 0 230px;
+                padding: 100px 230px 100px 230px;
                 @media ($sm-1679){
                     padding: 120px 0;
                 }
@@ -220,7 +222,8 @@
                 background-position: center;
                 background-attachment: fixed;
                 position: relative;
-                padding: 183px 0 218px;
+                // padding: 183px 0 218px;
+                padding: 153px 218px 100px 218px;
                 @media ($sm-1679){
                     padding: 120px 0;
                 }
