@@ -121,9 +121,6 @@
 .tabbed-wrap .nav-link.nav-link.active:after {
   background-color: var(--bg_primary);
 }
-.tabbed-wrap .tab-pane {
-  padding-top: 78px;
-}
 .tabbed-wrap .tab-pane .inner-sec.sec-top {
   background: url("../img/tab-guide-main-bg.png");
   background-repeat: no-repeat;
@@ -133,7 +130,7 @@
 }
 @media (max-width: 1679px) {
   .tabbed-wrap .tab-pane .inner-sec.sec-top {
-    padding: 120px 0;
+    padding: 150px 0 70px;
   }
 }
 @media (max-width: 1481px) {

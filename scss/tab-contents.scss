@@ -99,7 +99,6 @@
     }
 
     .tab-pane {
-        padding-top: 78px;
 
         .inner-sec {
             &.sec-top{
@@ -109,7 +108,7 @@
                 background-size: cover;
                 padding: 244px 0 220px;
                 @media ($sm-1679){
-                    padding: 120px 0;
+                    padding: 150px 0 70px;
                 }
                 @media ($sm-1481){
                     padding: 90px 0;
