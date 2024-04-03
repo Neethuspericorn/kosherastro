@@ -269,7 +269,22 @@
   max-width: 775px;
   margin: 0 auto;
 }
+@media (max-width: 1679px) {
+  .tabbed-wrap .tab-pane .inner-sec .content-wrp {
+    max-width: 665px;
+  }
+}
+@media (max-width: 1481px) {
+  .tabbed-wrap .tab-pane .inner-sec .content-wrp {
+    max-width: 590px;
+  }
+}
 @media (max-width: 1281px) {
+  .tabbed-wrap .tab-pane .inner-sec .content-wrp {
+    max-width: 518px;
+  }
+}
+@media (max-width: 1199px) {
   .tabbed-wrap .tab-pane .inner-sec .content-wrp {
     max-width: 480px;
   }
