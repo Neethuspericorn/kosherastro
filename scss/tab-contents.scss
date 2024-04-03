@@ -136,6 +136,26 @@
                 @media ($sm-767){
                     padding: 60px 0 40px;
                 }
+                &.postmark{
+                    padding-bottom: 124px;
+                    background-color: var(--bg_ternary);
+                    @media ($sm-767){
+                        padding-top: 108px;
+                        padding-bottom:30px;
+                    }
+                    .preview-col{
+                        width: calc(47% - 40px);
+                        @media ($sm-767){
+                           max-width: 400px;
+                           width: 100% !important;
+                        }
+                    }
+                    .page-flip-wrp{
+                        border-radius: 38px;
+                        background-color: var(--white);
+                        width: 100%;
+                    }
+                }
             }
             &.star-blk{
                 background: url('../img/star-blk-bg.jpg') no-repeat;
@@ -251,7 +271,7 @@
             }
             .desc-para{
                 &.info-note{
-                    font: normal normal 300 16px/27px var(--font_titles);
+                    font: normal normal 300 16px/27px var(--font_txt);
                     @media ($sm-1679){
                         font-size: 14px;
                         line-height: 24px;
@@ -296,7 +316,7 @@
                     }
 
                     .prev-title {
-                        font: normal normal 600 25px/33px var(----font_titles);
+                        font: normal normal 600 25px/33px var(--font_titles);
                         text-align: center;
                         margin-bottom: 33px;
                         @media ($sm-1679){
@@ -308,11 +328,6 @@
                             margin-bottom: 20px;
                             font-size: 18px;
                             line-height: 28px;
-                        }
-                        @media ($sm-1199){
-                            margin-bottom: 20px;
-                            font-size: 16px;
-                            line-height: 22px;
                         }
                         @media ($sm-1199){
                             margin-bottom: 20px;
@@ -337,6 +352,45 @@
                         padding: 30px;
                         img{
                             max-width: 100%;
+                        }
+                    }
+                    &.author{
+                        width: calc(53% - 40px);
+                        .author-pic{
+                            align-items: center;
+                            display: flex;
+                            margin: 38px 12px 0;
+                            @media ($sm-1679){
+                                margin: 30px 12px 0;
+                            }
+                            @media ($sm-1281){
+                                margin: 25px 10px 0;
+                            }
+                            @media ($sm-991){
+                                margin: 20px 10px 0;
+                            }
+                            @media ($sm-767){
+                                margin: 20px auto 0;
+                            }
+                            
+                        }
+                        .prev-title{
+                            font-size: 35px;
+                            line-height: 1.2;
+                            @media ($sm-1679){
+                                font-size: 30px;
+                            }
+                            @media ($sm-1481){
+                                font-size: 25px;
+                            }
+                            @media ($sm-1281){
+                                font-size: 18px;
+                            }
+                        }
+                        br{
+                            @media ($sm-991){
+                                display: none;
+                            }
                         }
                     }
                 }
