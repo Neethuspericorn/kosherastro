@@ -242,6 +242,11 @@
   position: absolute;
   right: 0px;
 }
+@media (max-width: 991px) {
+  .tabbed-wrap .tab-pane .inner-sec.star-blk .star-img-rt img {
+    max-width: 360px;
+  }
+}
 @media (max-width: 767px) {
   .tabbed-wrap .tab-pane .inner-sec.star-blk .star-img-rt img {
     position: unset;

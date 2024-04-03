@@ -200,6 +200,9 @@
                         max-width: 450px;
                         position: absolute;
                         right: 0px;
+                        @media ($sm-991){
+                            max-width: 360px;
+                        }
                         @media ($sm-767){
                             position: unset;
                             max-width: 200px;
