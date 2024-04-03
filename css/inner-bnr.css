@@ -57,6 +57,16 @@
     margin-top: 100px;
   }
 }
+@media (max-width: 1199px) {
+  .inner-banner .bnr-cont-wrp {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 991px) {
+  .inner-banner .bnr-cont-wrp {
+    margin-top: 50px;
+  }
+}
 .inner-banner .title {
   font-weight: 600;
   font-size: 45px;
@@ -163,7 +173,7 @@
 @media (max-width: 767px) {
   .inner-banner .bnr-img-wrp img {
     position: unset;
-    max-width: 300px;
+    max-width: 250px;
   }
 }
 @media (max-width: 1679px) {

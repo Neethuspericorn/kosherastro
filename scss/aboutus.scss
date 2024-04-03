@@ -7,14 +7,17 @@
         //   background-repeat: no-repeat;
         padding-top: 200px;
         background-color: transparent;
-        @media($sm-1441){
-            padding-top: 150px;
-        }
-        @media($sm-1281){
+        @media($sm-1679){
             padding-top: 100px;
         }
+        @media($sm-1481){
+            padding-top: 80px;
+        }
+        @media($sm-1281){
+            padding-top: 60px;
+        }
         @media($sm-991){
-            padding-top: 50px;
+            padding-top: 40px;
         }
 
           position: relative;
@@ -34,6 +37,18 @@
           }
             .inner-wrap{
                 justify-content: space-between;
+                position: relative;
+                & > * {
+                    position: relative;
+                    z-index: 1;
+                }
+                .bg-animation{
+                    position: absolute;
+                    top: -78%;
+                    right: -16%;
+                    opacity: 0.2;
+                    z-index: 0;
+                }
                 @media($sm-767){
                     flex-direction: column;;
                 }
@@ -53,6 +68,7 @@
                 }
                 @media($sm-1281){
                     padding-right: 62px;
+                    padding-left: 25px;
                 }
                 @media($sm-767){
                     padding: 0px;

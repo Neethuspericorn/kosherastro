@@ -38,19 +38,24 @@
   background-color: transparent;
   position: relative;
 }
-@media (max-width: 1441px) {
-  .common.author.about-us {
-    padding-top: 150px;
-  }
-}
-@media (max-width: 1281px) {
+@media (max-width: 1679px) {
   .common.author.about-us {
     padding-top: 100px;
   }
 }
+@media (max-width: 1481px) {
+  .common.author.about-us {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 1281px) {
+  .common.author.about-us {
+    padding-top: 60px;
+  }
+}
 @media (max-width: 991px) {
   .common.author.about-us {
-    padding-top: 50px;
+    padding-top: 40px;
   }
 }
 .common.author.about-us::after {
@@ -70,6 +75,18 @@
 }
 .common.author.about-us .inner-wrap {
   justify-content: space-between;
+  position: relative;
+}
+.common.author.about-us .inner-wrap > * {
+  position: relative;
+  z-index: 1;
+}
+.common.author.about-us .inner-wrap .bg-animation {
+  position: absolute;
+  top: -78%;
+  right: -16%;
+  opacity: 0.2;
+  z-index: 0;
 }
 @media (max-width: 767px) {
   .common.author.about-us .inner-wrap {
@@ -97,6 +114,7 @@
 @media (max-width: 1281px) {
   .common.author.about-us .inner-content {
     padding-right: 62px;
+    padding-left: 25px;
   }
 }
 @media (max-width: 767px) {
@@ -204,7 +222,8 @@
 .common.author.about-us .social-links .first-sec .fb-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about-details {
@@ -234,5 +253,3 @@
     width: 100%;
   }
 }
-
-/*# sourceMappingURL=aboutus.css.map */
