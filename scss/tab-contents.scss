@@ -106,7 +106,7 @@
                 background-repeat: no-repeat;
                 background-position: bottom;
                 background-size: cover;
-                padding: 244px 0 220px;
+                padding: 298px 0 220px;
                 @media ($sm-1679){
                     padding: 150px 0 70px;
                 }
@@ -197,9 +197,20 @@
                         justify-content: center;
                     }
                     img{
-                        max-width: 380px;
+                        max-width: 450px;
                         position: absolute;
                         right: 0px;
+                        top: 20%;
+                        @media ($sm-1481){
+                            top: unset;
+                            max-width: 370px;
+                        }
+                        @media ($sm-1281){
+                            max-width: 300px;
+                        }
+                        @media ($sm-991){
+                            max-width: 360px;
+                        }
                         @media ($sm-767){
                             position: unset;
                             max-width: 200px;
@@ -211,6 +222,18 @@
             .content-wrp {
                 max-width: 775px;
                 margin: 0 auto;
+                @media ($sm-1679){
+                    max-width: 665px;
+                }
+                @media ($sm-1481){
+                    max-width: 590px;
+                }
+                @media ($sm-1281){
+                    max-width: 518px;
+                }
+                @media ($sm-1199){
+                    max-width: 480px;
+                }
 
                 .title {
                     margin-bottom: 44px;
@@ -247,6 +270,7 @@
                 @media ($sm-767){
                     flex-direction: column;
                     margin-top: 20px;
+                    align-items: center;
                 }
                 .preview-col {
                     display: flex;
@@ -263,7 +287,11 @@
                         margin: 0 10px;
                     }
                     @media ($sm-767){
-                        width: 100%;
+                        width: 50%;
+                        margin: 0 0 30px;
+                    }
+                    @media ($sm-579){
+                        width: 80%;
                         margin: 0 0 30px;
                     }
 
@@ -279,16 +307,27 @@
                         @media ($sm-1281){
                             margin-bottom: 20px;
                             font-size: 18px;
+                            line-height: 28px;
                         }
                         @media ($sm-1199){
                             margin-bottom: 20px;
                             font-size: 16px;
+                            line-height: 22px;
                         }
-                        br{
-                            @media ($sm-767){
-                                display: none;
-                            }
+                        @media ($sm-1199){
+                            margin-bottom: 20px;
+                            font-size: 16px;
+                            line-height: 22px;
                         }
+                        @media ($sm-767){
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        // br{
+                        //     @media ($sm-767){
+                        //         display: none;
+                        //     }
+                        // }
                     }
 
                     .prev-wrp {

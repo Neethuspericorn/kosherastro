@@ -64,7 +64,7 @@
 }
 @media (max-width: 991px) {
   .inner-banner .bnr-cont-wrp {
-    margin-top: 50px;
+    margin-top: 10%;
   }
 }
 .inner-banner .title {
@@ -128,6 +128,11 @@
 @media (max-width: 991px) {
   .inner-banner .bnr-content {
     padding-bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .inner-banner .bnr-content br {
+    display: none;
   }
 }
 .inner-banner .bnr-img-wrp {
