@@ -202,17 +202,17 @@
 }
 @media (max-width: 1481px) {
   .tabbed-wrap .tab-pane .inner-sec.illustration {
-    padding: 90px 0;
+    padding: 168px 0;
   }
 }
 @media (max-width: 1199px) {
   .tabbed-wrap .tab-pane .inner-sec.illustration {
-    padding: 70px 0;
+    padding: 148px 0;
   }
 }
 @media (max-width: 767px) {
   .tabbed-wrap .tab-pane .inner-sec.illustration {
-    padding: 60px 0 40px;
+    padding: 138px 0 40px;
   }
 }
 .tabbed-wrap .tab-pane .inner-sec.illustration.postmark {
@@ -241,6 +241,26 @@
   padding: 30px;
   overflow: hidden;
   margin-top: 40px;
+}
+@media (max-width: 1679px) {
+  .tabbed-wrap .tab-pane .inner-sec.illustration.postmark .page-flip-wrp {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1481px) {
+  .tabbed-wrap .tab-pane .inner-sec.illustration.postmark .page-flip-wrp {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1281px) {
+  .tabbed-wrap .tab-pane .inner-sec.illustration.postmark .page-flip-wrp {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .tabbed-wrap .tab-pane .inner-sec.illustration.postmark .page-flip-wrp {
+    margin-top: 0px;
+  }
 }
 .tabbed-wrap .tab-pane .inner-sec.illustration.postmark .page-flip-wrp img {
   max-width: 100%;
