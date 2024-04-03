@@ -191,6 +191,11 @@
     width: 100% !important;
   }
 }
+.tabbed-wrap .tab-pane .inner-sec.illustration.postmark .page-flip-wrp {
+  border-radius: 38px;
+  background-color: var(--white);
+  width: 100%;
+}
 .tabbed-wrap .tab-pane .inner-sec.star-blk {
   background: url("../img/star-blk-bg.jpg") no-repeat;
   background-size: cover;
