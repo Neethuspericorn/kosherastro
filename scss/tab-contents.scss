@@ -106,7 +106,7 @@
                 background-repeat: no-repeat;
                 background-position: bottom;
                 background-size: cover;
-                padding: 244px 0 220px;
+                padding: 298px 0 220px;
                 @media ($sm-1679){
                     padding: 150px 0 70px;
                 }
@@ -200,9 +200,13 @@
                         max-width: 450px;
                         position: absolute;
                         right: 0px;
-                        top: -40px;
+                        top: 20%;
                         @media ($sm-1481){
                             top: unset;
+                            max-width: 370px;
+                        }
+                        @media ($sm-1281){
+                            max-width: 300px;
                         }
                         @media ($sm-991){
                             max-width: 360px;

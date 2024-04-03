@@ -126,7 +126,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  padding: 244px 0 220px;
+  padding: 298px 0 220px;
 }
 @media (max-width: 1679px) {
   .tabbed-wrap .tab-pane .inner-sec.sec-top {
@@ -241,11 +241,17 @@
   max-width: 450px;
   position: absolute;
   right: 0px;
-  top: -40px;
+  top: 20%;
 }
 @media (max-width: 1481px) {
   .tabbed-wrap .tab-pane .inner-sec.star-blk .star-img-rt img {
     top: unset;
+    max-width: 370px;
+  }
+}
+@media (max-width: 1281px) {
+  .tabbed-wrap .tab-pane .inner-sec.star-blk .star-img-rt img {
+    max-width: 300px;
   }
 }
 @media (max-width: 991px) {
