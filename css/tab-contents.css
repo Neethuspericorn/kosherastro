@@ -306,7 +306,7 @@
   }
 }
 .tabbed-wrap .tab-pane .inner-sec .desc-para.info-note {
-  font: normal normal 300 16px/27px var(--font_titles);
+  font: normal normal 300 16px/27px var(--font_txt);
 }
 @media (max-width: 1679px) {
   .tabbed-wrap .tab-pane .inner-sec .desc-para.info-note {
