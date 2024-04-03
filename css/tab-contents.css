@@ -219,6 +219,16 @@
   padding-bottom: 124px;
   background-color: var(--bg_ternary);
 }
+@media (max-width: 1679px) {
+  .tabbed-wrap .tab-pane .inner-sec.illustration.postmark {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 1481px) {
+  .tabbed-wrap .tab-pane .inner-sec.illustration.postmark {
+    padding-bottom: 80px;
+  }
+}
 @media (max-width: 767px) {
   .tabbed-wrap .tab-pane .inner-sec.illustration.postmark {
     padding-top: 108px;

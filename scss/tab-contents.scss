@@ -172,6 +172,12 @@
                 &.postmark{
                     padding-bottom: 124px;
                     background-color: var(--bg_ternary);
+                    @media ($sm-1679){
+                        padding-bottom: 100px;
+                    }
+                    @media ($sm-1481){
+                        padding-bottom: 80px;
+                    }
                     @media ($sm-767){
                         padding-top: 108px;
                         padding-bottom:30px;
