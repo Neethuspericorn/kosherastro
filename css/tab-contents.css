@@ -240,6 +240,7 @@
   width: 100%;
   padding: 30px;
   overflow: hidden;
+  margin-top: 40px;
 }
 .tabbed-wrap .tab-pane .inner-sec.illustration.postmark .page-flip-wrp img {
   max-width: 100%;
