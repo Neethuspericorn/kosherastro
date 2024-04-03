@@ -169,7 +169,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  padding: 298px 0 220px;
+  padding: 198px 220px 100px 220px;
 }
 @media (max-width: 1679px) {
   .tabbed-wrap .tab-pane .inner-sec.sec-top {
@@ -193,7 +193,7 @@
 }
 .tabbed-wrap .tab-pane .inner-sec.illustration {
   background-color: #080619;
-  padding: 150px 0 230px;
+  padding: 100px 230px 100px 230px;
 }
 @media (max-width: 1679px) {
   .tabbed-wrap .tab-pane .inner-sec.illustration {
@@ -281,7 +281,7 @@
   background-position: center;
   background-attachment: fixed;
   position: relative;
-  padding: 183px 0 218px;
+  padding: 153px 218px 100px 218px;
 }
 @media (max-width: 1679px) {
   .tabbed-wrap .tab-pane .inner-sec.star-blk {
@@ -603,3 +603,5 @@
   padding-right: 0px;
   width: auto;
 }
+
+/*# sourceMappingURL=tab-contents.css.map */

@@ -117,6 +117,7 @@ body {
 @media (max-width: 991px) {
   .title {
     font-size: 20px;
+    line-height: 26px;
   }
 }
 
@@ -264,3 +265,5 @@ body {
     line-height: 22px;
   }
 }
+
+/*# sourceMappingURL=common.css.map */

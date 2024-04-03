@@ -383,6 +383,201 @@
     margin-bottom: 15px;
   }
 }
+.roadmap-tab-sec .life-time-row {
+  display: flex;
+}
+.roadmap-tab-sec .life-time-row .img-block-col {
+  flex: 0 0 auto;
+}
+.roadmap-tab-sec .life-time-row .img-block {
+  text-align: center;
+  padding: 30px;
+  border-radius: 21px;
+  background-color: #fff;
+  width: 522px;
+}
+.roadmap-tab-sec .life-time-row .img-block img {
+  max-width: 100%;
+}
+.roadmap-tab-sec .life-time-row .txt-block {
+  flex: 1 1 auto;
+  padding-left: 72px;
+  padding-top: 15px;
+}
+.roadmap-tab-sec .life-time-row .txt-block .title {
+  margin-bottom: 10px;
+}
+.roadmap-tab-sec .life-time-row .txt-block .title-2 {
+  font-family: var(--font_titles);
+  font-size: 27px;
+  margin-bottom: 25px;
+}
+.roadmap-tab-sec .life-time-row .txt-block .desc-para {
+  margin-bottom: 15px;
+}
+.roadmap-tab-sec .roadmap-2-cover .str-hgl {
+  font-weight: 500;
+}
+.roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid {
+  background-color: #0C0921;
+}
+.roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-col-block {
+  margin-bottom: 30px;
+}
+.roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block {
+  padding: 30px;
+  border-radius: 21px;
+  background-color: #fff;
+  margin-bottom: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block img {
+  width: auto;
+  max-width: 100%;
+}
+.roadmap-tab-sec .roadmap-2-cover .inner-sec.sec-top {
+  padding-bottom: 200px !important;
+}
+@media (max-width: 1679px) {
+  .roadmap-tab-sec .roadmap-2-cover .inner-sec.sec-top {
+    padding-bottom: 120px !important;
+  }
+}
+@media (max-width: 1481px) {
+  .roadmap-tab-sec .roadmap-2-cover .inner-sec.sec-top {
+    padding-bottom: 90px !important;
+  }
+}
+@media (max-width: 1199px) {
+  .roadmap-tab-sec .roadmap-2-cover .inner-sec.sec-top {
+    padding-bottom: 70px !important;
+  }
+}
+@media (max-width: 991px) {
+  .roadmap-tab-sec .roadmap-2-cover .inner-sec.sec-top {
+    padding-bottom: 50px !important;
+  }
+}
+@media (max-width: 991px) {
+  .roadmap-tab-sec .roadmap-2-cover .inner-sec.sec-top {
+    padding-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 1679px) {
+  .roadmap-tab-sec .life-time-row .txt-block .title-2 {
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  .roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block img {
+    max-height: 350px;
+  }
+  .roadmap-tab-sec .img-content-block-fluid {
+    padding: 70px 0 100px;
+  }
+}
+@media (max-width: 1481px) {
+  .roadmap-tab-sec .life-time-row .img-block {
+    width: 450px;
+  }
+  .roadmap-tab-sec .life-time-row .img-block img {
+    max-height: 300px;
+  }
+  .roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block img {
+    max-height: 300px;
+  }
+  .roadmap-tab-sec .img-content-block-fluid {
+    padding: 60px 0 70px;
+  }
+  .roadmap-tab-sec .life-time-row .txt-block .title-2 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 1199px) {
+  .roadmap-tab-sec .life-time-row .txt-block {
+    padding-left: 45px;
+  }
+  .roadmap-tab-sec .life-time-row .img-block img {
+    max-height: 280px;
+  }
+  .roadmap-tab-sec .life-time-row .img-block {
+    width: 430px;
+  }
+  .roadmap-tab-sec .life-time-row .txt-block .title-2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .roadmap-tab-sec .life-time-row {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .roadmap-tab-sec .life-time-row .img-block {
+    margin: 0 auto;
+    align-items: center;
+    width: 350px;
+    max-width: 100%;
+  }
+  .roadmap-tab-sec .life-time-row .img-block img {
+    max-height: 260px;
+  }
+  .roadmap-tab-sec .life-time-row .img-block-col {
+    max-width: 100%;
+  }
+  .roadmap-tab-sec .life-time-row .txt-block {
+    padding-left: 0;
+    padding-top: 40px;
+    max-width: 700px;
+  }
+  .roadmap-tab-sec .img-content-block-fluid {
+    padding: 50px 0;
+  }
+  .roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block img {
+    max-height: 260px;
+  }
+  .roadmap-tab-sec .tabbed-wrap .tab-pane .inner-sec.star-blk {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 767px) {
+  .roadmap-tab-sec .life-time-row .txt-block {
+    max-width: 550px;
+  }
+  .roadmap-tab-sec .life-time-row .txt-block .desc-para {
+    text-align: left;
+  }
+  .roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block {
+    margin: 0 auto;
+    max-width: 450px;
+  }
+  .roadmap-tab-sec .life-time-row .img-block img {
+    max-height: 200px;
+  }
+  .roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block img {
+    max-height: 220px;
+  }
+}
+@media (max-width: 579px) {
+  .roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block {
+    max-width: 400px;
+  }
+  .roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block img {
+    max-height: 220px;
+  }
+  .roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block {
+    padding: 15px;
+  }
+  .roadmap-tab-sec .img-content-block-fluid {
+    padding: 35px 0;
+  }
+  .roadmap-tab-sec .tabbed-wrap .tab-pane .inner-sec.star-blk {
+    padding: 30px 0;
+  }
+}
 .table-content {
   padding: 65px 0 130px;
 }
