@@ -2,8 +2,10 @@
 
 .inner-banner.roadmap-banner {
     // min-height: 650px;
-    padding-top: 200px;
     background-image: url('../img/roadamap-bnr-bg-1.jpg');
+    @media (min-width:1700px) {
+        padding-top: 200px;       
+    }
 
     .bnr-img-wrp img {
         bottom: auto;
@@ -103,6 +105,7 @@
         .content-2col-wrapper{
             .li-title-item{
                 margin-bottom: 17px;
+                font-size: 21px;
                 img{
                     margin-right: 20px;
                 }
@@ -142,6 +145,7 @@
         }
         p{
             margin-bottom: 25px;
+            font-size: 21px;
         }
     }
     .img-content-block-fluid{
@@ -155,6 +159,30 @@
                     width: 100%;
                 }
             }
+        }
+    }
+}
+
+@media($sm-1679){
+    .inner-banner.roadmap-banner .bnr-content {
+        padding-top: 50px;
+    }
+    .roadmap-tab-sec .rm-li-content-cover ul li, 
+    .roadmap-tab-sec .content-block-2col .content-2col-wrapper .li-title-item, 
+    .roadmap-tab-sec .txt-block p{
+        font-size: 18px;
+    }
+    .roadmap-tab-sec .content-block-2col {
+        padding-bottom: 140px;
+        padding-top: 100px;
+    }
+    .roadmap-tab-sec .txt-block .img-block-lg {
+        max-width: 1000px;
+        margin: 0 auto;
+        img{
+            max-height: 500px;
+            width: auto;
+            max-width: 100%;
         }
     }
 }
