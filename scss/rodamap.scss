@@ -381,3 +381,117 @@
         margin-bottom: 15px;
     }
 }
+
+.table-content{
+    padding: 65px 0 130px;
+    .sec-title{
+        margin-bottom: 35px !important;
+    }
+    .txt-block{
+        .img-block{
+            padding: 40px;
+            @media ($sm-1679){
+                padding: 30px;
+            }
+            @media ($sm-1481){
+                padding: 25px;
+            }
+            @media ($sm-1281){
+                padding: 20px;
+            }
+            .outer-img-wrp{
+                border: 1px solid #123d6b29;
+                border-radius: 12px;
+                padding: 45px 50px;
+                @media ($sm-1679){
+                    padding: 30px 40px;
+                }
+                @media ($sm-1481){
+                    padding: 30px;
+                }
+                @media ($sm-1281){
+                    padding: 25px;
+                }
+                @media ($sm-1199){
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
+.pagination-btn-block {
+    padding-top: 0px;
+    display: flex;
+    @media ($sm-1679){
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    @media ($sm-1679){
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    @media ($sm-1679){
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+
+    .nxt-map-btn {
+        display: inline-flex;
+        align-items: flex-start;
+        font-size: 16px;
+        font-weight: 200;
+        color: #fff;
+        text-decoration: none;
+        flex: 0 0 auto;
+        font-family: var(--font_txt);
+        &.prev{
+            margin-right: auto;
+            img{
+                transform: rotate(180deg);
+                margin-right: 15px;
+                margin-left: 0px;
+            }
+            &:hover{
+                .btn-arw{
+                    animation: leftToggle 1s infinite;
+                }
+            }
+        }
+
+        .btn-img-md {
+            margin-right: 20px;
+        }
+
+        .btn-arw {
+            margin-left: 15px;
+            transition: .3s;
+        }
+
+        .item {
+            display: inline-block;
+            padding-top: 20px;
+        }
+
+        &:hover {
+            .btn-arw {
+                animation: rightToggle 1s infinite;
+
+            }
+        }
+    }
+}
+
+@keyframes leftToggle {
+    0% {
+        transform: rotate(180deg) translateX(0);
+    }
+
+    50% {
+        transform: rotate(180deg) translateX(10px);
+    }
+
+    100% {
+        transform: rotate(180deg) translateX(0);
+    }
+}
