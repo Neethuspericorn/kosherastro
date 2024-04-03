@@ -21,7 +21,7 @@
             margin-top: 70px;
         }
         @media ($sm-991){
-            margin-top: 50px;
+            margin-top: 10%;
         }
     }
     .title{
@@ -67,6 +67,11 @@
         padding-bottom: 65px;
         @media ($sm-991){
             padding-bottom: 20px;
+        }
+        br{
+            @media ($sm-991){
+                display: none;
+            }
         }
     }
     .bnr-img-wrp{
