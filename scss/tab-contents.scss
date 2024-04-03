@@ -150,7 +150,8 @@
                 background-repeat: no-repeat;
                 background-position: bottom;
                 background-size: cover;
-                padding: 298px 0 220px;
+                // padding: 298px 0 220px;
+                padding: 198px 220px 100px 220px;
                 @media ($sm-1679){
                     padding: 150px 0 70px;
                 }
@@ -167,22 +168,29 @@
 
             &.illustration {
                 background-color: #080619;
-                padding: 150px 0 230px;
+                // padding: 150px 0 230px;
+                padding: 100px 230px 100px 230px;
                 @media ($sm-1679){
                     padding: 120px 0;
                 }
                 @media ($sm-1481){
-                    padding: 90px 0;
+                    padding: 168px 0;
                 }
                 @media ($sm-1199){
-                    padding: 70px 0;
+                    padding: 148px 0;
                 }
                 @media ($sm-767){
-                    padding: 60px 0 40px;
+                    padding: 138px 0 40px;
                 }
                 &.postmark{
                     padding-bottom: 124px;
                     background-color: var(--bg_ternary);
+                    @media ($sm-1679){
+                        padding-bottom: 100px;
+                    }
+                    @media ($sm-1481){
+                        padding-bottom: 80px;
+                    }
                     @media ($sm-767){
                         padding-top: 108px;
                         padding-bottom:30px;
@@ -200,6 +208,19 @@
                         width: 100%;
                         padding: 30px;
                         overflow: hidden;
+                        margin-top: 40px;
+                        @media ($sm-1679){
+                            margin-top: 30px;
+                        }
+                        @media ($sm-1481){
+                            margin-top: 20px;
+                        }
+                        @media ($sm-1281){
+                            margin-top: 10px;
+                        }
+                        @media ($sm-991){
+                            margin-top: 0px;
+                        }
                         img{
                             max-width: 100%;
                         }
@@ -212,7 +233,8 @@
                 background-position: center;
                 background-attachment: fixed;
                 position: relative;
-                padding: 183px 0 218px;
+                // padding: 183px 0 218px;
+                padding: 153px 218px 100px 218px;
                 @media ($sm-1679){
                     padding: 120px 0;
                 }
@@ -265,7 +287,7 @@
                     @media ($sm-767){
                         justify-content: center;
                     }
-                    img{
+                    img{ 
                         max-width: 450px;
                         position: absolute;
                         right: 0px;
