@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="620.873" height="864.708" viewBox="0 0 620.873 864.708">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_627" data-name="Rectangle 627" width="620.873" height="864.708" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_707" data-name="Rectangle 707" width="573.875" height="829.18" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_60489" data-name="Group 60489" transform="translate(-1005 -4489)">
+    <g id="Group_59726" data-name="Group 59726" transform="translate(1005 4489)" opacity="0.3">
+      <g id="Group_59632" data-name="Group 59632" clip-path="url(#clip-path)">
+        <rect id="Rectangle_626" data-name="Rectangle 626" width="618.917" height="862.783" rx="12" transform="translate(0.978 0.963)" fill="none" stroke="#123d6b" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Group_59729" data-name="Group 59729" transform="translate(1028.062 4506.764)">
+      <line id="Line_114" data-name="Line 114" y2="205.073" transform="translate(437.229 454.203)" fill="none" stroke="#e7dfd2" stroke-width="3"/>
+      <g id="Group_59728" data-name="Group 59728">
+        <g id="Group_59727" data-name="Group 59727" clip-path="url(#clip-path-2)">
+          <path id="Rectangle_675" data-name="Rectangle 675" d="M5.141,0H267.654A5.143,5.143,0,0,1,272.8,5.143v276.14a5.142,5.142,0,0,1-5.142,5.142H5.141A5.141,5.141,0,0,1,0,281.284V5.141A5.141,5.141,0,0,1,5.141,0Z" transform="translate(300.831 542.755)" fill="#fae8ca"/>
+          <path id="Path_12026" data-name="Path 12026" d="M432.188,430.254V297.281a9.706,9.706,0,0,0-9.7-9.707H169.1a9.706,9.706,0,0,0-9.7,9.707V430.254Z" transform="translate(141.438 255.181)" fill="#e7dfd2"/>
+          <line id="Line_115" data-name="Line 115" y2="205.073" transform="translate(136.398 454.203)" fill="none" stroke="#d9cce5" stroke-width="3"/>
+          <path id="Rectangle_676" data-name="Rectangle 676" d="M5.142,0H267.654A5.143,5.143,0,0,1,272.8,5.143v276.14a5.142,5.142,0,0,1-5.142,5.142H5.141A5.141,5.141,0,0,1,0,281.284V5.142A5.142,5.142,0,0,1,5.142,0Z" transform="translate(0 542.755)" fill="#fae8ca"/>
+          <path id="Path_12027" data-name="Path 12027" d="M272.794,430.788V297.281a9.706,9.706,0,0,0-9.7-9.707H9.7A9.705,9.705,0,0,0,0,297.281V430.788Z" transform="translate(0.001 255.181)" fill="#d9cce5"/>
+          <path id="Rectangle_677" data-name="Rectangle 677" d="M5.142,0H207.255a5.14,5.14,0,0,1,5.14,5.14V33.375a5.142,5.142,0,0,1-5.142,5.142H5.141A5.141,5.141,0,0,1,0,33.376V5.142A5.142,5.142,0,0,1,5.142,0Z" transform="translate(30.09 499.287)" fill="#fae8ca"/>
+          <path id="Path_12028" data-name="Path 12028" d="M15.943,283.8H228.337V272.619c0-4.46-4.345-8.076-9.7-8.076H25.648c-5.36,0-9.7,3.616-9.7,8.076Z" transform="translate(14.147 234.744)" fill="#d9cce5"/>
+          <path id="Rectangle_678" data-name="Rectangle 678" d="M5.142,0H207.256a5.14,5.14,0,0,1,5.14,5.14V33.375a5.142,5.142,0,0,1-5.142,5.142H5.141A5.141,5.141,0,0,1,0,33.376V5.142A5.142,5.142,0,0,1,5.142,0Z" transform="translate(330.921 499.287)" fill="#fae8ca"/>
+          <path id="Path_12029" data-name="Path 12029" d="M175.336,283.8H387.73V272.619c0-4.46-4.345-8.076-9.7-8.076H185.041c-5.36,0-9.7,3.616-9.7,8.076Z" transform="translate(155.585 234.744)" fill="#e7dfd2"/>
+          <line id="Line_116" data-name="Line 116" y2="205.073" transform="translate(136.398 107.792)" fill="none" stroke="#bbd4ef" stroke-width="3"/>
+          <line id="Line_117" data-name="Line 117" y2="110.684" transform="translate(437.016 115.024)" fill="none" stroke="#d2e8d2" stroke-width="3"/>
+          <path id="Rectangle_679" data-name="Rectangle 679" d="M5.142,0H267.655A5.142,5.142,0,0,1,272.8,5.142V131.816a5.142,5.142,0,0,1-5.142,5.142H5.141A5.141,5.141,0,0,1,0,131.817V5.142A5.142,5.142,0,0,1,5.142,0Z" transform="translate(0 199.021)" fill="#fae8ca"/>
+          <path id="Path_12030" data-name="Path 12030" d="M0,173.929H272.795V114.075c0-4.762-4.345-8.625-9.7-8.625H9.7c-5.36,0-9.7,3.863-9.7,8.625Z" transform="translate(0 93.572)" fill="#bbd4ef"/>
+          <path id="Rectangle_680" data-name="Rectangle 680" d="M5.142,0H267.655A5.142,5.142,0,0,1,272.8,5.142V131.82a5.142,5.142,0,0,1-5.142,5.142H5.143A5.143,5.143,0,0,1,0,131.819V5.142A5.142,5.142,0,0,1,5.142,0Z" transform="translate(300.617 199.021)" fill="#fae8ca"/>
+          <path id="Path_12031" data-name="Path 12031" d="M159.279,173.929H432.074V114.075c0-4.762-4.345-8.625-9.7-8.625H168.984c-5.36,0-9.7,3.863-9.7,8.625Z" transform="translate(141.337 93.572)" fill="#d2e8d2"/>
+          <line id="Line_118" data-name="Line 118" x2="131.428" transform="translate(371.764 71.112)" fill="none" stroke="#d2e8d2" stroke-width="3"/>
+          <line id="Line_119" data-name="Line 119" x1="117.848" y2="103.608" transform="translate(379.347 19.892)" fill="none" stroke="#d2e8d2" stroke-width="3"/>
+          <line id="Line_120" data-name="Line 120" x2="117.848" y2="103.608" transform="translate(379.305 20.209)" fill="none" stroke="#d2e8d2" stroke-width="3"/>
+          <line id="Line_121" data-name="Line 121" x2="131.428" transform="translate(67.839 71.96)" fill="none" stroke="#bbd4ef" stroke-width="3"/>
+          <line id="Line_122" data-name="Line 122" x1="117.85" y2="103.608" transform="translate(75.42 20.745)" fill="none" stroke="#bbd4ef" stroke-width="3"/>
+          <line id="Line_123" data-name="Line 123" x2="117.848" y2="103.608" transform="translate(75.379 21.061)" fill="none" stroke="#bbd4ef" stroke-width="3"/>
+          <path id="Rectangle_681" data-name="Rectangle 681" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(0.001 52.514)" fill="#bbd4ef"/>
+          <path id="Rectangle_682" data-name="Rectangle 682" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(301.081 52.514)" fill="#d2e8d2"/>
+          <path id="Rectangle_683" data-name="Rectangle 683" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425a5.669,5.669,0,0,1-5.669,5.669H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(197.431 52.514)" fill="#bbd4ef"/>
+          <path id="Rectangle_684" data-name="Rectangle 684" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(498.511 52.514)" fill="#d2e8d2"/>
+          <path id="Rectangle_685" data-name="Rectangle 685" d="M5.669,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(8.747)" fill="#bbd4ef"/>
+          <path id="Rectangle_686" data-name="Rectangle 686" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(309.827)" fill="#d2e8d2"/>
+          <path id="Rectangle_687" data-name="Rectangle 687" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425a5.669,5.669,0,0,1-5.669,5.669H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(188.685)" fill="#bbd4ef"/>
+          <path id="Rectangle_688" data-name="Rectangle 688" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(489.766)" fill="#d2e8d2"/>
+          <path id="Rectangle_689" data-name="Rectangle 689" d="M5.669,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(8.747 105.032)" fill="#bbd4ef"/>
+          <path id="Rectangle_690" data-name="Rectangle 690" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(309.827 105.032)" fill="#d2e8d2"/>
+          <path id="Rectangle_691" data-name="Rectangle 691" d="M5.67,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425a5.669,5.669,0,0,1-5.669,5.669H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(188.685 105.032)" fill="#bbd4ef"/>
+          <path id="Rectangle_692" data-name="Rectangle 692" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(489.417 105.032)" fill="#d2e8d2"/>
+          <path id="Path_12032" data-name="Path 12032" d="M96.852,115.565A52.285,52.285,0,1,0,44.565,63.279a52.286,52.286,0,0,0,52.287,52.285" transform="translate(39.545 9.756)" fill="#bbd4ef"/>
+          <path id="Path_12033" data-name="Path 12033" d="M44.611,38.221c-.006.3-.045.593-.045.9a52.286,52.286,0,0,0,104.573,0c0-.308-.04-.6-.045-.9Z" transform="translate(39.546 33.916)" fill="#fae8ca"/>
+          <path id="Path_12034" data-name="Path 12034" d="M256.008,115.228a52.285,52.285,0,1,0-52.287-52.285,52.286,52.286,0,0,0,52.287,52.285" transform="translate(180.773 9.457)" fill="#d2e8d2"/>
+          <path id="Path_12035" data-name="Path 12035" d="M203.767,37.883c-.006.3-.045.593-.045.9a52.286,52.286,0,0,0,104.573,0c0-.308-.04-.6-.045-.9Z" transform="translate(180.774 33.616)" fill="#fae8ca"/>
+          <path id="Rectangle_693" data-name="Rectangle 693" d="M5.142,0H207.253A5.142,5.142,0,0,1,212.4,5.142V33.375a5.142,5.142,0,0,1-5.142,5.142H5.141A5.141,5.141,0,0,1,0,33.376V5.142A5.142,5.142,0,0,1,5.142,0Z" transform="translate(30.201 154.211)" fill="#fae8ca"/>
+          <path id="Path_12036" data-name="Path 12036" d="M16,100.964H228.4V89.783c0-4.46-4.345-8.076-9.7-8.076H25.707c-5.36,0-9.7,3.616-9.7,8.076Z" transform="translate(14.199 72.503)" fill="#bbd4ef"/>
+          <path id="Rectangle_694" data-name="Rectangle 694" d="M5.142,0H207.255a5.14,5.14,0,0,1,5.14,5.14V33.375a5.142,5.142,0,0,1-5.142,5.142H5.141A5.141,5.141,0,0,1,0,33.376V5.142A5.142,5.142,0,0,1,5.142,0Z" transform="translate(330.818 154.211)" fill="#fae8ca"/>
+          <path id="Path_12037" data-name="Path 12037" d="M175.282,100.964H387.676V89.783c0-4.46-4.345-8.076-9.7-8.076H184.987c-5.36,0-9.7,3.616-9.7,8.076Z" transform="translate(155.538 72.503)" fill="#d2e8d2"/>
+          <line id="Line_124" data-name="Line 124" x2="131.428" transform="translate(67.839 418.371)" fill="none" stroke="#d9cce5" stroke-width="3"/>
+          <line id="Line_125" data-name="Line 125" x2="131.428" transform="translate(368.67 418.371)" fill="none" stroke="#e7dfd2" stroke-width="3"/>
+          <line id="Line_126" data-name="Line 126" x1="117.85" y2="103.608" transform="translate(75.42 367.156)" fill="none" stroke="#d9cce5" stroke-width="3"/>
+          <line id="Line_127" data-name="Line 127" x1="117.848" y2="103.608" transform="translate(376.253 367.156)" fill="none" stroke="#e7dfd2" stroke-width="3"/>
+          <line id="Line_128" data-name="Line 128" x2="117.848" y2="103.608" transform="translate(75.379 367.472)" fill="none" stroke="#d9cce5" stroke-width="3"/>
+          <line id="Line_129" data-name="Line 129" x2="117.848" y2="103.608" transform="translate(376.21 367.472)" fill="none" stroke="#e7dfd2" stroke-width="3"/>
+          <path id="Rectangle_695" data-name="Rectangle 695" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(0.001 398.925)" fill="#d9cce5"/>
+          <path id="Rectangle_696" data-name="Rectangle 696" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(300.832 398.925)" fill="#e7dfd2"/>
+          <path id="Rectangle_697" data-name="Rectangle 697" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425a5.669,5.669,0,0,1-5.669,5.669H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(197.431 398.925)" fill="#d9cce5"/>
+          <path id="Rectangle_698" data-name="Rectangle 698" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(498.262 398.925)" fill="#e7dfd2"/>
+          <path id="Rectangle_699" data-name="Rectangle 699" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.424a5.67,5.67,0,0,1-5.67,5.67H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(8.747 346.411)" fill="#d9cce5"/>
+          <path id="Rectangle_700" data-name="Rectangle 700" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(309.578 346.411)" fill="#e7dfd2"/>
+          <path id="Rectangle_701" data-name="Rectangle 701" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425a5.669,5.669,0,0,1-5.669,5.669H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(188.685 346.411)" fill="#d9cce5"/>
+          <path id="Rectangle_702" data-name="Rectangle 702" d="M5.67,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(489.516 346.411)" fill="#e7dfd2"/>
+          <path id="Rectangle_703" data-name="Rectangle 703" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.424a5.67,5.67,0,0,1-5.67,5.67H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(8.747 451.443)" fill="#d9cce5"/>
+          <path id="Rectangle_704" data-name="Rectangle 704" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(309.578 451.443)" fill="#e7dfd2"/>
+          <path id="Rectangle_705" data-name="Rectangle 705" d="M5.669,0H69.694a5.67,5.67,0,0,1,5.67,5.67V36.425a5.669,5.669,0,0,1-5.669,5.669H5.67A5.67,5.67,0,0,1,0,36.424V5.669A5.669,5.669,0,0,1,5.669,0Z" transform="translate(188.685 451.443)" fill="#d9cce5"/>
+          <path id="Rectangle_706" data-name="Rectangle 706" d="M5.67,0H69.7a5.669,5.669,0,0,1,5.669,5.669V36.425A5.669,5.669,0,0,1,69.7,42.094H5.67A5.67,5.67,0,0,1,0,36.424V5.67A5.67,5.67,0,0,1,5.67,0Z" transform="translate(489.516 451.443)" fill="#e7dfd2"/>
+          <path id="Path_12038" data-name="Path 12038" d="M96.852,299.108a52.285,52.285,0,1,0-52.287-52.285,52.286,52.286,0,0,0,52.287,52.285" transform="translate(39.545 172.624)" fill="#d9cce5"/>
+          <path id="Path_12039" data-name="Path 12039" d="M44.611,221.764c-.006.3-.045.593-.045.9a52.286,52.286,0,0,0,104.573,0c0-.308-.04-.6-.045-.9Z" transform="translate(39.546 196.784)" fill="#fae8ca"/>
+          <path id="Path_12040" data-name="Path 12040" d="M256.245,299.108a52.285,52.285,0,1,0-52.287-52.285,52.286,52.286,0,0,0,52.287,52.285" transform="translate(180.983 172.624)" fill="#e7dfd2"/>
+          <path id="Path_12041" data-name="Path 12041" d="M204,221.764c-.006.3-.045.593-.045.9a52.286,52.286,0,0,0,104.573,0c0-.308-.04-.6-.045-.9Z" transform="translate(180.984 196.784)" fill="#fae8ca"/>
+        </g>
+      </g>
+    </g>
+    <text id="Uranus_Discovered_1781" data-name="Uranus
+Discovered
+1781" transform="translate(1163 4567)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Semibold, Chaparral Pro" font-weight="600"><tspan x="-24" y="0">Uranus</tspan><tspan x="-37" y="19">Discovered</tspan><tspan x="-17" y="38">1781</tspan></text>
+    <text id="Pluto_Discovered_1930" data-name="Pluto
+Discovered
+1930" transform="translate(1163 4910)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Semibold, Chaparral Pro" font-weight="600"><tspan x="-18" y="0">Pluto</tspan><tspan x="-37" y="19">Discovered</tspan><tspan x="-17" y="38">1930</tspan></text>
+    <text id="Chiron_Discovered_1977" data-name="Chiron
+Discovered
+1977" transform="translate(1465 4911)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Semibold, Chaparral Pro" font-weight="600"><tspan x="-23" y="0">Chiron</tspan><tspan x="-37" y="19">Discovered</tspan><tspan x="-17" y="38">1977</tspan></text>
+    <text id="Neptune_Discovered_1846" data-name="Neptune
+Discovered
+1846" transform="translate(1465 4567)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Semibold, Chaparral Pro" font-weight="600"><tspan x="-29" y="0">Neptune</tspan><tspan x="-37" y="19">Discovered</tspan><tspan x="-17" y="38">1846</tspan></text>
+    <text id="Authen-_ticity_" data-name="Authen-
+ticity " transform="translate(1073 4525)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-26" y="0">Authen-</tspan><tspan x="-18" y="16">ticity </tspan></text>
+    <text id="Depth_" data-name="Depth " transform="translate(1074 4877)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-22" y="0">Depth </tspan></text>
+    <text id="Primal_Wound" data-name="Primal
+Wound" transform="translate(1374 4871)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-21" y="0">Primal</tspan><tspan x="-23" y="16">Wound</tspan></text>
+    <text id="Wounded-_Healer" data-name="Wounded-
+Healer" transform="translate(1368 4925)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-33" y="0">Wounded-</tspan><tspan x="-21" y="16">Healer</tspan></text>
+    <text id="Catharsis" transform="translate(1373 4981)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-30" y="0">Catharsis</tspan></text>
+    <text id="Release_Toxicity" data-name="Release
+Toxicity" transform="translate(1556 4871)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-24" y="0">Release</tspan><tspan x="-25" y="16">Toxicity</tspan></text>
+    <text id="Therapy_Healing" data-name="Therapy/
+Healing" transform="translate(1567 4923)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-29" y="0">Therapy/</tspan><tspan x="-25" y="16">Healing</tspan></text>
+    <text id="Well-Being" transform="translate(1556 4984)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-35" y="0">Well-Being</tspan></text>
+    <text id="Metamor-_phosis" data-name="Metamor-
+phosis" transform="translate(1067 4923)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-32" y="0">Metamor-</tspan><tspan x="-21" y="16">phosis</tspan></text>
+    <text id="Phoenix_Rising" data-name="Phoenix
+Rising" transform="translate(1265 4923)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-26" y="0">Phoenix</tspan><tspan x="-20" y="16">Rising</tspan></text>
+    <text id="Death_Rebirth" data-name="Death &amp;
+Rebirth" transform="translate(1256 4976)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-27" y="0">Death &amp;</tspan><tspan x="-24" y="16">Rebirth</tspan></text>
+    <text id="The_Dark_Side" data-name="The Dark
+Side" transform="translate(1075 4976)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-29" y="0">The Dark</tspan><tspan x="-13" y="16">Side</tspan></text>
+    <text id="Intensity" transform="translate(1254 4877)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-29" y="0">Intensity</tspan></text>
+    <text id="Freedom_" data-name="Freedom " transform="translate(1257 4531)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-30" y="0">Freedom </tspan></text>
+    <text id="Dreams" transform="translate(1374 4531)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-25" y="0">Dreams</tspan></text>
+    <text id="Utopia" transform="translate(1557 4531)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-22" y="0">Utopia</tspan></text>
+    <text id="Camara-_derie" data-name="Camara-
+derie" transform="translate(1564 4576)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-27" y="0">Camara-</tspan><tspan x="-16" y="16">derie</tspan></text>
+    <text id="Tran-_scendence" data-name="Tran-
+scendence" transform="translate(1556 4629)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-17" y="0">Tran-</tspan><tspan x="-33" y="16">scendence</tspan></text>
+    <text id="Idealism" transform="translate(1366 4583)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-27" y="0">Idealism</tspan></text>
+    <text id="Oneness" transform="translate(1373 4635)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-28" y="0">Oneness</tspan></text>
+    <text id="Uranus_in_the_Torah:" data-name="Uranus in the Torah:" transform="translate(1165 4675)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-67" y="0">Uranus in the Torah:</tspan></text>
+    <text id="Pluto_in_the_Torah:" data-name="Pluto in the Torah:" transform="translate(1165 5021)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-61" y="0">Pluto in the Torah:</tspan></text>
+    <text id="Chiron_in_the_Torah:" data-name="Chiron in the Torah:" transform="translate(1464 5021)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-66" y="0">Chiron in the Torah:</tspan></text>
+    <text id="Bereishis_32:25_33" data-name="Bereishis 32:25–33" transform="translate(1165 5040)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Italic, Chaparral Pro" font-style="italic"><tspan x="-60" y="0">Bereishis</tspan><tspan y="0" xml:space="preserve" font-family="ChaparralPro-Regular, Chaparral Pro" font-style="normal"> 32:25–33</tspan></text>
+    <text id="Shemos_23:9" data-name="Shemos 23:9" transform="translate(1464 5040)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Italic, Chaparral Pro" font-style="italic"><tspan x="-39" y="0">Shemos 23:9</tspan></text>
+    <text id="Neptune_in_the_Torah:" data-name="Neptune in the Torah:" transform="translate(1465 4675)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-72" y="0">Neptune in the Torah:</tspan></text>
+    <text id="Vayikra_19:18" data-name="Vayikra 19:18" transform="translate(1465 4694)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Italic, Chaparral Pro" font-style="italic"><tspan x="-44" y="0">Vayikra</tspan><tspan y="0" xml:space="preserve" font-family="ChaparralPro-Regular, Chaparral Pro" font-style="normal"> 19:18</tspan></text>
+    <text id="Bereishis_12:1_2" data-name="Bereishis 12:1–2" transform="translate(1163 4694)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Italic, Chaparral Pro" font-style="italic"><tspan x="-52" y="0">Bereishis</tspan><tspan y="0" xml:space="preserve" font-family="ChaparralPro-Regular, Chaparral Pro" font-style="normal"> 12:1–2</tspan></text>
+    <text id="Rebellion_" data-name="Rebellion " transform="translate(1265 4584)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-32" y="0">Rebellion </tspan></text>
+    <text id="Individua-_tion" data-name="Individua-
+tion" transform="translate(1256 4630)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-33" y="0">Individua-</tspan><tspan x="-13" y="16">tion</tspan></text>
+    <text id="Indepen-_dence_" data-name="Indepen-
+dence " transform="translate(1066 4578)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-29" y="0">Indepen-</tspan><tspan x="-20" y="16">dence </tspan></text>
+    <text id="Non-con-_formity_" data-name="Non-con-
+formity " transform="translate(1073 4629)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-31" y="0">Non-con-</tspan><tspan x="-26" y="16">formity </tspan></text>
+    <text id="Hashem_said_to_Avram_Go_for_yourself_from_your_land_from_your_relatives_and_from_your_father_s_house_to_the_land_that_I_will_show_you._And_I_will_make_of_you_a_great_nation_I_will_bless_you_and_make_your_name_great_and_you_shall_be_a_blessing._" data-name="Hashem said to Avram, “Go for
+yourself from your land, from your
+relatives, and from your father’s house
+to the land that I will show you. And
+I will make of you a great nation; I will
+bless you, and make your name great,
+and you shall be a blessing.”" transform="translate(1168 4720)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-101" y="0">Hashem said to Avram, “Go for</tspan><tspan x="-113" y="20">yourself from your land, from your</tspan><tspan x="-125" y="40">relatives, and from your father’s house</tspan><tspan x="-118" y="60">to the land that I will show you. And</tspan><tspan x="-124" y="80">I will make of you a great nation; I will</tspan><tspan x="-122" y="100">bless you, and make your name great,</tspan><tspan x="-90" y="120">and you shall be a blessing.”</tspan></text>
+    <text id="Yaakov_was_left_alone_and_a_man_wrestled_with_him_until_the_break_of_dawn._When_he_perceived_that_he_could_not_overcome_him_he_struck_the_socket_of_his_hip_so_Yaakov_s_hip-socket_was_dislocated_as_he_wrestled_with_him._Then_he_said_Let_me_go_for_dawn_" data-name="Yaakov was left alone and a man
+wrestled with him until the break
+of dawn. When he perceived that he
+could not overcome him, he struck
+the socket of his hip; so Yaakov’s
+hip-socket was dislocated as he
+wrestled with him. Then he said, “Let
+me go, for dawn " transform="translate(1166 5071)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-105" y="0">Yaakov was left alone and a man</tspan><tspan x="-109" y="18">wrestled with him until the break</tspan><tspan x="-117" y="36">of dawn. When he perceived that he</tspan><tspan x="-112" y="54">could not overcome him, he struck</tspan><tspan x="-106" y="72">the socket of his hip; so Yaakov’s</tspan><tspan x="-101" y="90">hip-socket was dislocated as he</tspan><tspan x="-120" y="108">wrestled with him. Then he said, “Let</tspan><tspan x="-119" y="126">me go, for dawn has broken.” And he</tspan><tspan x="-118" y="144">said, “I will not let you go unless you</tspan><tspan x="-113" y="162">bless me.” He said to him, “What is</tspan><tspan x="-121" y="180">your name?” He replied, “Yaakov.” He</tspan><tspan x="-111" y="198">said, “No longer will it be said that</tspan><tspan x="-114" y="216">your name is Yaakov, but Israel, for</tspan><tspan x="-120" y="234">you have striven with the Divine and</tspan><tspan x="-99" y="252">with man and have overcome.”</tspan></text>
+    <text id="Do_not_oppress_a_stranger_you_know_the_feelings_of_a_stranger_for_you_were_strangers_in_the_land_of_Egypt._Yeshayah_49:6_7:_He_said:_It_was_insufficient_that_you_be_a_servant_for_Me_only_to_raise_up_the_tribes_of_Yaakov_and_to_restore_the_ruins_of_Isr" data-name="Do not oppress a stranger; you know
+the feelings of a stranger, for you
+were strangers in the land of Egypt.
+
+Yeshayah 49:6–7: He said: It was
+insufficient that you be a servant
+for Me [only] to raise up the tribes
+of Yaakov and to restore the ruins of
+Isr" transform="translate(1466 5080)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-119" y="0">Do not oppress a stranger; you know</tspan><tspan x="-107" y="17">the feelings of a stranger, for you</tspan><tspan x="-116" y="34">were strangers in the land of Egypt.</tspan><tspan x="0" y="51"></tspan><tspan font-family="ChaparralPro-Italic, Chaparral Pro" font-style="italic"><tspan x="-104" y="68">Yeshayah</tspan><tspan y="68" xml:space="preserve" font-family="ChaparralPro-Regular, Chaparral Pro" font-style="normal"> 49:6–7: He said: It was</tspan></tspan><tspan x="-107" y="85">insufficient that you be a servant</tspan><tspan x="-112" y="102">for Me [only] to raise up the tribes</tspan><tspan x="-118" y="119">of Yaakov and to restore the ruins of</tspan><tspan x="-117" y="136">Israel; I will make you a light for the</tspan><tspan x="-110" y="153">nations, so that My salvation may</tspan><tspan x="-120" y="170">extend to the ends of the earth. Thus</tspan><tspan x="-119" y="187">said Hashem, the Redeemer of Israel</tspan><tspan x="-115" y="204">and their Holy One, to the despised</tspan><tspan x="-114" y="221">soul, to the one loathed by nations,</tspan><tspan x="-81" y="238">to the servant of rulers...</tspan></text>
+    <text id="You_shall_love_your_fellow_as_yourself_I_am_Hashem." data-name="You shall love your fellow as yourself;
+I am Hashem." transform="translate(1465 4734)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Regular, Chaparral Pro"><tspan x="-121" y="0">You shall love your fellow as yourself;</tspan><tspan x="-45" y="20">I am Hashem.</tspan></text>
+    <text id="Shabbos_31a:_Rabbi_Akiva_says_that_this_principle_is_so_fundamental_that_it_encapsulates_the_entire_Torah." data-name="Shabbos 31a: Rabbi Akiva says that
+this principle is so fundamental that it
+encapsulates the entire Torah." transform="translate(1464 4792)" fill="#294e7d" font-size="16" font-family="ChaparralPro-Italic, Chaparral Pro" font-style="italic"><tspan x="-113" y="0">Shabbos</tspan><tspan y="0" xml:space="preserve" font-family="ChaparralPro-Regular, Chaparral Pro" font-style="normal"> 31a: Rabbi Akiva says that</tspan><tspan font-family="ChaparralPro-Regular, Chaparral Pro" font-style="normal"><tspan x="-125" y="20">this principle is so fundamental that it</tspan><tspan x="-98" y="40">encapsulates the entire Torah.</tspan></tspan></text>
+  </g>
+</svg>

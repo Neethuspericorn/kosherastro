@@ -33,15 +33,13 @@
 /*** laptop with MDPI (medium density per inch) resolution ***/
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
-.part-list {
-  padding-top: 200px;
-  background: url(../img/tab-guide-main-bg.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
-}
 .part-list .title {
   margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .part-list .title {
+    text-align: center;
+  }
 }
 .part-list .left-sec {
   padding-right: 73px;
@@ -51,12 +49,244 @@
     padding-right: 60px;
   }
 }
-.part-list .right-sec {
+@media (max-width: 767px) {
+  .part-list .left-sec {
+    padding-right: 20px;
+  }
+}
+.part-list .right-sec ul {
+  padding-inline-start: 10px;
+}
+@media (max-width: 767px) {
+  .part-list .right-sec ul {
+    margin-top: 30px;
+  }
+}
+.part-list .right-sec ul li {
   font: normal normal 300 21px/37px var(--font_txt);
   color: #DEDEDE;
+  list-style-type: none;
+  display: flex;
+}
+@media (max-width: 1679px) {
+  .part-list .right-sec ul li {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 1481px) {
+  .part-list .right-sec ul li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 1281px) {
+  .part-list .right-sec ul li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 1199px) {
+  .part-list .right-sec ul li {
+    font-size: 13px;
+    line-height: 21px;
+  }
+}
+@media (max-width: 767px) {
+  .part-list .right-sec ul li {
+    margin-bottom: 15px;
+  }
+}
+.part-list .right-sec ul li span.ico {
+  padding-right: 12px;
 }
 .part-list .desc-para {
   color: #DEDEDE;
+}
+
+.image-inner .prview-wrp {
+  align-items: center;
+  justify-content: space-between;
+}
+.image-inner .prview-wrp.scndwrap {
+  margin-top: 0px !important;
+}
+.image-inner .prview-wrp .preview-col .prev-title {
+  font-size: 25px !important;
+}
+@media (max-width: 1679px) {
+  .image-inner .prview-wrp .preview-col .prev-title {
+    margin-bottom: 20px;
+    font-size: 20px !important;
+    line-height: 32px;
+  }
+}
+@media (max-width: 1281px) {
+  .image-inner .prview-wrp .preview-col .prev-title {
+    margin-bottom: 20px;
+    font-size: 18px !important;
+    line-height: 28px;
+  }
+}
+@media (max-width: 1199px) {
+  .image-inner .prview-wrp .preview-col .prev-title {
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    line-height: 22px;
+  }
+}
+@media (max-width: 1199px) {
+  .image-inner .prview-wrp .preview-col .prev-title {
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    line-height: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .image-inner .prview-wrp .preview-col .prev-title {
+    font-size: 14px !important;
+    line-height: 20px;
+  }
+}
+.image-inner .prview-wrp .title {
+  padding-right: 111px;
+}
+@media (max-width: 767px) {
+  .image-inner .prview-wrp .title {
+    padding-right: 0;
+  }
+}
+.image-inner .prview-wrp.scnd-sec .title {
+  padding-right: 111px;
+}
+@media (max-width: 767px) {
+  .image-inner .prview-wrp.scnd-sec .title {
+    padding-right: 0;
+  }
+}
+.image-inner .prview-wrp.scnd-sec .desc-para {
+  padding-right: 60px;
+  padding-top: 30px;
+}
+@media (max-width: 767px) {
+  .image-inner .prview-wrp.scnd-sec .desc-para {
+    padding-right: 0px;
+  }
+}
+.image-inner .top-list {
+  margin-top: 39px;
+}
+.image-inner .top-list ul {
+  padding-inline-start: 10px;
+}
+.image-inner .top-list ul li {
+  display: flex;
+  list-style: none;
+  font: normal normal 300 21px/37px var(--font_txt);
+  color: #DEDEDE;
+}
+@media (max-width: 1679px) {
+  .image-inner .top-list ul li {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 1481px) {
+  .image-inner .top-list ul li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 1281px) {
+  .image-inner .top-list ul li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 1199px) {
+  .image-inner .top-list ul li {
+    font-size: 13px;
+    line-height: 21px;
+  }
+}
+.image-inner .top-list ul li span.ico {
+  padding-right: 16px;
+}
+.image-inner .bottom-list ul li {
+  font: normal normal 300 21px/37px var(--font_txt);
+  color: #DEDEDE;
+  margin-bottom: 33px;
+}
+@media (max-width: 1679px) {
+  .image-inner .bottom-list ul li {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 1481px) {
+  .image-inner .bottom-list ul li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 1281px) {
+  .image-inner .bottom-list ul li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 1199px) {
+  .image-inner .bottom-list ul li {
+    font-size: 13px;
+    line-height: 21px;
+  }
+}
+@media (max-width: 767px) {
+  .image-inner .bottom-list ul li {
+    margin-bottom: 20px;
+  }
+}
+
+.inner-sec.planets {
+  background-color: #0C0921;
+  padding: 100px 0 100px;
+}
+@media (max-width: 1679px) {
+  .inner-sec.planets {
+    padding: 90px 0;
+  }
+}
+@media (max-width: 1199px) {
+  .inner-sec.planets {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 767px) {
+  .inner-sec.planets {
+    padding: 60px 0 40px;
+  }
+}
+.inner-sec .scnd-sec {
+  margin-top: 0px !important;
+}
+
+.tabbed-wrap .scnd-tabs.tab-pane .inner-sec.illustration {
+  padding: 100px 0px;
+}
+@media (max-width: 1679px) {
+  .tabbed-wrap .scnd-tabs.tab-pane .inner-sec.illustration {
+    padding: 90px 0;
+  }
+}
+@media (max-width: 1199px) {
+  .tabbed-wrap .scnd-tabs.tab-pane .inner-sec.illustration {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 767px) {
+  .tabbed-wrap .scnd-tabs.tab-pane .inner-sec.illustration {
+    padding: 60px 0 40px;
+  }
 }
 
 /*# sourceMappingURL=guide-part2.css.map */

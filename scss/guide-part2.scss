@@ -1,25 +1,240 @@
 @import 'partials';
 .part-list{
-    padding-top: 200px;
-    background: url(../img/tab-guide-main-bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100%;
+    // padding-top: 200px;
+    // background: url(../img/tab-guide-main-bg.png);
+    // background-repeat: no-repeat;
+    // background-position: bottom;
+    // background-size: 100%;
 
     .title{
         margin-bottom: 20px;
+        @media($sm-767){
+            text-align: center;
+        }
     }
     .left-sec{
         padding-right:73px;
         @media($sm-1679){
             padding-right: 60px;
         }
+
+        @media($sm-767){
+            padding-right: 20px;
+        }
     }
     .right-sec{
-        font: normal normal 300 21px / 37px var(--font_txt);
-        color: #DEDEDE;
+            
+        ul{
+            padding-inline-start: 10px;
+            @media($sm-767){
+                margin-top: 30px;
+            }
+            li{
+                font: normal normal 300 21px / 37px var(--font_txt);
+                color: #DEDEDE;
+                @media ($sm-1679){
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+                @media ($sm-1481){
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                @media ($sm-1281){
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+                @media ($sm-1199){
+                    font-size: 13px;
+                    line-height: 21px;
+                }
+                @media ($sm-767){
+                    margin-bottom: 15px;
+                    // text-align: center;
+                }
+                list-style-type: none;
+                display: flex;
+              span{
+                &.ico{
+                    padding-right: 12px;
+                }
+              }
+            }
+        }
     }
     .desc-para{
       color:#DEDEDE;
     }
+  
 }
+.image-inner{
+    // display: flex;
+    .prview-wrp{
+        // margin-top: 0 !important;
+        align-items: center;
+        justify-content: space-between;
+        &.scndwrap{
+            margin-top: 0px !important;
+        }
+        .preview-col .prev-title{
+            font-size: 25px !important;
+            @media ($sm-1679){
+                margin-bottom: 20px;
+                font-size: 20px !important;;
+                line-height: 32px;
+            }
+            @media ($sm-1281){
+                margin-bottom: 20px;
+                font-size: 18px !important;;
+                line-height: 28px;
+            }
+            @media ($sm-1199){
+                margin-bottom: 20px;
+                font-size: 16px !important;;
+                line-height: 22px;
+            }
+            @media ($sm-1199){
+                margin-bottom: 20px;
+                font-size: 16px !important;;
+                line-height: 22px;
+            }
+            @media ($sm-767){
+                font-size: 14px !important;;
+                line-height: 20px;
+            }
+        }
+        .title{
+            padding-right: 111px;
+            @media($sm-767){
+                padding-right: 0;
+            }
+        }
+        &.scnd-sec{
+            .title{
+                padding-right: 111px;
+                @media($sm-767){
+                    padding-right: 0;
+                }
+            }
+            .desc-para{
+                padding-right: 60px;
+                padding-top: 30px;
+                @media($sm-767){
+                    padding-right: 0px;
+                }
+            }
+        }
+
+    }
+
+    .top-list{
+        margin-top: 39px;
+        ul{
+            padding-inline-start: 10px;
+            li{
+                display: flex;
+                list-style: none;
+                font: normal normal 300 21px / 37px var(--font_txt);
+                color: #DEDEDE;
+                @media ($sm-1679){
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+                @media ($sm-1481){
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                @media ($sm-1281){
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+                @media ($sm-1199){
+                    font-size: 13px;
+                    line-height: 21px;
+                }
+                @media ($sm-767){
+                    // text-align: center;
+                }
+                span{
+                    &.ico{
+                        padding-right: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-list{
+        ul{
+
+            li{
+                font: normal normal 300 21px / 37px var(--font_txt);
+                color: #DEDEDE;
+                @media ($sm-1679){
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+                @media ($sm-1481){
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                @media ($sm-1281){
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+                @media ($sm-1199){
+                    font-size: 13px;
+                    line-height: 21px;
+                }
+                @media ($sm-767){
+                    margin-bottom: 20px;
+                }
+                margin-bottom: 33px;
+            }
+        }
+    }
+}
+
+.inner-sec{
+    &.planets{
+        background-color: #0C0921;
+        padding: 100px 0 100px;
+      
+        @media ($sm-1679){
+            padding: 90px 0;
+        }
+        @media ($sm-1199){
+            padding: 70px 0;
+        }
+        @media ($sm-767){
+            padding: 60px 0 40px;
+        }
+    }
+    .scnd-sec{
+        margin-top: 0px !important;
+    }
+    }
+
+
+  .tabbed-wrap{
+    .scnd-tabs{
+        &.tab-pane{
+            .inner-sec.illustration{
+                padding: 100px 0px;
+                
+        @media ($sm-1679){
+            padding: 90px 0;
+        }
+        @media ($sm-1199){
+            padding: 70px 0;
+        }
+        @media ($sm-767){
+            padding: 60px 0 40px;
+        }
+                
+            }
+        }
+
+    } 
+  }
+
+
