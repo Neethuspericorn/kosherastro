@@ -222,6 +222,9 @@
             .content-wrp {
                 max-width: 775px;
                 margin: 0 auto;
+                @media ($sm-1281){
+                    max-width: 480px;
+                }
 
                 .title {
                     margin-bottom: 44px;

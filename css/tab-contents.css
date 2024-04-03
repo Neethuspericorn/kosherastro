@@ -269,6 +269,11 @@
   max-width: 775px;
   margin: 0 auto;
 }
+@media (max-width: 1281px) {
+  .tabbed-wrap .tab-pane .inner-sec .content-wrp {
+    max-width: 480px;
+  }
+}
 .tabbed-wrap .tab-pane .inner-sec .content-wrp .title {
   margin-bottom: 44px;
 }
