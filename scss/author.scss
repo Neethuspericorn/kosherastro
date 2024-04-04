@@ -87,7 +87,7 @@
 
                 @media ($sm-767){
                     max-width: 80%;
-                    margin: 0 auto 30px;
+                    margin: 0 auto 15px;
                 }
             }
             .inner-img-wrp{
@@ -132,9 +132,15 @@
                     margin-top: 0px;
                 }
             }
+            @media ($sm-767){
+                padding: 40px 0;
+            }
         }
         &.roadmaps{
             background: rgba(12, 9, 33, 0.5);
+            @media ($sm-767){
+                padding: 40px 0 40px;
+            }
             .inner-wrap{
                 @media ($sm-767){
                     flex-direction: column-reverse;
@@ -194,6 +200,9 @@
         }
         &.chart-reading{
             background: rgba(8, 6, 25, 0.8);
+            @media ($sm-767){
+                padding: 40px 0;
+            }
             .inner-content{
                 padding-left: 42px;
                 @media ($sm-767){

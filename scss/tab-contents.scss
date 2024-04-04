@@ -12,7 +12,7 @@
         color: var(--white);
         border-color: rgba(127, 125, 139, 0.7);
         font-size: 13px;
-        padding-top: 15px;
+        padding-top: 15px; 
         padding-bottom: 15px;
         box-shadow: none !important;
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%237f7d8bb3' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
@@ -426,7 +426,7 @@
                 width: 100%;
                 @media ($sm-1679){
                     margin-top: 40px;
-                    max-width: 900px;
+                    max-width: 1100px;
                     margin-left: auto;
                     margin-right: auto;
                 }
@@ -454,7 +454,7 @@
                         margin: 0 0 30px;
                     }
                     @media ($sm-579){
-                        width: 80%;
+                        width: 90%;
                         margin: 0 0 30px;
                     }
 
