@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     background: #050412 url(../img/chart-reading-bg.jpg) no-repeat center/cover;
-
+    overflow-x: clip;
     position: relative;
     .bg-animation{
         position: absolute;
@@ -63,6 +63,9 @@
 }
 
 .birth-chart-tabs{
+    .tab-nav-wrp{
+        position: relative;
+    }
     .birth-tab-sec{
         padding-top: 200px;
         padding-bottom: 200px;
@@ -117,5 +120,7 @@
         }
     }
     
-     
+    @media ($sm-991){
+        padding-top: 10px;
+    }
 }
