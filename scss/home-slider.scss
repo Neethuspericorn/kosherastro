@@ -151,7 +151,9 @@
         width: 100%;
         transform: translateX(-50%);
         left: 50%;
-        
+        @media ($sm-767 ){
+            display: none;
+        }
         .slidebtn{
             border: none !important;
             width: unset !important;
@@ -189,6 +191,12 @@
         @media ($sm-1481){
             left: 0%;
             padding-left: 0 !important;
+        }
+        @media ($sm-767){
+            right: 0;
+            transform: none;
+            padding-right: 0;
+            justify-content: center;
         }
         li{
             width: 14px;
