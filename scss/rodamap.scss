@@ -114,6 +114,9 @@
         }
         &.table-content{
             padding: 100px 0 130px;
+            @media ($sm-1679){
+                padding: 60px 0;
+            }
             .sec-title{
                 margin-bottom: 35px !important;
             }
@@ -740,11 +743,11 @@
         max-width: 1000px;
         margin: 0 auto;
     }
-    @media ($sm-1679){
+    @media ($sm-1481){
         max-width: 900px;
         margin: 0 auto;
     }
-    @media ($sm-1679){
+    @media ($sm-1199){
         max-width: 800px;
         margin: 0 auto;
     }

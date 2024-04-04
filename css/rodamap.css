@@ -129,6 +129,11 @@
 .roadmap-tab-sec .content-block-2col.table-content {
   padding: 100px 0 130px;
 }
+@media (max-width: 1679px) {
+  .roadmap-tab-sec .content-block-2col.table-content {
+    padding: 60px 0;
+  }
+}
 .roadmap-tab-sec .content-block-2col.table-content .sec-title {
   margin-bottom: 35px !important;
 }
@@ -777,13 +782,13 @@
     margin: 0 auto;
   }
 }
-@media (max-width: 1679px) {
+@media (max-width: 1481px) {
   .pagination-btn-block {
     max-width: 900px;
     margin: 0 auto;
   }
 }
-@media (max-width: 1679px) {
+@media (max-width: 1199px) {
   .pagination-btn-block {
     max-width: 800px;
     margin: 0 auto;
