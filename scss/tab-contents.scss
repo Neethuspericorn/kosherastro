@@ -170,17 +170,29 @@
                 background-color: #080619;
                 // padding: 150px 0 230px;
                 padding: 100px 230px 100px 230px;
+                // @media ($sm-1679){
+                //     padding: 120px 0;
+                // }
+                // @media ($sm-1481){
+                //     padding: 168px 0;
+                // }
+                // @media ($sm-1199){
+                //     padding: 148px 0;
+                // }
+                // @media ($sm-767){
+                //     padding: 138px 0 40px;
+                // }
                 @media ($sm-1679){
                     padding: 120px 0;
                 }
                 @media ($sm-1481){
-                    padding: 168px 0;
+                    padding: 90px 0;
                 }
                 @media ($sm-1199){
-                    padding: 148px 0;
+                    padding: 70px 0;
                 }
                 @media ($sm-767){
-                    padding: 138px 0 40px;
+                    padding: 50px 0 0;
                 }
                 &.postmark{
                     padding-bottom: 124px;
