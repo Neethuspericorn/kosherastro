@@ -39,11 +39,9 @@
                 max-width: 480px;
             }
             @media ($sm-1481){
-                max-width: 30vw;
+                max-width: 28vw;
             }
-            @media ($sm-1281){
-                max-width: 30vw;
-            }
+             
             @media ($sm-991){
                 max-width: 260px;
             }
@@ -153,7 +151,9 @@
         width: 100%;
         transform: translateX(-50%);
         left: 50%;
-        
+        @media ($sm-767 ){
+            display: none;
+        }
         .slidebtn{
             border: none !important;
             width: unset !important;
@@ -187,9 +187,16 @@
         margin-right: auto;
         transform: translateX(-50%);
         left: 50%;
+        z-index: 999;
         @media ($sm-1481){
             left: 0%;
             padding-left: 0 !important;
+        }
+        @media ($sm-767){
+            right: 0;
+            transform: none;
+            padding-right: 0;
+            justify-content: center;
         }
         li{
             width: 14px;
