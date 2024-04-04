@@ -139,7 +139,7 @@
 @media (max-width: 767px) {
   .common.guide .guide-aligner {
     max-width: 80%;
-    margin: 0 auto 30px;
+    margin: 0 auto 15px;
   }
 }
 .common.guide .inner-img-wrp {
@@ -177,8 +177,18 @@
     margin-top: 0px;
   }
 }
+@media (max-width: 767px) {
+  .common.guide {
+    padding: 40px 0;
+  }
+}
 .common.roadmaps {
   background: rgba(12, 9, 33, 0.5);
+}
+@media (max-width: 767px) {
+  .common.roadmaps {
+    padding: 40px 0 40px;
+  }
 }
 @media (max-width: 767px) {
   .common.roadmaps .inner-wrap {
@@ -248,6 +258,11 @@
 }
 .common.chart-reading {
   background: rgba(8, 6, 25, 0.8);
+}
+@media (max-width: 767px) {
+  .common.chart-reading {
+    padding: 40px 0;
+  }
 }
 .common.chart-reading .inner-content {
   padding-left: 42px;
