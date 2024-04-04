@@ -225,7 +225,7 @@
 }
 @media (max-width: 767px) {
   .tabbed-wrap .tab-pane .inner-sec.illustration {
-    padding: 50px 0 0;
+    padding: 50px 0 20px;
   }
 }
 .tabbed-wrap .tab-pane .inner-sec.illustration.postmark {
