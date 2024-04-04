@@ -350,6 +350,9 @@
     }
 }
 @media($sm-767){
+    .inner-banner.roadmap-banner .bnr-cont-wrp {
+        margin-top: 30px;
+    }
     .inner-banner.roadmap-banner{
         .bnr-img-wrp img{
             max-width: 250px;
@@ -362,6 +365,7 @@
     }
     .inner-banner.roadmap-banner .bnr-content {
         padding-top: 15px;
+        margin-top: -20px;
     }
     .inner-banner.roadmap-banner .bnr-btn-block {
         padding-top: 25px;
