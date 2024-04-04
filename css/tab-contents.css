@@ -275,11 +275,6 @@
     margin-top: 20px;
   }
 }
-@media (max-width: 1281px) {
-  .tabbed-wrap .tab-pane .inner-sec.illustration.postmark .page-flip-wrp {
-    margin-top: 10px;
-  }
-}
 @media (max-width: 991px) {
   .tabbed-wrap .tab-pane .inner-sec.illustration.postmark .page-flip-wrp {
     margin-top: 0px;
