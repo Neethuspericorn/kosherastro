@@ -11,14 +11,14 @@
             padding-top: 50px;
         }
         @media($sm-1481){
-            padding-top: 40px;
+            padding: 40px 0px;
+            
         }
         @media($sm-1281){
-            padding-top: 30px;
+            padding: 30px 0px;
+            
         }
-        @media($sm-991){
-            padding-top: 20px;
-        }
+           
 
           position: relative;
           &::after{
@@ -94,6 +94,16 @@
                     margin-top: 50px;
                     margin-left: auto;
                     margin-right: auto;
+                    
+                }
+                @media($sm-1679){
+                    max-height: 500px;
+                }
+                @media($sm-1481){
+                    max-height: 400px;  
+                }
+                @media($sm-1281){
+                    max-height: 300px;  
                 }
                 img{
                     width: 100%;
@@ -103,36 +113,30 @@
                         max-height: 500px;
                     }
                     @media($sm-1481){
-                        max-height: 400px;
-                        
+                        max-height: 400px;  
                     }
                     @media($sm-1281){
-                        max-height: 300px;
-                        
+                        max-height: 300px;  
                     }
-                    @media($sm-991){
-                        
-                    }
+                     
                 }
             
                 &::after{
                     background: url(../img/jewish-guide-bg.png);
                     background-size: contain;
-                    top: -211px;
+                    top: -30%;
                     background-repeat: no-repeat;
-                    left: -256px;
-                     @media($sm-1679){
-                        top: -184px;
-                 
-                        left: -295px;
-                     }
-                     @media($sm-1441){
-                        top: -155px;
-                        left: -251px;
+                    left: -32%;
+                    @media($sm-1679){
+                        top: -34%;
+                        left: -37%;
                     }
-                     
-                
-                    // right: -100%;
+                    @media($sm-1481){
+                        left: -29%;
+                    }
+                    @media($sm-1281){
+                        left: -16%;
+                    }
                 }
             }
             .social-links{
@@ -189,11 +193,36 @@
 .about-details{
     background-color:var(--bg_ternary);
     padding: 100px 0px;
+    @media($sm-1679){
+        padding: 60px 0px;
+    }
+    @media($sm-1481){
+        padding: 40px 0px;
+        
+    }
+    @media($sm-1281){
+        padding: 30px 0px;
+        
+    }
+     
     .about-inner{
         .image-sec{
             margin: 0 auto;
             max-width: 1260px;
             padding-bottom: 50px;
+            @media($sm-1679){
+                max-width: 1000px;
+                padding-bottom: 30px;
+            }
+            @media($sm-1481){
+                max-width: 800px;
+                padding-bottom: 20px;
+            }
+ 
+            @media($sm-1281){
+                padding: 30px 0px;
+                padding-bottom: 15px;  
+            }
             img{
                 max-width: 100%;
             }
