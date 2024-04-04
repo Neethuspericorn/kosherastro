@@ -420,6 +420,9 @@
                 width: 100%;
                 @media ($sm-1679){
                     margin-top: 40px;
+                    max-width: 900px;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
                 @media ($sm-767){
                     flex-direction: column;

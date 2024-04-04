@@ -494,6 +494,9 @@
 @media (max-width: 1679px) {
   .tabbed-wrap .tab-pane .inner-sec .prview-wrp {
     margin-top: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 767px) {
