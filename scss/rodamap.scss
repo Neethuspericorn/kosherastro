@@ -148,6 +148,9 @@
                         @media ($sm-1199){
                             padding: 20px;
                         }
+                        img{
+                            max-height:unset;
+                        }
                     }
                 }
             }

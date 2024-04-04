@@ -180,6 +180,9 @@
     padding: 20px;
   }
 }
+.roadmap-tab-sec .content-block-2col.table-content .txt-block .img-block .outer-img-wrp img {
+  max-height: unset;
+}
 .roadmap-tab-sec .block-col-right {
   padding-left: 10%;
 }
