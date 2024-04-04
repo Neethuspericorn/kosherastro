@@ -48,9 +48,13 @@ $("#tab-item-select").change(function(){
     $('#'+selectedIx).trigger('click');
 });
 
-$('.roadmap-index-slider').slick({
-  dots: false,
-  autoplay: true,
-  prevArrow: $('.rd-btn-left'),
-  nextArrow: $('.rd-btn-right')
+$('#third-tab, #third-tab-opt').click(function(){
+  $('.roadmap-index-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    autoplay: true,
+    prevArrow: $('.rd-btn-left'),
+    nextArrow: $('.rd-btn-right')
+  });
 })
