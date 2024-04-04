@@ -125,6 +125,11 @@
   justify-content: flex-end;
   padding-bottom: 65px;
 }
+@media (max-width: 1199px) {
+  .inner-banner .bnr-content {
+    padding-bottom: 45px;
+  }
+}
 @media (max-width: 991px) {
   .inner-banner .bnr-content {
     padding-bottom: 20px;
@@ -156,11 +161,17 @@
 @media (max-width: 1679px) {
   .inner-banner .bnr-img-wrp img {
     max-width: 84%;
+    bottom: -70px;
   }
 }
 @media (max-width: 1481px) {
   .inner-banner .bnr-img-wrp img {
-    max-width: 78%;
+    max-width: 75%;
+  }
+}
+@media (max-width: 1441px) {
+  .inner-banner .bnr-img-wrp img {
+    bottom: -50px;
   }
 }
 @media (max-width: 1199px) {

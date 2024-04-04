@@ -65,6 +65,9 @@
         flex-direction: column;
         justify-content: flex-end;
         padding-bottom: 65px;
+        @media ($sm-1199){
+            padding-bottom: 45px;
+        }
         @media ($sm-991){
             padding-bottom: 20px;
         }
@@ -90,9 +93,14 @@
             max-width: 100%;
             @media ($sm-1679){
                 max-width: 84%;
+                bottom: -70px;
             }
             @media ($sm-1481){
-                max-width: 78%;
+                // max-width: 78%;
+                max-width: 75%;
+            }
+            @media ($sm-1441){
+                bottom: -50px;
             }
             @media ($sm-1199){
                 bottom: -50px;
