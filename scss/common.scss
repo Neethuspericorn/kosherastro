@@ -74,6 +74,9 @@ body{
     @media ($sm-1281){
         font-size: 14px;
     }
+    &.pull-quote{
+        font-style: italic;
+    }
 }
 
 .social{
@@ -166,5 +169,55 @@ body{
             font-size: 14px;
             line-height: 22px;
         }
+    }
+}
+
+.readmore-tip{
+    position: relative; 
+    cursor: pointer;
+    color: var(--white);
+    .tooltiptext{
+        visibility: hidden;
+        width: 100vw;
+        background-color: var(--tooltipBg);
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        bottom: -40px;
+        padding: 10px;
+        font-size: 16px;
+        line-height: 1.2;
+        max-width: 800px;
+        box-shadow: 0px 0px 10px #0000007c;
+        font-weight: 300;
+        @media ($sm-1679){
+            font-size: 14px;
+        }
+        @media ($sm-1281){
+            font-size: 12px;
+        }
+        &:after{
+            content: " ";
+            position: absolute;
+            bottom: 50px;
+            right: 100%; /* To the left of the tooltip */
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent var(--tooltipBg) transparent transparent;
+        }
+         
+    }
+    &:hover{
+        .tooltiptext{
+            visibility: visible;
+            z-index: 9999;
+        }
+        
     }
 }
