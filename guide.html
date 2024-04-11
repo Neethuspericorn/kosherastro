@@ -118,7 +118,7 @@
         </div>
     </section>
 
-    <div class="tabbed-wrap guide-tab">
+    <div class="tabbed-wrap guide-tab" id="guide-tab">
         <div class="tab-nav-wrp">
             <div class="container container-custom">
                 <ul class="nav nav-tabs nav-justified d-none d-lg-flex" id="kosherTabs" role="tablist">
@@ -671,5 +671,54 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="js/main.js"></script>
+    <script>
+        var URLhash = window.location.hash;
+        let topval = 0;
+        switch (URLhash){
+        case "#part1": 
+            $("#first-tab").trigger("click");
+            scrollT();
+            break;
+
+        case "#part2": 
+            $("#second-tab").trigger("click");
+            scrollT();
+            break;
+
+        case "#part3": 
+            $("#third-tab").trigger("click");
+            scrollT();
+            break;
+
+        case "#table-of-contents": 
+            $("#fourth-tab").trigger("click");
+            scrollT();
+            break;
+
+        case "#haskama": 
+            $("#fifth-tab").trigger("click");
+            scrollT();
+            break;
+        }
+
+        function scrollT(){
+        $( window ).on( "load resize", function() {
+            if(window.matchMedia('(max-width: 991px)').matches){
+            topval= 80;
+            }else{
+            topval=0;
+            }
+        });
+        if(window.matchMedia('(max-width: 991px)').matches){
+            topval= 80;
+        }else{
+            topval=0;
+        }
+
+        $('html, body').animate({
+            scrollTop: $("#guide-tab").offset().top - topval
+        }, 800);
+        }
+    </script>
 </body>
 </html>
