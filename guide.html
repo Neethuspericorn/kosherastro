@@ -94,8 +94,14 @@
         <div class="container container-custom">
             <div class="row bnr-cont-wrp">
                 <div class="col-md-6 order-md-2">
-                    <div class="bnr-img-wrp">
-                        <img class="" src="img/guide-book-bnr-img.png" alt="book img">
+                    <div class="buide-banner bnr-img-wrp">
+                        <button class="btn btn-view-full" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <span class="txt">View in full size</span>
+                            <span class="ico">
+                                <img src="img/full-screen.svg" alt="view fullscreen">
+                            </span>
+                        </button>
+                        <img class="book-img" src="img/guide-book-bnr-img.png" alt="book img">
                     </div>
                 </div>
                 <div class="col-md-6 order-md-1">
@@ -663,6 +669,31 @@
             <img src="img/footer-img.png" alt="footer">
         </div>
     </footer>
+
+<!-- book cover Modal -->
+<div class="book-cover-modal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title fs-5" id="exampleModalLabel"></h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/book-cover-1.png" alt="front cover" class="cover-img">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/book-cover-2.png" alt="back cover" class="cover-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
