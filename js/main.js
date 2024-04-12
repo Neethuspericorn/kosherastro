@@ -62,3 +62,53 @@ $('#third-tab, #third-tab-opt').click(function(){
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
+var URLhash = window.location.hash;
+        let topval = 0;
+        switch (URLhash){
+        case "#part1": 
+            $("#first-tab").trigger("click");
+            scrollT();
+            break;
+
+        case "#part2": 
+            $("#second-tab").trigger("click");
+            scrollT();
+            break;
+
+        case "#part3": 
+            $("#third-tab").trigger("click");
+            scrollT();
+            break;
+
+        case "#table-of-contents": 
+            $("#fourth-tab").trigger("click");
+            scrollT();
+            break;
+
+        case "#haskama": 
+            $("#fifth-tab").trigger("click");
+            scrollT();
+            break;
+        }
+
+        function scrollT(){
+        $( window ).on( "load resize", function() {
+            if(window.matchMedia('(max-width: 991px)').matches){
+            topval= 80;
+            }else{
+            topval=0;
+            }
+        });
+        if(window.matchMedia('(max-width: 991px)').matches){
+            topval= 80;
+        }else{
+            topval=0;
+        }
+
+        $('html, body').animate({
+            scrollTop: $("#guide-tab").offset().top - topval
+        }, 300);
+        }
+
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
