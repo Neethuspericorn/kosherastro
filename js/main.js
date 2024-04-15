@@ -129,7 +129,7 @@ var URLhash = window.location.hash;
 
           case "#note": 
             scrollT();
-            break;
+            break; 
         }
 
         function scrollT(){
