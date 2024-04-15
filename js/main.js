@@ -64,29 +64,70 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 var URLhash = window.location.hash;
         let topval = 0;
+
+        console.log(URLhash)
         switch (URLhash){
-        case "#part1": 
-            $("#first-tab").trigger("click");
+          case "#part1": 
+              $("#first-tab").trigger("click");
+              $("#tab-item-select").val('first-tab');
+              scrollT();
+              break;
+
+          case "#part2": 
+              $("#second-tab").trigger("click");
+              $("#tab-item-select").val('second-tab');
+              scrollT();
+              break;
+
+          case "#part3": 
+              $("#third-tab").trigger("click");
+              $("#tab-item-select").val('third-tab');
+              scrollT();
+              break;
+
+          case "#table-of-contents": 
+              $("#fourth-tab").trigger("click");
+              $("#tab-item-select").val('fourth-tab');
+              scrollT();
+              break;
+
+          case "#haskama": 
+              $("#fifth-tab").trigger("click");
+              $("#tab-item-select").val('fifth-tab');
+              scrollT();
+              break;
+
+          case "#birth-chart": 
+              $("#birth-first-tab").trigger("click");
+              $("#tab-item-select").val('birth-first-tab');
+              scrollT();
+              break;
+
+          case "#learn-about": 
+              $("#birth-second-tab").trigger("click");
+              $("#tab-item-select").val('birth-second-tab');
+              scrollT();
+              break;
+
+          case "#session-include": 
+              $("#birth-third-tab").trigger("click");
+              $("#tab-item-select").val('birth-third-tab');
+              scrollT();
+              break;
+
+          case "#information": 
+              $("#birth-fourth-tab").trigger("click");
+              $("#tab-item-select").val('birth-fourth-tab');
+              scrollT();
+              break;
+
+          case "#note": 
+              $("#birth-fifth-tab").trigger("click");
+              $("#tab-item-select").val('birth-fifth-tab');
             scrollT();
             break;
 
-        case "#part2": 
-            $("#second-tab").trigger("click");
-            scrollT();
-            break;
-
-        case "#part3": 
-            $("#third-tab").trigger("click");
-            scrollT();
-            break;
-
-        case "#table-of-contents": 
-            $("#fourth-tab").trigger("click");
-            scrollT();
-            break;
-
-        case "#haskama": 
-            $("#fifth-tab").trigger("click");
+          case "#note": 
             scrollT();
             break;
         }

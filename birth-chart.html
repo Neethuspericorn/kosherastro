@@ -76,7 +76,11 @@
 
                         <!-- // submenu  -->
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Chart Reading Item</a></li>
+                            <li><a class="dropdown-item" href="birth-chart.html#birth-chart">Your Birth Chart</a></li>
+                            <li><a class="dropdown-item" href="birth-chart.html#learn-about">You Will Learn About</a></li>
+                            <li><a class="dropdown-item" href="birth-chart.html#session-include">Your Session Includes</a></li>
+                            <li><a class="dropdown-item" href="birth-chart.html#information">Information I Need</a></li>
+                            <li><a class="dropdown-item" href="birth-chart.html#note">Please Note</a></li>
                         </ul>
                   </li>
 
@@ -108,34 +112,34 @@
             </div>
         </section>
 
-        <div class="tabbed-wrap  birth-chart-tabs">
+        <div class="tabbed-wrap  birth-chart-tabs" id="guide-tab">
             <div class="tab-nav-wrp">
                 <div class="container container-custom">
                     <ul class="nav nav-tabs nav-justified d-none d-lg-flex" id="kosherTabs" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="first-tab" data-bs-toggle="tab" data-bs-target="#first-tab-pane" type="button" role="tab" aria-controls="first-tab-pane" aria-selected="true">Your Birth Chart</button>
+                            <button class="nav-link active" id="birth-first-tab" data-bs-toggle="tab" data-bs-target="#birth-first-tab-pane" type="button" role="tab" aria-controls="birth-first-tab-pane" aria-selected="true">Your Birth Chart</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="second-tab" data-bs-toggle="tab" data-bs-target="#second-tab-pane" type="button" role="tab" aria-controls="second-tab-pane" aria-selected="false">You Will Learn About</button>
+                            <button class="nav-link" id="birth-second-tab" data-bs-toggle="tab" data-bs-target="#birth-second-tab-pane" type="button" role="tab" aria-controls="birth-second-tab-pane" aria-selected="false">You Will Learn About</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="third-tab" data-bs-toggle="tab" data-bs-target="#third-tab-pane" type="button" role="tab" aria-controls="third-tab-pane" aria-selected="false">Your Session Includes</button>
+                            <button class="nav-link" id="birth-third-tab" data-bs-toggle="tab" data-bs-target="#birth-third-tab-pane" type="button" role="tab" aria-controls="birth-third-tab-pane" aria-selected="false">Your Session Includes</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="fourth-tab" data-bs-toggle="tab" data-bs-target="#fourth-tab-pane" type="button" role="tab" aria-controls="fourth-tab-pane" aria-selected="false">Information I Need</button>
+                            <button class="nav-link" id="birth-fourth-tab" data-bs-toggle="tab" data-bs-target="#birth-fourth-tab-pane" type="button" role="tab" aria-controls="birth-fourth-tab-pane" aria-selected="false">Information I Need</button>
                         </li>
     
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="fifth-tab" data-bs-toggle="tab" data-bs-target="#fifth-tab-pane" type="button" role="tab" aria-controls="fifth-tab-pane" aria-selected="false">Please Note</button>
+                            <button class="nav-link" id="birth-fifth-tab" data-bs-toggle="tab" data-bs-target="#birth-fifth-tab-pane" type="button" role="tab" aria-controls="birth-fifth-tab-pane" aria-selected="false">Please Note</button>
                         </li>
                     </ul>
 
                     <select name="tab-nav-item" id="tab-item-select" class="form-select tab-select d-lg-none">
-                        <option value="first-tab">Your Birth Chart</option>
-                        <option value="second-tab">You Will Learn About</option>
-                        <option value="third-tab">Your Session Includes</option>
-                        <option value="fourth-tab">Information I Need</option>
-                        <option value="fifth-tab">Please Note</option>
+                        <option value="birth-first-tab">Your Birth Chart</option>
+                        <option value="birth-second-tab">You Will Learn About</option>
+                        <option value="birth-third-tab">Your Session Includes</option>
+                        <option value="birth-fourth-tab">Information I Need</option>
+                        <option value="birth-fifth-tab">Please Note</option>
                     </select>
 
                 </div>
@@ -144,7 +148,7 @@
             <div class="tab-cont-wrp">
                 <div class="container container-custom">
                     <div class="tab-content" id="kosherTabsContent">
-                        <div class="tab-pane fade show active" id="first-tab-pane" role="tabpanel" aria-labelledby="first-tab" tabindex="0">
+                        <div class="tab-pane fade show active" id="birth-first-tab-pane" role="tabpanel" aria-labelledby="first-tab" tabindex="0">
                             <div class="birth-tab-sec">
                                 <div class="row">
                                     <div class="col-md-6 txt-col">
@@ -178,7 +182,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="second-tab-pane" role="tabpanel" aria-labelledby="second-tab" tabindex="0">
+                        <div class="tab-pane fade" id="birth-second-tab-pane" role="tabpanel" aria-labelledby="second-tab" tabindex="0">
                             <div class="birth-tab-sec">
                                 <div class="row align-items-center">
                                     <div class="col-md-6 txt-col order-md-2">
@@ -200,7 +204,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="third-tab-pane" role="tabpanel" aria-labelledby="third-tab" tabindex="0">
+                        <div class="tab-pane fade" id="birth-third-tab-pane" role="tabpanel" aria-labelledby="third-tab" tabindex="0">
                             <div class="birth-tab-sec">
                                 <div class="row">
                                     <div class="col-md-6 txt-col">
@@ -234,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="fourth-tab-pane" role="tabpanel" aria-labelledby="fourth-tab" tabindex="0">
+                        <div class="tab-pane fade" id="birth-fourth-tab-pane" role="tabpanel" aria-labelledby="fourth-tab" tabindex="0">
                             <div class="birth-tab-sec">
                                 <div class="row">
                                     <div class="col-md-6 txt-col">
@@ -273,7 +277,7 @@
                             </div>
                         </div>
         
-                        <div class="tab-pane fade" id="fifth-tab-pane" role="tabpanel" aria-labelledby="fifth-tab" tabindex="0">
+                        <div class="tab-pane fade" id="birth-fifth-tab-pane" role="tabpanel" aria-labelledby="fifth-tab" tabindex="0">
                             <div class="birth-tab-sec">
                                 <div class="row">
                                     <div class="col txt-col">
@@ -398,7 +402,13 @@
                 <div class="row align-items-center">
                     <div class="col-md-8">
                         <p class="copyrights mb-0">
-                            2024 Kosher Astro. All Rights Reserved | <span class="links"><a href="#" class="policy-link">Cookies Policy</a> | <a href="#" class="policy-link">Privacy Policy</a></span> 
+                            <span>&copy;</span>
+                            <span id="year">0</span>
+                            Kosher Astro. | 
+                            Built by <span class="links"><a href="https://kornerstonemedia.com/" target="_blank" class="policy-link strong"><strong class="fw-bold">Kornerstone Media</strong></a></span> | 
+                            <span class="links">
+                                <a href="#" class="policy-link">Cookies Policy</a> | <a href="#" class="policy-link">Privacy Policy</a>
+                            </span>
                         </p>
                     </div>
                      
