@@ -38,6 +38,10 @@
             padding-bottom: 10px;
         }
         .col-txt{
+            flex: 1;
+            @media ($sm-1199 ){
+                flex: 0 0 100%;
+            }
             @media ($sm-767 ){
                 margin-bottom: 20px;
             }
@@ -59,7 +63,7 @@
             margin-bottom: 4em;
             max-width: 28em;
             line-height: 2;
-            @media ($sm-991 ){
+            @media ($sm-1199 ){
                 max-width: 100%;
                 margin-bottom: 40px;
             }
@@ -161,8 +165,22 @@
         padding-bottom: 30px;
     }
     .col-links{
-        @media screen and ($lg-992){
-            max-width: 20%;
+        @media screen and ($sm-1199){
+            max-width: 33.33%;
+        }
+        @media screen and ($sm-991){
+            max-width: 100%;
+        }
+        @media screen and ($lg-1200){
+            max-width: 18%;
+        }
+        &.kosher-sub{ 
+            @media screen and ($lg-1200){
+                flex: 1 0 300px;
+                width: 300px;
+                max-width: 300px;
+                min-height: 240px;
+            } 
         }
         ul{
             list-style: none;
@@ -178,7 +196,8 @@
                     align-items: center;
                     margin-bottom: 16px;
                     .link-item{
-                        font-size: 14px;
+                        font-size: 13px;
+                        letter-spacing: -0.5px;
                     }
                     &:last-child{
                         margin-bottom: 0 !important;

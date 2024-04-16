@@ -549,6 +549,7 @@
     .roadmap-slider-cover{
         .title{
             margin-bottom: 40px;
+            font-weight: 600;
             @media ($sm-1679) {
                 margin-bottom: 30px;
             }
@@ -639,7 +640,7 @@
         max-height: 350px;
     }
     .roadmap-tab-sec .img-content-block-fluid {
-        padding: 70px 0 100px;
+        padding: 70px 0 60px;
     }
 }
 @media($sm-1481){
@@ -653,7 +654,7 @@
         max-height: 300px;
     }
     .roadmap-tab-sec .img-content-block-fluid {
-        padding: 60px 0 70px;
+        padding: 60px 0 40px;
     }
     .roadmap-tab-sec .life-time-row .txt-block .title-2 {
         font-size: 21px;
@@ -697,7 +698,7 @@
         max-width: 700px;
     }
     .roadmap-tab-sec .img-content-block-fluid {
-        padding: 50px 0;
+        padding: 50px 0 20px;
     }
     .roadmap-tab-sec .roadmap-2-cover .img-content-block-fluid .img-2-col-block .img-2-block img {
         max-height: 260px;
