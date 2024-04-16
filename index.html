@@ -628,47 +628,96 @@ data-bs-title="
                                     <span class="txt">About the author</span>
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a class="link-item" href="#">
                                     <span class="ico"><img src="img/chev-right.svg" alt="link"></span>
                                     <span class="txt">Contact us</span>
                                 </a>
-                            </li>
-                        </ul>
-                    </div>
+                            </li> -->
 
-                    <div class="col-lg col-md-4 col-links">
-                        <ul>
                             <li>
-                                <a class="link-item" href="#">
-                                    <span class="ico"><img src="img/chev-right.svg" alt="link"></span>
-                                    <span class="txt">Kosher Astrology</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="link-item" href="#">
+                                <a class="link-item"  data-bs-toggle="collapse" href="#roadmaps" role="button" aria-expanded="false" aria-controls="roadmaps">
                                     <span class="ico"><img src="img/chev-right.svg" alt="link"></span>
                                     <span class="txt">Roadmaps</span>
                                 </a>
-                                <ul class="sub-itm">
-                                    <li>
-                                        <a class="link-item" href="#">Roadmap #1</a>
-                                    </li>
-                                    <li>
-                                        <a class="link-item" href="#">Roadmap #2</a>
-                                    </li>
-                                </ul>
+                                <div class="collapse" id="roadmaps">
+                                    <ul class="sub-itm">
+                                        <li>
+                                            <a class="link-item" href="#">Roadmap #1</a>
+                                        </li>
+                                        <li>
+                                            <a class="link-item" href="#">Roadmap #2</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
+
                         </ul>
                     </div>
 
                     <div class="col-lg col-md-4 col-links">
                         <ul>
                             <li>
-                                <a class="link-item" href="#">
+                                <a class="link-item" data-bs-toggle="collapse" href="#kosher-sub" role="button" aria-expanded="false" aria-controls="kosher-sub">
+                                    <span class="ico"><img src="img/chev-right.svg" alt="link"></span>
+                                    <span class="txt">Kosher Astrology</span>
+                                </a>
+
+                                <div class="collapse" id="kosher-sub">
+                                    <ul class="sub-itm">
+                                        <li>
+                                            <a class="link-item" href="#">Part 1: Astrology is Kosher</a>
+                                        </li>
+                                        <li>
+                                            <a class="link-item" href="#">Part 2: The Practice of Kosher Astrology</a>
+                                        </li>
+
+                                        <li>
+                                            <a class="link-item" href="#">Part 3: Astrology in the Torah</a>
+                                        </li>
+
+                                        <li>
+                                            <a class="link-item" href="#">Table of Contents</a>
+                                        </li>
+                                        <li>
+                                            <a class="link-item" href="#">Haskama/Approbation</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                             
+                        </ul>
+                    </div>
+
+                    <div class="col-lg col-md-4 col-links">
+                        <ul>
+                            <li>
+                                <a class="link-item"  data-bs-toggle="collapse" href="#chart-reading-sub" role="button" aria-expanded="false" aria-controls="chart-reading-sub">
                                     <span class="ico"><img src="img/chev-right.svg" alt="link"></span>
                                     <span class="txt">Chart Reading</span>
                                 </a>
+
+                                <div class="collapse" id="chart-reading-sub">
+                                    <ul class="sub-itm">
+                                        <li>
+                                            <a class="link-item" href="#">Your Birth Chart</a>
+                                        </li>
+                                        <li>
+                                            <a class="link-item" href="#">You Will Learn About</a>
+                                        </li>
+
+                                        <li>
+                                            <a class="link-item" href="#">Your Session Includes</a>
+                                        </li>
+
+                                        <li>
+                                            <a class="link-item" href="#">Information I Need</a>
+                                        </li>
+                                        <li>
+                                            <a class="link-item" href="#">Please Note</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -682,8 +731,8 @@ data-bs-title="
                         <p class="copyrights mb-0">
                             <span>&copy;</span>
                             <span id="year">0</span>
-                            Kosher Astro. | 
-                            Built by <span class="links"><a href="https://kornerstonemedia.com/" target="_blank" class="policy-link strong"><strong class="fw-bold">Kornerstone Media</strong></a></span> | 
+                            Kosher Astro. <span class="d-none d-md-inline"> | </span> 
+                            <span class="links">Built by <a href="https://kornerstonemedia.com/" target="_blank" class="policy-link strong"><strong class="fw-bold">Kornerstone Media</strong></a></span> <span class="d-none d-md-inline"> | </span>
                             <span class="links">
                                 <a href="#" class="policy-link">Cookies Policy</a> | <a href="#" class="policy-link">Privacy Policy</a>
                             </span>

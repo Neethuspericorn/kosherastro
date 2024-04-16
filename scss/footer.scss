@@ -171,11 +171,18 @@
                 margin-bottom: 1.7em;
             }
             &.sub-itm{
-                margin-top: 32px;
+                margin-top: 20px;
                 padding-left: 15px;
                 li{
                     display: flex;
                     align-items: center;
+                    margin-bottom: 16px;
+                    .link-item{
+                        font-size: 14px;
+                    }
+                    &:last-child{
+                        margin-bottom: 0 !important;
+                    }
                     &:before{
                         content: '';
                         flex: 0 0 5px;

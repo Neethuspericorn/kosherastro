@@ -123,16 +123,18 @@
             
                 &::after{
                     background: url(../img/jewish-guide-bg.png);
-                    background-size: contain;
-                    top: -30%;
                     background-repeat: no-repeat;
-                    left: -32%;
+                    background-size: contain;
+                    top: -17%;
+                    left: -28%;
+                    width: 80%;
+                    height: 80%;
                     @media($sm-1679){
-                        top: -34%;
-                        left: -37%;
+                        top: -17%;
+                        left: -17%;
                     }
                     @media($sm-1481){
-                        left: -29%;
+                        left: -17%;
                     }
                     @media($sm-1281){
                         left: -16%;
