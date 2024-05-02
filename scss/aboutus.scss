@@ -153,6 +153,8 @@
                     display: flex;
                     padding-right:86px;
                     align-items: center;
+                    color: #ffffff;
+                    text-decoration: none;
                     @media($sm-1281){
                         padding-right: 40px;
                     }
@@ -238,6 +240,11 @@
             }
             @media($sm-767){
                 width: 100%;
+            }
+            br{
+                @media($sm-579){
+                    display: none;
+                }  
             }
         }
     }

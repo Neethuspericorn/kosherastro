@@ -1,4 +1,4 @@
-$('.slides-wrp').slick({
+$(".slides-wrp").slick({
     dots: true,
     prevArrow: $('.btn-prev'),
     nextArrow: $('.btn-next')
@@ -43,6 +43,7 @@ $('.testi-slider').slick({
 
 
 
+
 $("#tab-item-select").change(function(){
     var selectedIx = $(this).children("option:selected").val();
     $('#'+selectedIx).trigger('click');
@@ -60,7 +61,13 @@ $('#third-tab, #third-tab-opt').click(function(){
 })
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+
+// tooltip hide
+$('.testi-slider').on('init reInit beforeChange', function(event, slick,currentSlide, nextSlide){
+    $("[data-bs-toggle='tooltip']").blur(); 
+});
+
 
 var URLhash = window.location.hash;
         let topval = 0;

@@ -26,6 +26,9 @@
     @media ($sm-991){
         max-height: 300px;
     }
+    @media ($sm-767){
+        max-height: 160px;
+    }
     .bg-animation{
         position: absolute;
         bottom: 0;
