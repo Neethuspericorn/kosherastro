@@ -1,7 +1,8 @@
 $(".slides-wrp").slick({
     dots: true,
     prevArrow: $('.btn-prev'),
-    nextArrow: $('.btn-next')
+    nextArrow: $('.btn-next'),
+    rows: 0,
 })
  
 
