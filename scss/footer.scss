@@ -39,12 +39,11 @@
         }
         .col-txt{
             flex: 1;
+            padding-bottom: 30px;
             @media ($sm-1199 ){
                 flex: 0 0 100%;
             }
-            @media ($sm-767 ){
-                margin-bottom: 20px;
-            }
+             
         }
         p{
             font-weight: 300;
