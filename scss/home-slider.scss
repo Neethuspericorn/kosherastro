@@ -175,6 +175,10 @@
             }
         }
         .book-col{
+            @media ($lg-992){
+                padding-left: 20px;
+                padding-right: 20px;
+            }
             @media ($sm-991){
                 padding-top: 10px;
                 padding-bottom: 10px;
@@ -185,12 +189,7 @@
                 margin-bottom: 40px;
            } 
         }
-        .book-2{
-            @media ($lg-992){
-                padding-left: 30px;
-                padding-right: 30px;
-            }
-        }
+         
          
         .book-card{
             background-color: #110D2B;
@@ -205,6 +204,8 @@
             .card-image{
                 background-color: #0D0A23;
                 width: 100%;
+                height: 100%;
+                max-height: 360px;
                 aspect-ratio: 1.1354;
                 display: flex;
                 align-items: center;
@@ -215,6 +216,9 @@
                 @media ($sm-1679){
                     max-height: 30vh;
                     border-radius: 15px; 
+                }
+                @media ($sm-1199){
+                    flex: 1 0 300px;
                 }
                 @media ($sm-991){
                     flex: 1 0 140px;
@@ -330,12 +334,12 @@
         right: 0;
         left: 0;
         color: #ffffff;
-        max-width: 1440px;
+        max-width: 50%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
         width: 100%;
-        transform: translateX(-50%);
+        // transform: translateX(-50%);
         left: 50%;
         @media ($sm-767 ){
             display: none;
@@ -381,7 +385,8 @@
         @media ($sm-767){
             right: 0;
             transform: none;
-            padding-right: 0;
+            padding-right: 0 !important;
+            padding-left: 0 !important;
             justify-content: center;
         }
         li{

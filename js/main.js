@@ -3,6 +3,11 @@ $(".slides-wrp").slick({
     prevArrow: $('.btn-prev'),
     nextArrow: $('.btn-next'),
     rows: 0,
+    autoplay: false,
+    infinite: true,
+   
+     
+    // pauseOnHover: false,
 })
  
 

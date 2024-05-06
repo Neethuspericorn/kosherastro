@@ -6,6 +6,7 @@
         padding-top: 40px;
     }
 
+    
 
     .tab-select {
         background-color: #141033;
@@ -123,6 +124,54 @@
                  
                 &:last-child{
                     margin-bottom: 0;
+                }
+            }
+            .astrologers-wrp{
+                max-width: 1060px;
+                margin-left: auto;
+                margin-right: auto;
+                .desc-para {
+                    margin-top: 30px;
+                    br{
+                        @media ($sm-579){
+                            display: none;
+                        }
+                    }
+                }
+                
+            }
+            .astr-cont{
+                border: 1px solid rgba(255,255,255,0.26);
+                padding: 30px;
+                border-radius: 20px;
+                height: 100%;
+                @media ($sm-1441){
+                    padding: 20px;
+                }
+                @media ($sm-1199){
+                    padding: 15px;
+                }
+            }
+            .astrologers{
+                margin-bottom: 0;
+                li{
+                    margin-bottom: 0;
+                    font-weight: 300;
+                    .li{
+                        display: inline-flex;
+                        align-items: center;
+                        padding-left: 8px;
+                        &:before{
+                            content: '';
+                            width: 6px;
+                            height: 6px;
+                            flex: 0 0 6px;
+                            background-color: #ffffff;
+                            display: block;
+                            border-radius: 8px;
+                            margin-right: 8px;
+                        }
+                    }
                 }
             }
         }
