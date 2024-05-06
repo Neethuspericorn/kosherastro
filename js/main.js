@@ -47,7 +47,10 @@ $('.testi-slider').slick({
       ]
 });
 
-
+$('#view-nxt').click(function(e){
+    e.preventDefault();
+    $(".slidebtn.btn-next").trigger('click');
+})
 
 
 $("#tab-item-select").change(function(){
