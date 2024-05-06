@@ -312,6 +312,11 @@
                 @media ($sm-767){
                     padding: 20px 0 0;
                 }
+                br{
+                    @media ($sm-991){
+                        display: none;
+                    }
+                }
                 // &::after{
                 //     content: "";
                 //     width: 35vw;
