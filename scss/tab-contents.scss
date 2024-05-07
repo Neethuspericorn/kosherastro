@@ -2,6 +2,7 @@
 
 .tabbed-wrap {
     background-color: var(--bg_ternary);
+    overflow-x: clip;
     @media ($sm-767){
         padding-top: 40px;
     }
@@ -342,6 +343,9 @@
                     }
                     @media ($sm-1281){
                         margin-bottom: 20px;
+                    }
+                    @media ($sm-767){
+                        text-align: left;
                     }
                 }
                 .star-img-rt{
