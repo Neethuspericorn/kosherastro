@@ -48,6 +48,12 @@
         @media ($sm-991){
             font-size: 20px;
         }
+
+        br{
+            @media ($sm-991){
+                display: none;
+            }
+        }
     }
     .desc-para{
         margin-bottom: 36px;
@@ -57,6 +63,11 @@
         }
         @media ($sm-1481){
             margin-bottom: 20px;
+        }
+        br{
+            @media ($sm-991){
+                display: none;
+            }
         }
     }
     .bnr-content{

@@ -411,6 +411,7 @@
                     position: relative;
                     z-index: 1;
                 }
+                
                 .sec-bg{
                     position: absolute;
                     inset: 0;
@@ -517,6 +518,12 @@
                         margin: 0 0 30px;
                     }
 
+                    br{
+                        @media ($sm-991){
+                            display: none;
+                        } 
+                    }
+
                     .prev-title {
                         font: normal normal 600 25px/33px var(--font_titles);
                         text-align: center;
@@ -597,6 +604,12 @@
                     }
                 }
 
+            }
+
+            br{
+                @media ($sm-991){
+                    display: none;
+                }
             }
         }
     }
