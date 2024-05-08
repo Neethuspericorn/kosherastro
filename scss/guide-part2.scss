@@ -42,24 +42,23 @@
                 margin-top: 20px;
             }
             li{
-                font: normal normal 300 20px / 37px var(--font_txt) !important;
+                font: normal normal 300 20px / 2.42 var(--font_txt) !important;
                 color: #DEDEDE;
                 margin-bottom: 0px !important;
                 @media ($sm-1679){
                     font-size: 18px !important;
-                    line-height: 32px !important;
+                    line-height: 2.33 !important;
                 }
                 @media ($sm-1481){
                     font-size: 16px !important;
-                    line-height: 24px !important;
+                    line-height: 2.13 !important; 
                 }
                 @media ($sm-1281){
                     font-size: 14px !important;
-                    line-height: 22px !important;
+                    line-height: 2.2 !important; 
                 }
                 @media ($sm-1199){
                     font-size: 13px !important;
-                    line-height: 21px !important;
                 }
                 @media ($sm-767){
                     margin-bottom: 10px !important;

@@ -167,5 +167,19 @@ var URLhash = window.location.hash;
         }, 300);
         }
 
+const el = document.querySelector(".tab-nav-wrp")
+const observer = new IntersectionObserver( 
+    ([e]) => e.target.classList.toggle("is-pinned", e.intersectionRatio < 1),
+    { threshold: [1] }
+);
+observer.observe(el);
+
+$(".tabbed-wrap .nav-link").click(function(){
+    $('html, body').animate({
+        scrollTop: $(".tabbed-wrap").offset().top
+    }, 500);
+});
+
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+

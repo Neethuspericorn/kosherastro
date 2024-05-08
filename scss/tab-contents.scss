@@ -30,10 +30,13 @@
 
     .tab-nav-wrp {
         border-bottom: 1px solid #7f7d8b3d;
-        position: absolute;
+        position: sticky;
         z-index: 2;
         width: 100%;
-
+        top: -1px;
+        &.is-pinned{
+            background-color: #0c0921;
+        }
         @media ($sm-991) {
             border-bottom-color: transparent !important;
             padding-top: 20px;
@@ -106,7 +109,7 @@
                 padding-left: 15px;
             }
             li,p{
-                margin-bottom: 3em;
+                margin-bottom: 2em;
                 font-size: 21px;
                 line-height: 2;
                 @media ($sm-1679){
@@ -121,6 +124,7 @@
                 @media ($sm-1199){
                     font-size: 12px;
                     margin-bottom: 18px;
+                    line-height: 1.5;
                 }
                  
                 &:last-child{
@@ -152,6 +156,21 @@
                 @media ($sm-1199){
                     padding: 15px;
                 }
+                .astr-title{
+                    line-height: 2;
+                    font-size: 21px;
+                    @media ($sm-1679){
+                        font-size: 16px;
+                    }
+                    @media ($sm-1481){
+                        font-size: 14px;
+                    }
+                    @media ($sm-1199){
+                        font-size: 12px;
+                        line-height: 1.5;
+                    }
+                    
+                }
             }
             .astrologers{
                 margin-bottom: 0;
@@ -161,16 +180,25 @@
                     .li{
                         display: inline-flex;
                         align-items: center;
-                        padding-left: 8px;
+                        padding-left: 20px;
+                        position: relative;
+                        @media ($sm-579){
+                            padding-left: 10px;
+                        }
                         &:before{
                             content: '';
-                            width: 6px;
-                            height: 6px;
-                            flex: 0 0 6px;
+                            width: 0.3em;
+                            height: 0.3em;
                             background-color: #ffffff;
                             display: block;
-                            border-radius: 8px;
-                            margin-right: 8px;
+                            border-radius: 1em;
+                            position: absolute;
+                            left: 10px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            @media ($sm-579){
+                                left: 2px;
+                            }
                         }
                     }
                 }
@@ -607,9 +635,15 @@
             }
 
             br{
-                @media ($sm-991){
+                @media ($sm-767){
                     display: none;
                 }
+            }
+        }
+
+        br{
+            @media ($sm-991){
+                display: none;
             }
         }
     }
