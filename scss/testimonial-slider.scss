@@ -160,6 +160,7 @@
             margin: 0 auto 40px;
             overflow: clip;
             position: relative;
+            margin-top: -1px;
             @media ($sm-1679){
                 margin-bottom: 30px;
             }
@@ -192,6 +193,7 @@
                 content: '';
                 position: absolute;
                 inset: 0;
+                top: 1px;
                 bottom: 40px;
                 background-color: #4A429A;
                 z-index: 0;
@@ -250,7 +252,7 @@
             }
         }
         .txt{
-            font-size: 21px;
+            font-size: 20px;
             font-weight: 300;
             max-width: 19em;
             margin-left: auto;

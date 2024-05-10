@@ -188,10 +188,10 @@
         ul{
 
             li{
-                font: normal normal 300 21px / 37px var(--font_txt);
+                font: normal normal 300 20px / 37px var(--font_txt);
                 color: #DEDEDE;
                 @media ($sm-1679){
-                    font-size: 18px;
+                    font-size: 17px;
                     line-height: 32px;
                 }
                 @media ($sm-1481){

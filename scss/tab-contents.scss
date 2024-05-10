@@ -110,7 +110,7 @@
             }
             li,p{
                 margin-bottom: 2em;
-                font-size: 21px;
+                font-size: 20px;
                 line-height: 2;
                 @media ($sm-1679){
                     font-size: 16px;
@@ -158,7 +158,7 @@
                 }
                 .astr-title{
                     line-height: 2;
-                    font-size: 21px;
+                    font-size: 20px;
                     @media ($sm-1679){
                         font-size: 16px;
                     }
@@ -611,6 +611,15 @@
                             }
                             
                         }
+                        .desc-para{
+                            font-size: 17px;
+                            @media ($sm-1679){
+                                font-size: 16px;
+                            }
+                            @media ($sm-1199){
+                                font-size: 13px;
+                            }
+                        }
                         .prev-title{
                             font-size: 35px;
                             line-height: 1.2;
@@ -677,7 +686,7 @@
 .why-occur{
     background-color: #0C0921;
     .title-col{
-        max-width: 47em;
+        max-width: 46em;
         margin-left: auto;
         margin-right: auto;
     }

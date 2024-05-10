@@ -59,6 +59,7 @@
                 padding-right: 61px;
                 .desc-para{
                     margin-bottom: 40px;
+                    max-width: 34.81em;
                 }
                 @media($sm-1679){
                     padding-right: 112px;
@@ -233,6 +234,7 @@
         }
         .description{
             width: 60%;
+            max-width: 40.66em;
             margin: 0 auto;
             text-align: center;
             @media($sm-1281){

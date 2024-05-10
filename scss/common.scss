@@ -64,7 +64,7 @@ body{
     font-family: var(--font_txt);
     line-height: 1.76;
     font-weight: 300;
-    font-size: 21px;
+    font-size: 20px;
     @media ($sm-1679){
         font-size: 18px;
     }
@@ -133,7 +133,7 @@ body{
     }
 }
 .desc-para{
-    font: normal normal 300 21px/37px var( --font_txt );
+    font: normal normal 300 19px/38px var( --font_txt );
     @media ($sm-1679){
         font-size: 18px;
         line-height: 32px;
