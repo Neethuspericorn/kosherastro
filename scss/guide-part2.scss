@@ -134,6 +134,12 @@
             .desc-para{
                 padding-right: 60px;
                 padding-top: 30px;
+                br{
+                    display: inline !important;
+                    @media(max-width: 404px){
+                        display: none !important;
+                    }
+                }
                 @media($sm-767){
                     padding-right: 0px; 
                     padding-bottom: 15px;
@@ -190,6 +196,12 @@
             li{
                 font: normal normal 300 20px / 37px var(--font_txt);
                 color: #DEDEDE;
+                br{
+                    display: inline !important;
+                    @media(max-width: 510px){
+                        display: none !important;
+                    }
+                }
                 @media ($sm-1679){
                     font-size: 17px;
                     line-height: 32px;

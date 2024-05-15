@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'ChaparralPro-Regular';
+    src: url('../fonts/ChaparralPro-Regular.eot');
+    src: url('../fonts/ChaparralPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChaparralPro-Regular.woff2') format('woff2'),
+        url('../fonts/ChaparralPro-Regular.woff') format('woff'),
+        url('../fonts/ChaparralPro-Regular.ttf') format('truetype'),
+        url('../fonts/ChaparralPro-Regular.svg#ChaparralPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ChaparralPro-Italic';
+    src: url('../fonts/ChaparralPro-Italic.eot');
+    src: url('../fonts/ChaparralPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChaparralPro-Italic.woff2') format('woff2'),
+        url('../fonts/ChaparralPro-Italic.woff') format('woff'),
+        url('../fonts/ChaparralPro-Italic.ttf') format('truetype'),
+        url('../fonts/ChaparralPro-Italic.svg#ChaparralPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ChaparralPro-BoldIt';
+    src: url('../fonts/ChaparralPro-BoldIt.eot');
+    src: url('../fonts/ChaparralPro-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChaparralPro-BoldIt.woff2') format('woff2'),
+        url('../fonts/ChaparralPro-BoldIt.woff') format('woff'),
+        url('../fonts/ChaparralPro-BoldIt.ttf') format('truetype'),
+        url('../fonts/ChaparralPro-BoldIt.svg#ChaparralPro-BoldIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ChaparralPro-SemiboldIt';
+    src: url('../fonts/ChaparralPro-SemiboldIt.eot');
+    src: url('../fonts/ChaparralPro-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChaparralPro-SemiboldIt.woff2') format('woff2'),
+        url('../fonts/ChaparralPro-SemiboldIt.woff') format('woff'),
+        url('../fonts/ChaparralPro-SemiboldIt.ttf') format('truetype'),
+        url('../fonts/ChaparralPro-SemiboldIt.svg#ChaparralPro-SemiboldIt') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ChaparralPro-Bold';
+    src: url('../fonts/ChaparralPro-Bold.eot');
+    src: url('../fonts/ChaparralPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChaparralPro-Bold.woff2') format('woff2'),
+        url('../fonts/ChaparralPro-Bold.woff') format('woff'),
+        url('../fonts/ChaparralPro-Bold.ttf') format('truetype'),
+        url('../fonts/ChaparralPro-Bold.svg#ChaparralPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ChaparralPro-Semibold';
+    src: url('../fonts/ChaparralPro-Semibold.eot');
+    src: url('../fonts/ChaparralPro-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChaparralPro-Semibold.woff2') format('woff2'),
+        url('../fonts/ChaparralPro-Semibold.woff') format('woff'),
+        url('../fonts/ChaparralPro-Semibold.ttf') format('truetype'),
+        url('../fonts/ChaparralPro-Semibold.svg#ChaparralPro-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

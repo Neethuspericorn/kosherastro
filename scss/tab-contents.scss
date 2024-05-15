@@ -126,6 +126,9 @@
                     margin-bottom: 18px;
                     line-height: 1.5;
                 }
+                @media ($sm-767){
+                     margin-bottom: 12px;
+                }
                  
                 &:last-child{
                     margin-bottom: 0;
@@ -242,10 +245,10 @@
                     padding: 168px 0 90px;
                 }
                 @media ($sm-1199){
-                    padding: 148px 0 70px;
+                    padding: 100px 0 70px;
                 }
                 @media ($sm-991){
-                    padding: 128px 0 50px;
+                    padding: 80px 0 50px;
                 }
             }
 
@@ -466,6 +469,12 @@
                         transform: translate(50%, -50%);
                     }
                 }
+
+                .txt-col{
+                    @media ($sm-767){
+                        margin-bottom: 15px;
+                    }
+                }
             }
             .content-wrp {
                 max-width: 775px;
@@ -613,8 +622,12 @@
                         }
                         .desc-para{
                             font-size: 17px;
+                            line-height: 1.5;
                             @media ($sm-1679){
                                 font-size: 16px;
+                            }
+                            @media ($sm-1481){
+                                font-size: 14px;
                             }
                             @media ($sm-1199){
                                 font-size: 13px;
@@ -686,9 +699,16 @@
 .why-occur{
     background-color: #0C0921;
     .title-col{
-        max-width: 46em;
+         width: 46em;
+         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
+        br{
+            display: inline !important;
+            @media ($sm-579){
+                display: none !important;
+            }
+        }
     }
 }
 
