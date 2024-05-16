@@ -382,13 +382,13 @@
                 .star-img-rt{
                     display: flex;
                     justify-content: flex-end;
-                    // position: relative;
-                    @media ($sm-1679){
-                        transform: translateX(105px)
-                    }
-                    @media (max-width:1399px){
-                        transform: none !important;
-                    }
+                    position: relative;
+                    // @media ($sm-1679){
+                    //     transform: translateX(105px)
+                    // }
+                    // @media (max-width:1399px){
+                    //     transform: none !important;
+                    // }
                     @media ($sm-767){
                         justify-content: center;
                     }
