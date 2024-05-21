@@ -6,9 +6,35 @@
         &.author{
             background: var(--bg_ternary);
             overflow-x: clip;
+            .sec-title{
+                padding-left: 50px;
+                @media ($sm-1679){
+                    padding-left: 18px;
+                }
+                @media ($sm-1481){
+                    padding-left: 12px;
+                }
+                @media ($sm-1199){
+                    text-align: center;
+                }
+            }
             .inner-wrap{
                 @media ($sm-767){
                     flex-direction: column-reverse;
+                }
+                .btn{
+                    
+                    margin-left: 50px;
+                    @media ($sm-1679){
+                        margin-left: 18px;
+                    }
+                    @media ($sm-1481){
+                        margin-left: 12px;
+                    }
+                    @media ($sm-1199){
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
                 }
             }
             .bg-wrp{

@@ -60,6 +60,10 @@
                 .desc-para{
                     margin-bottom: 40px;
                     max-width: 34.81em;
+                    @media($sm-767){
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
                 }
                 @media($sm-1679){
                     padding-right: 112px;
