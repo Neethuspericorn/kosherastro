@@ -595,9 +595,11 @@
                         background-color: var(--white);
                         border: 1px solid #707070;
                         border-radius: 21px;
-                        padding: 30px;
+                        padding: 15px;
                         img{
                             max-width: 100%;
+                            border: 1px solid #dee2e6;
+                            border-radius: 8px;
                         }
                     }
                     &.author{
