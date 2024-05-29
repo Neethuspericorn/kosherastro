@@ -221,9 +221,7 @@
         }
         .title-col{
             .apx-part3-title{
-                @media ($lg-768){
-                    max-width: 10em;
-                }
+               
                 @media ($sm-767){
                     margin-bottom: 16px;
                 }
@@ -331,9 +329,9 @@
                 background-attachment: fixed;
                 position: relative;
                 // padding: 183px 0 218px;
-                padding: 153px 218px 100px 218px;
+                padding: 100px 218px 100px 218px;
                 @media ($sm-1679){
-                    padding: 120px 0;
+                    padding: 100px 0;
                 }
                 @media ($sm-1481){
                     padding: 50px 0;
@@ -347,6 +345,22 @@
                 br{
                     @media ($sm-991){
                         display: none;
+                    }
+                }
+                .title{
+                    font-size: 32px;
+                    @media ($sm-1679){
+                        font-size: 30px;
+                    }
+                    @media ($sm-1481){
+                        font-size: 26px;
+                    }
+                    
+                    @media ($sm-1281){
+                        font-size: 24px;
+                    }
+                    @media ($sm-1199){
+                        font-size: 22px;
                     }
                 }
                 // &::after{
@@ -365,15 +379,15 @@
                 //     }
                 // }
                 .desc-para{
-                    margin-bottom: 44px;
+                    margin-bottom: 34px;
                     @media ($sm-1679){
-                        margin-bottom: 30px;
+                        margin-bottom: 26px;
                     }
                     @media ($sm-1481){
-                        margin-bottom: 25px;
+                        margin-bottom: 22px;
                     }
                     @media ($sm-1281){
-                        margin-bottom: 20px;
+                        margin-bottom: 18px;
                     }
                     @media ($sm-767){
                         text-align: left;
@@ -596,6 +610,7 @@
                         border: 1px solid #707070;
                         border-radius: 21px;
                         padding: 15px;
+                        height: 100%;
                         img{
                             max-width: 100%;
                             border: 1px solid #dee2e6;
@@ -700,6 +715,10 @@
 
 .why-occur{
     background-color: #0C0921;
+    .rounded{
+        border-radius: 12px !important;
+        max-width: 85%;
+    }
     .title-col{
          width: 46em;
          max-width: 100%;
@@ -710,6 +729,13 @@
             @media ($sm-579){
                 display: none !important;
             }
+        }
+    }
+    p{
+        line-height: 1.35 !important;
+        font-size: 17px !important;
+        @media ($sm-1679){
+            font-size: 14px !important;
         }
     }
 }
@@ -730,4 +756,19 @@
         }
     }
 
+}
+
+
+.fbx-rounded .fbx-close{
+    @media  ($sm-767){
+        width: 21px !important;
+        height: 21px !important;
+        line-height: 28px !important;
+        border: solid 3px transparent !important;
+        border-radius: 50% !important;
+        position: absolute !important;
+        left: unset !important;
+        top: -28px !important;
+        right: 1px !important;
+    }
 }
