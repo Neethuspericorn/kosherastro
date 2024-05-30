@@ -715,9 +715,16 @@
 
 .why-occur{
     background-color: #0C0921;
+    
     .rounded{
         border-radius: 12px !important;
         max-width: 85%;
+        margin: auto;
+    }
+    .foobox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .title-col{
          width: 46em;
@@ -731,13 +738,23 @@
             }
         }
     }
-    p{
+    .txt-col, p{
         line-height: 1.35 !important;
         font-size: 17px !important;
         @media ($sm-1679){
             font-size: 14px !important;
         }
+        @media ($sm-991){
+            font-size: 12px !important;
+        }
     }
+
+    .txt-col{
+        max-width: 30.82em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     
 }
 
 .df-container.df-container{

@@ -234,15 +234,24 @@
             margin-bottom: 25px;
             font-weight: 300;
             font-size: 20px;
+            &.pvt-txt{
+                @media ($lg-992){
+                    max-width: 29em;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
         }
     }
     .img-content-block-fluid{
         background-color: #0C0921;
-        padding: 100px 0 100px;
+        padding: 200px 0 100px;
         @media($sm-1679){
-            padding: 80px 0 80px;   
+            padding: 160px 0 80px;   
         }
-        
+        @media($sm-1199){
+            padding: 70px 0 70px;   
+        }
         .img-2-col-block{
             padding-top: 50px;
             .img-2-block{
