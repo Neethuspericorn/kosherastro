@@ -247,10 +247,10 @@
         background-color: #0C0921;
         padding: 200px 0 100px;
         @media($sm-1679){
-            padding: 160px 0 80px;   
+            padding: 180px 0 80px !important;   
         }
         @media($sm-1199){
-            padding: 70px 0 70px;   
+            padding: 70px 0 70px !important;   
         }
         .img-2-col-block{
             padding-top: 50px;

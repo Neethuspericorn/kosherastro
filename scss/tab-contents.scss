@@ -718,7 +718,6 @@
     
     .rounded{
         border-radius: 12px !important;
-        max-width: 85%;
         margin: auto;
     }
     .foobox {
@@ -740,8 +739,11 @@
     }
     .txt-col, p{
         line-height: 1.35 !important;
-        font-size: 17px !important;
+        font-size: 18px !important;
         @media ($sm-1679){
+            font-size: 17px !important;
+        }
+        @media ($sm-1441){
             font-size: 14px !important;
         }
         @media ($sm-991){

@@ -5,6 +5,7 @@ $(".slides-wrp").slick({
     rows: 0,
     autoplay: true,
     infinite: true,
+    autoplaySpeed: 7000
 })
  
 
