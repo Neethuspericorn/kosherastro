@@ -23,11 +23,11 @@
         padding-bottom: 94px;
         @media ($sm-1679 ){
             padding-top: 64px;
-            padding-bottom: 64px;
+            padding-bottom: 94px;
         }
         @media ($sm-1481 ){
             padding-top: 40px;
-            padding-bottom: 40px;
+            padding-bottom: 80px;
         }
         @media ($sm-1281 ){
             padding-top: 32px;
@@ -148,6 +148,7 @@
         font-weight: 300 !important;
         align-items: center;
         font-size: 18px;
+        
         @media ($sm-1679 ){
             font-size: 16px;
         }
@@ -172,15 +173,39 @@
             max-width: 100%;
         }
         @media screen and ($lg-1200){
-            max-width: 18%;
+            max-width: 23%;
         }
-        &.kosher-sub{ 
-            @media screen and ($lg-1200){
-                flex: 1 0 300px;
-                width: 300px;
-                max-width: 300px;
-                min-height: 240px;
-            } 
+        // @media screen and ($lg-1200){
+        //     flex: 1 0 330px;
+        //     width: 330px;
+        //     max-width: 330px;
+        //     min-height: 240px;
+        // } 
+        
+        // #kosher-sub{
+            
+        //     @media (min-width: 1300px){
+        //         position: absolute;
+        //         top: 100%;
+        //     }
+        // }
+        &.kosher-sub,
+        &.chart-reading-sub{ 
+            // @media screen and ($lg-1200){
+            //     max-width: 16%;
+            // }
+            // @media screen and ($lg-1200){
+            //     flex: 1 0 300px;
+            //     width: 300px;
+            //     max-width: 300px;
+            //     min-height: 240px;
+            // } 
+        }
+        & > ul{
+            li{
+                position: relative;
+            }
+            
         }
         ul{
             list-style: none;
@@ -198,6 +223,7 @@
                     .link-item{
                         font-size: 13px;
                         letter-spacing: -0.5px;
+                        
                     }
                     &:last-child{
                         margin-bottom: 0 !important;
