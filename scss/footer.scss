@@ -40,7 +40,7 @@
         .col-txt{
             flex: 1;
             padding-bottom: 30px;
-            @media ($sm-1199 ){
+            @media ($sm-991){
                 flex: 0 0 100%;
             }
              
@@ -167,7 +167,7 @@
     }
     .col-links{
         @media screen and ($sm-1199){
-            max-width: 33.33%;
+            max-width: 30%;
         }
         @media screen and ($sm-991){
             max-width: 100%;
