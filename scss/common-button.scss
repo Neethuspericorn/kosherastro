@@ -73,4 +73,28 @@
             margin: 0 auto;
         }
     }
+
+    &.btn-order{
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.6;
+        font-weight: 500;
+        background-color: #26235c;
+        max-width: max-content;
+        padding: 8px 30px;
+        span{
+            justify-content: center;
+            &:after{
+                display: none;
+            }
+        } 
+    }
+}
+
+.buy-wrp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
