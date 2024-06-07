@@ -76,6 +76,23 @@
         flex-direction: column;
         justify-content: flex-end;
         padding-bottom: 65px;
+        &.kosher-bnr{
+            max-width: max-content;
+            padding-bottom: 30px;
+            .buy-wrp{
+                margin-top: 15px;
+                margin-bottom: 15px;
+                @media ($lg-768){
+                    padding-right: 4rem;
+                }
+            }
+
+            .desc-para.divided{
+                margin-bottom: 0;
+                padding-top: 10px;
+                margin-top: auto;
+            }
+        }
         @media ($sm-1199){
             padding-bottom: 45px;
         }
