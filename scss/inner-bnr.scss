@@ -120,7 +120,7 @@
             }
             .btn-view-full{
                 position: absolute;
-                top: 70%;
+                bottom: 36px;
                 left: 50%;
                 z-index: 2;
                 background-color: #0000007c;
@@ -135,6 +135,16 @@
                 opacity: 1;
                 transition: all ease-in-out 0.2s;
                 border: none !important;
+                height: 50px;
+                @media ($sm-1679){
+                    height: 40px;
+                }
+                @media ($sm-1441){
+                    height: 36px;
+                }
+                @media ($sm-1199){
+                    font-size: 13px;
+                }
                 &:before{
                     display: none !important;
                 }

@@ -234,6 +234,7 @@
                 background-repeat: no-repeat;
                 background-position: bottom;
                 background-size: cover;
+                position: relative;
                 // padding: 298px 0 220px;
                 padding: 198px 0 100px 0;
                 @media ($sm-1679){
@@ -247,6 +248,22 @@
                 }
                 @media ($sm-991){
                     padding: 80px 0 50px;
+                }
+
+                .threeparts{
+                    position: absolute;
+                    top: 40px;
+                    width: 100%;
+                    @media ($sm-1679){
+                        top: 30px;
+                    }
+                    @media ($sm-1481){
+                        top: 22px;
+                    }
+                    @media ($sm-1199){
+                        top: 18px;
+                        text-align: center;
+                    }
                 }
             }
 
@@ -700,6 +717,18 @@
     }
 }
 
+.space-break{
+    margin-bottom: 2em;
+    @media ($sm-1679){
+        margin-bottom: 1.77em;
+    }
+    @media ($sm-1481){
+        margin-bottom: 1.5em;
+    }
+     @media ($sm-1199){
+        margin-bottom: 1.6em;
+    }
+}
 .roadmap2-4ccol{
     background-color: #080619;
     .sec-title{
