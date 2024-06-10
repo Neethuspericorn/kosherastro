@@ -227,3 +227,267 @@ body{
         
     }
 }
+.modal {
+   .modal-content{
+    background-color: #1B1837;
+    .modal-header,
+    .modal-body,
+    .modal-footer{
+        border: none;
+    }
+
+    .btn-close{
+        filter: invert(1);
+    }
+   } 
+}
+
+// newsletter
+
+.subscribe-success{
+    .icon-wrp{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: 100%;
+            object-fit: contain;
+            max-height: 100px;
+            margin-bottom: 50px;
+            @media ($sm-1679){
+                max-height: 80px;
+                margin-bottom: 40px;
+            }
+            @media ($sm-1441){
+                max-height: 70px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .modal-dialog{
+        max-width: 585px;
+        @media ($sm-1679){
+            max-width: 500px;
+        }
+        @media ($sm-1441){
+            
+        }
+        @media ($sm-1199){
+             
+        }
+    }
+    .modal-content{
+        border-radius: 23px;
+    }
+    .modal-body{
+        text-align: center;
+        padding-left: 90px;
+        padding-right: 90px;
+        @media ($sm-1679){
+            padding-left: 60px;
+            padding-right: 60px;    
+        }
+        @media ($sm-1441){
+            padding-left: 50px;
+            padding-right: 50px; 
+        }
+        @media ($sm-1199){
+            padding-left: 30px;
+            padding-right: 30px; 
+        }
+    }
+    .desc-para{
+        max-width: 20em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+    .modal-footer{
+        justify-content: center;
+        padding-bottom: 80px;
+        @media ($sm-1679){
+            padding-bottom: 60px; 
+        }
+        @media ($sm-1441){
+            padding-bottom: 50px;
+        }
+        @media ($sm-1199){
+            padding-bottom: 30px;
+        }
+        .btn-primary{
+            span{
+                justify-content: center;
+                &:after{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.subs-footer-active{
+    padding-bottom: 200px !important;
+    @media ($sm-1679){
+        padding-bottom: 140px !important;
+    }
+    @media ($sm-1481){
+        padding-bottom: 110px !important;
+    }
+    @media ($sm-1281){
+        padding-bottom: 100px !important;
+    }
+    @media ($sm-991){
+        padding-bottom: 130px !important;
+    }
+}
+.subscribe-footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+     
+}
+.about-us{
+    .subscribe-form{
+        width: 100%;
+        padding: 30px 32px;
+        margin: 0;
+        margin-top: 50px;
+        @media ($sm-1679){
+            padding: 24px  30px;
+            margin-top: 40px;
+        }
+        @media ($sm-1441){
+            padding: 20px 30px;
+            margin-top: 30px;
+        }
+        @media ($sm-1199){
+            padding: 14px 18px;
+            margin-top: 20px;
+        }
+        @media ($sm-767){
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .sec-title{
+            text-align: left !important;
+        }
+    }
+}
+.subscribe-form{
+    border: 1px solid #282358;
+    padding: 40px 60px;
+    border-radius: 25px;
+    width: calc(100vw - 40px);
+    max-width: 900px;
+    margin: auto;
+    background-color: #0C09218F;
+    @media ($sm-1679){
+        padding: 30px 40px;
+        border-radius: 20px;
+        max-width: 800px;
+    }
+    @media ($sm-1441){
+        padding: 20px 30px;
+        border-radius: 20px;
+        max-width: 600px;
+    }
+    @media ($sm-1199){
+        padding: 16px 18px;
+        border-radius: 20px;
+        max-width: 500px;
+    }
+    .inp-wrp{
+        display: flex;
+        @media ($sm-767){
+            flex-wrap: wrap;
+        }
+    }
+    .form-control{
+        background-color: #17152E;
+        border: 1px solid #677AE3;
+        border-radius: 29px;
+        height: 58px;
+        padding-left: 58px;
+        box-shadow: none !important;
+        color: #ffffff;
+        font-size: 13px;
+        background: url(../img/mail.svg) no-repeat 26px center/15px;
+        @media ($sm-1679){
+            border-radius: 25px;
+            height: 50px;
+            padding-left: 58px;
+        }
+        @media ($sm-1441){
+            border-radius: 20px;
+            height: 44px;
+             
+        }
+        &::placeholder{
+            color: #ffffff;
+            opacity: 0.7;
+        }
+    }
+
+    .sec-title{
+        font-size: 25px;
+        margin-bottom: 0.5em;
+        padding-left: 0 !important;
+        @media ($sm-1679){
+            font-size: 20px; 
+        }
+        @media ($sm-1441){
+            font-size: 18px; 
+        }
+        @media ($sm-1199){
+            font-size: 16px; 
+        }
+    }
+
+    .btn-primary{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        border-radius: 30px;
+        margin-left: 23px !important;
+        font-size: 19px  !important;
+        flex: 0 0 217px;
+        max-width: 217px;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        @media ($sm-1679){
+            margin-left: 16px !important;
+            font-size: 16px !important;
+            flex: 0 0 200px;
+            max-width: 200px;
+        }
+        @media ($sm-1441){
+            margin-left: 14px !important;
+            font-size: 14px !important;
+            flex: 0 0 160px;
+            max-width: 160px;
+        }
+        @media ($sm-1199){
+            flex: 0 0 120px;
+            max-width: 120px;
+        }
+        @media ($sm-991){
+            margin-left: 12px !important;
+        }
+        @media ($sm-767){
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-left: 0 !important;
+            margin-top: 15px !important;
+            min-height: 44px !important;
+        }
+         span{
+            justify-content: center;
+            &:after{
+                display: none !important;
+                
+            }
+         }
+    }
+}

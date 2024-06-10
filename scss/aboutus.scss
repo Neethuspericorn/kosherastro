@@ -166,6 +166,9 @@
                     align-items: center;
                     color: #ffffff;
                     text-decoration: none;
+                    @media($sm-1679){
+                        padding-right: 60px;
+                    }
                     @media($sm-1281){
                         padding-right: 40px;
                     }
