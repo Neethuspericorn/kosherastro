@@ -126,11 +126,11 @@
 
                             <div class="subscribe-form">
                                 <h3 class="sec-title">Subscribe to our Newsletter</h3>
-                                <div class="inp-wrp">
-                                    <input type="email" class="form-control" id="subs-email" placeholder="Enter your email">
+                                <form class="inp-wrp">
+                                    <input type="email" class="form-control" id="subs-email-banner" placeholder="Enter your email">
                     
-                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscribeSuccess"><span>SUBSCRIBE</span></button>
-                                </div>
+                                    <button class="btn btn-primary" type="submit"><span>SUBSCRIBE</span></button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -166,12 +166,13 @@
     <footer class="footer">
         <div class="subscribe-footer">
             <div class="subscribe-form">
-                <h3 class="sec-title">Subscribe to our Newsletter</h3>
-                <div class="inp-wrp">
+                <h3 class="sec-title">Subscribe to receive updates <br/>
+                    on our latest products and special offers</h3>
+                <form class="inp-wrp">
                     <input type="email" class="form-control" id="subs-email" placeholder="Enter your email">
     
-                    <button class="btn btn-primary"><span>SUBSCRIBE</span></button>
-                </div>
+                    <button class="btn btn-primary" type="submit"><span>SUBSCRIBE</span></button>
+                </form>
             </div>
         </div>
 
@@ -309,7 +310,7 @@
             <h3 class="sec-title">Thanks for subscribing!</h3>
 
             <p class="desc-para">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
+                We'll keep you in the loop, so you won't miss a thing.
             </p>
         </div>
         <div class="modal-footer">
@@ -328,5 +329,11 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script>
+        var successModal = new bootstrap.Modal(document.getElementById("subscribeSuccess"), {});
+        // use this func on ajax success
+         successModal.show();
+    </script>
 </body>
 </html>
