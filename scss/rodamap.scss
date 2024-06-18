@@ -5,6 +5,7 @@
     min-height: calc(100vh - 200px);
     background-image: url('../img/roadamap-bnr-bg-1.jpg');
     padding-bottom: 30px;
+    padding-top: 30px;
     @media ($lg-1680){
         padding-top: 100px;   
         height: calc(100vh - 200px);
@@ -298,7 +299,7 @@
         }
     }
     .inner-banner.roadmap-banner .bnr-btn-block .nxt-map-btn .btn-img-md{
-        max-width: 80px;
+        max-width: 60px;
     }
 }
 @media($sm-1481){
@@ -332,10 +333,10 @@
         width: 45px;
     }
     .inner-banner.roadmap-banner .bnr-btn-block {
-        padding-top: 45px;
+        padding-top: 20px;
     }
     .inner-banner.roadmap-banner .bnr-btn-block .nxt-map-btn .btn-img-md {
-        max-width: 70px;
+        max-width: 50px;
     }
     .roadmap-tab-sec .rm-li-content-cover .rm-li-block {
         padding-top: 30px;

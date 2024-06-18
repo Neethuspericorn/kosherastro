@@ -19,12 +19,12 @@
         padding-top: 80px;
         padding-bottom: 80px;  
     }
-    @media ($sm-1481){
-        height: calc(100vh - 90px);
-    }
-    @media ($sm-1281){
-        height: calc(100vh - 80px);
-    }
+    // @media ($sm-1481){
+    //     height: calc(100vh - 90px);
+    // }
+    // @media ($sm-1281){
+    //     height: calc(100vh - 80px);
+    // }
     @media ($sm-1199){
          max-height: 500px;
     }
