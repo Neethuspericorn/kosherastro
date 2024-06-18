@@ -485,3 +485,11 @@ body{
          }
     }
 }
+
+// lightbox fixes
+.pum-theme-lightbox .pum-content {
+    a{
+        display: block;
+        text-align: center;
+    }
+}

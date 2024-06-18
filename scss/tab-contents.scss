@@ -84,19 +84,19 @@
                 bottom: 0;
                 left: 0;
                 right: 0;
-                height: 2px;
+                height: 1px;
                 background-color: transparent;
                 border-radius: 4px;
                 transition: all ease-in-out 0.2s;
-                width: 53px;
-                left: 50%;
-                transform: translateX(-50%);
+                // width: 53px;
+                // left: 50%;
+                // transform: translateX(-50%);
 
             }
 
             &.active {
                 &:after {
-                    background-color: var(--bg_primary);
+                    background-color: var(--white);
                 }
             }
         } 
