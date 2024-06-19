@@ -166,7 +166,36 @@
     .logo-col{
         padding-bottom: 30px;
     }
+
+    .menu-list{
+        .link-item{
+            position: relative;
+        }
+        .sub-itms{
+            position: absolute !important;
+            z-index: 2;
+            background-color: var(--bg_secondary);
+            left: 0;
+            right: 0;
+            padding: 15px;
+            position: absolute !important;
+            z-index: 2;
+            background-color: var(--bg_secondary);
+        }
+    }
+
     .col-links{
+        .link-item{
+            position: relative;
+        }
+        .sub-itms{
+            left: 0;
+            right: 0;
+            padding: 10px;
+            position: absolute !important;
+            z-index: 2;
+            background-color: var(--bg_secondary);
+        }
         @media screen and ($sm-1199){
             max-width: 30%;
         }

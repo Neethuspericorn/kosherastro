@@ -119,6 +119,9 @@
         align-items: flex-end;
         justify-content: flex-start;
         position: relative;
+        @media ($sm-767){
+            padding-bottom: 50px;
+        }
         &.buide-banner{
             cursor: pointer;
             &:hover{
@@ -133,7 +136,7 @@
                 z-index: 2;
                 background-color: #0000007c;
                 color: #ffffff;
-                transform: translate(-50%, -50%);
+                transform: translate(-50%, 40%);
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -144,6 +147,11 @@
                 transition: all ease-in-out 0.2s;
                 border: none !important;
                 height: 50px;
+                @media ($lg-768){
+                    left: unset;
+                    right: 0;
+                    transform: translate(0%, -50%);
+                }
                 @media ($sm-1679){
                     height: 40px;
                 }

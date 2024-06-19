@@ -28,10 +28,14 @@
     &.btn-primary{
         padding: 13px 23px;
         background-color: var(--bg_primary);
+        background-color: #26235c;
         border-color: var(--bg_primary);
         justify-content: flex-start;
         display: flex;
         font: normal normal medium 19px/29px Poppins;
+        &:active{
+            background-color: #26235c;
+        }
         @media ($sm-1679){
             padding: 12px 20px;
             font-size: 18px;
