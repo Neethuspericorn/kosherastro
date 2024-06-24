@@ -50,7 +50,7 @@
                     z-index: 0;
                 }
                 @media($sm-767){
-                    flex-direction: column;;
+                    flex-direction: column;
                 }
             }
             .inner-content {
@@ -60,6 +60,9 @@
                 .desc-para{
                     margin-bottom: 40px;
                     max-width: 34.81em;
+                    @media($sm-1199){
+                        max-width: unset;
+                    }
                     @media($sm-767){
                         margin-left: auto;
                         margin-right: auto;

@@ -7,15 +7,16 @@
             background: var(--bg_ternary);
             overflow-x: clip;
             .sec-title{
-                // padding-left: 50px;
-                // @media ($sm-1679){
-                //     padding-left: 18px;
-                // }
-                // @media ($sm-1481){
-                //     padding-left: 12px;
-                // }
+                padding-left: 50px;
+                @media ($sm-1679){
+                    padding-left:32px;
+                }
+                @media ($sm-1481){
+                    padding-left: 27px;
+                }
                 @media ($sm-1199){
                     text-align: center;
+                    padding-left: 0
                 }
             }
             .inner-wrap{
