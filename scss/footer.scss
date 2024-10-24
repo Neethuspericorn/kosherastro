@@ -341,7 +341,7 @@
                     margin-top: 0px;
                     padding-top: 5px;
                     padding-bottom: 5px;
-                }
+                } 
             }
         }
     }
@@ -349,6 +349,9 @@
         width: 100%;
         margin-right: 0;
         @media ($sm-1199 ){
+            max-width: 600px;
+        }
+        @media ($sm-991 ){
             max-width: 100%;
         }
         .btn.btn-primary span{

@@ -150,7 +150,7 @@
                 @media ($lg-768){
                     left: unset;
                     right: 0;
-                    transform: translate(0%, -50%);
+                    transform: translate(-60%, -50%);
                 }
                 @media ($sm-1679){
                     height: 40px;
@@ -180,22 +180,23 @@
         }
         @media ($sm-767){
             justify-content: center;
-        }
+        } 
         img{
             position: absolute;
-            bottom: -82px;
+            bottom: -140px;
             z-index: 1;
-            max-width: 100%;
+            max-width:95%;
+            width: 100%;
             @media ($sm-1679){
                 max-width: 84%;
-                bottom: -70px;
+                bottom: -110px;
             }
-            @media ($sm-1481){
+            @media ($sm-1441){
                 // max-width: 78%;
                 max-width: 75%;
             }
             @media ($sm-1441){
-                bottom: -50px;
+                bottom: -80px;
             }
             @media ($sm-1199){
                 bottom: -50px;

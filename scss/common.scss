@@ -344,7 +344,7 @@ body{
         @media ($sm-1679){
             padding: 24px  30px;
             margin-top: 40px;
-        }
+        } 
         @media ($sm-1441){
             padding: 20px 30px;
             margin-top: 30px;
@@ -358,9 +358,9 @@ body{
             margin-right: auto;
         }
 
-        .sec-title{
-            text-align: left !important;
-        }
+        // .sec-title{
+        //     text-align: left !important;
+        // }
     }
 }
 .subscribe-form{
@@ -420,7 +420,7 @@ body{
 
     .sec-title{
         font-size: 25px;
-        margin-bottom: 0.5em;
+        margin-bottom: 0.2em;
         padding-left: 0 !important;
         @media ($sm-1679){
             font-size: 20px; 
@@ -430,6 +430,30 @@ body{
         }
         @media ($sm-1199){
             font-size: 16px; 
+        }
+
+        
+    }
+
+    .sec-title,
+    .sec-desc{
+        text-align: center !important;
+        max-width: calc(100% - 240px);
+
+        @media ($sm-1679){
+            max-width: calc(100% - 216px);
+        }
+        
+        @media ($sm-1441){
+            max-width: calc(100% - 174px);
+        }
+
+        @media ($sm-1199){
+            max-width: calc(100% - 134px);
+        }
+
+        @media ($sm-767){
+            max-width: 100%;
         }
     }
 
