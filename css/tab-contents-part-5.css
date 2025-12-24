@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --bg_primary: #4E45A1;
+  --bg_secondary: #080619;
+  --bg_ternary: #0C0921;
+  --light: #CCEBF6;
+  --imgBoxBg:#110D2B;
+  --tooltipBg:#1E1A45;
+  --light_trans: rgba(229, 245, 250, 0.8);
+  --shadow_01: rgba(0,0,0,.15);
+  --text: #000000;
+  --textD: #080619;
+  --border: #C4C4C4;
+  --white: #ffffff;
+  --whiteD: #ffffff;
+  --font_txt: 'Poppins', sans-serif;
+  --font_titles: 'Playfair Display', serif; }
+
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+.tabbed-wrap .tab-pane .inner-sec.haskama-sec-inner {
+  padding-top: 100px; }
+  @media (max-width: 767px) {
+    .tabbed-wrap .tab-pane .inner-sec.haskama-sec-inner {
+      padding-top: 50px !important; } }
+@media (max-width: 767px) {
+  .tabbed-wrap .tab-pane .inner-sec .haskama-sec .haskama-img-col {
+    margin-bottom: 30px; } }
+@media (max-width: 767px) {
+  .tabbed-wrap .tab-pane .inner-sec .haskama-sec .haskama-img-col .haskama-img-card {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100% !important; } }
+.tabbed-wrap .tab-pane .inner-sec .haskama-sec .haskama-img-col .haskama-img-card img {
+  max-width: 100%;
+  border-radius: 20px; }
+.tabbed-wrap .tab-pane .inner-sec .haskama-sec .prview-wrp .preview-col.author .prev-title {
+  text-align: left; }
+.tabbed-wrap .tab-pane .inner-sec .haskama-sec .col-2-wrapper {
+  margin-bottom: 70px; }
+  @media (max-width: 1679px) {
+    .tabbed-wrap .tab-pane .inner-sec .haskama-sec .col-2-wrapper {
+      margin-bottom: 40px; } }
+  @media (max-width: 767px) {
+    .tabbed-wrap .tab-pane .inner-sec .haskama-sec .col-2-wrapper {
+      margin-bottom: 10px; } }
+.tabbed-wrap .tab-pane .inner-sec .haskama-sec .page-flip-wrp {
+  margin-top: 0 !important;
+  margin-bottom: 70px; }
+  @media (max-width: 1679px) {
+    .tabbed-wrap .tab-pane .inner-sec .haskama-sec .page-flip-wrp {
+      margin-bottom: 40px; } }
+  @media (max-width: 767px) {
+    .tabbed-wrap .tab-pane .inner-sec .haskama-sec .page-flip-wrp {
+      margin-bottom: 30px; } }
+
+/*# sourceMappingURL=tab-contents-part-5.css.map */
